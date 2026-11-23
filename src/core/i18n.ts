@@ -41,8 +41,12 @@ export function officialName(text: GameText, lang: Lang, nomenclature: Nomenclat
 
 /** Nombre oficial para mostrarlo solo (listas, etiquetas): primera letra en mayúscula. */
 export function displayName(text: GameText, lang: Lang, nomenclature: Nomenclature): string {
-  const name = officialName(text, lang, nomenclature);
-  return name.charAt(0).toLocaleUpperCase(lang) + name.slice(1);
+  return capitalize(officialName(text, lang, nomenclature), lang);
+}
+
+/** Primera letra en mayúscula, según las reglas del idioma. */
+export function capitalize(text: string, lang: Lang): string {
+  return text.charAt(0).toLocaleUpperCase(lang) + text.slice(1);
 }
 
 /** Texto de interfaz con parámetros {nombre}. Falla si falta un parámetro, para no mostrar "{patch}". */

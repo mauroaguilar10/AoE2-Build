@@ -3,10 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Guía táctica bilingüe (ES/EN) de Age of Empires II: DE para la pantalla de carga" />
+    <meta name="theme-color" content="#8a4a0b" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
     <title>Guia-Age</title>
+    <!--
+      RF-39: primera visita sin conexión. Este script va en línea (no depende de nada descargado) y antes
+      del código de la app: si el código o los estilos no se pueden descargar y la app no llegó a mostrarse,
+      enseña el mensaje en el idioma del navegador (misma regla que RF-22). Textos: content/ui/*.json.
+    -->
+    <script id="first-load-offline-script">
+      (function () {
+        function show() {
+          var app = document.getElementById("app");
+          var notice = document.getElementById("first-load-offline");
+          if (!notice || (app && app.childElementCount > 0)) return;
+          var first = String((navigator.languages && navigator.languages[0]) || navigator.language || "").toLowerCase();
+          var lang = first === "es" || first.indexOf("es-") === 0 ? "es" : "en";
+          var texts = notice.querySelectorAll("[data-lang]");
+          for (var i = 0; i < texts.length; i++) texts[i].hidden = texts[i].getAttribute("data-lang") !== lang;
+          document.documentElement.lang = lang;
+          notice.hidden = false;
+        }
+        window.addEventListener(
+          "error",
+          function (event) {
+            var tag = event.target && event.target.tagName;
+            if (tag === "SCRIPT" || tag === "LINK") show();
+          },
+          true,
+        );
+      })();
+    </script>
   </head>
   <body>
     <div id="app"></div>
+    <div
+      id="first-load-offline"
+      role="alert"
+      hidden
+      style="max-width: 40rem; margin: 2rem auto; padding: 1rem; font: 1.1rem/1.5 system-ui, sans-serif; color: #6e3a06; background: #fff1dc; border-radius: 0.5rem"
+    >
+      <p data-lang="es" style="margin: 0">Se necesita conexión para la primera carga</p>
+      <p data-lang="en" style="margin: 0">A connection is needed for the first load</p>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

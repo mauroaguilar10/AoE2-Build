@@ -130,13 +130,13 @@
   Depende de: T2
   Hecho cuando: los tests convierten en ambos sentidos `/civ/franks?map=arena` y marcan como inválidas una civilización inexistente y `map=nomad`.
 
-- [ ] **T20 — Construcción de la vista de tarjeta**
+- [x] **T20 — Construcción de la vista de tarjeta**
   Datos del juego más la ficha, o "sin ficha", más el estado de vigencia.
   RF: RF-12, RF-14, RF-15, RF-16, RF-17, RF-28
   Depende de: T13, T17
   Hecho cuando: los tests cubren tres casos: civilización con ficha (economía y ataque completos), civilización sin ficha (solo datos y mensaje) y ficha marcada como desactualizada.
 
-- [ ] **T21 — Preferencias**
+- [x] **T21 — Preferencias**
   Idioma, nomenclatura, último mapa y última tarjeta, con try/catch.
   RF: RF-3, RF-9, RF-23
   Depende de: T1
@@ -144,44 +144,45 @@
 
 ## F. Interfaz
 
-- [ ] **T22 — Estructura de la app, cabecera y pie**
+- [x] **T22 — Estructura de la app, cabecera y pie**
   Control ES/EN siempre visible y pie con el parche y el aviso legal (texto copiado literalmente de la página oficial de Microsoft).
   RF: RF-20, RF-26, RF-41
   Depende de: T16, T21
   Hecho cuando: los tests de componentes verifican que el control ES/EN, "Datos del juego: parche X" y el aviso con su enlace aparecen en todas las pantallas.
 
-- [ ] **T23 — Pantalla principal: selector de mapa y cuadrícula**
+- [x] **T23 — Pantalla principal: selector de mapa y cuadrícula**
   RF: RF-1, RF-2, RF-3, RF-4
   Depende de: T18, T22
   Hecho cuando: los tests verifican que aparecen las 56 civilizaciones con escudo, que las 10 con ficha van primero, que el resto está marcado "solo datos" y que Arabia está seleccionada en la primera visita y el último mapa en las siguientes.
 
-- [ ] **T24 — Buscador**
+- [x] **T24 — Buscador**
   RF: RF-5, RF-6
   Depende de: T23
   Hecho cuando: los tests verifican que escribir filtra la cuadrícula, y que sin coincidencias aparece "sin resultados" sin tocar el selector de mapa.
 
-- [ ] **T25 — Tarjeta: datos del juego y enlace externo**
+- [x] **T25 — Tarjeta: datos del juego y enlace externo**
   RF: RF-16, RF-17, RF-18, RF-19
   Depende de: T20, T22
   Hecho cuando: los tests verifican las secciones de datos (con edificios propios solo si existen), el mensaje de "sin ficha" y el aviso del enlace sin conexión.
 
-- [ ] **T26 — Tarjeta: economía, build order, ataque y aviso de parche**
+- [x] **T26 — Tarjeta: economía, build order y ataque**
+  *(Cambiado por la decisión 34: la tarjeta ya no muestra el aviso de parche.)* Quitar de la app lo que solo servía para ese aviso: la vigencia en `cards.json` y en la vista de tarjeta (T11, T20) y el texto `staleNotice`.
   RF: RF-12, RF-13, RF-14, RF-25, RF-28
   Depende de: T25
-  Hecho cuando: los tests verifican que el build order está plegado por defecto y se despliega, que las entidades aparecen con su nombre oficial y que el aviso "Revisada en el parche X; ha habido cambios después" aparece solo cuando corresponde.
+  Hecho cuando: los tests verifican que el build order está plegado por defecto y se despliega, que las entidades aparecen con su nombre oficial y que una ficha desactualizada se muestra sin ningún aviso de parche (mientras `pending` la sigue listando).
 
-- [ ] **T27 — Navegación**
+- [x] **T27 — Navegación**
   Abrir una tarjeta, cambiar de mapa dentro de ella, enlace directo y acceso "Continuar".
   RF: RF-7, RF-8, RF-9, RF-10, RF-11
   Depende de: T19, T24, T26
   Hecho cuando: los tests verifican que tocar una civilización abre su tarjeta con el mapa elegido, que el mapa cambia sin volver al inicio, que una URL directa abre la tarjeta, que una URL inválida muestra el inicio con aviso y que aparece "Continuar: <civ> · <mapa>".
 
-- [ ] **T28 — Cambio de idioma y nomenclatura conservando el estado**
+- [x] **T28 — Cambio de idioma y nomenclatura conservando el estado**
   RF: RF-21, RF-23, RF-24
   Depende de: T27
   Hecho cuando: los tests verifican que al cambiar ES↔EN se conservan civilización, mapa, texto del buscador y plegado sin recargar, que el selector de nomenclatura solo aparece en ES y que la cuadrícula se reordena.
 
-- [ ] **T29 — Estilos y accesibilidad básica**
+- [x] **T29 — Estilos y accesibilidad básica**
   Diseño de una columna pensado para móvil, contraste, foco visible y controles táctiles cómodos.
   RF: NFR Escaneabilidad, NFR Accesibilidad, NFR Modo flotante (tarjeta autónoma)
   Depende de: T28
@@ -189,29 +190,29 @@
 
 ## G. Sin conexión y extremo a extremo
 
-- [ ] **T30 — PWA**
+- [x] **T30 — PWA**
   Precache completo; nueva versión en espera hasta reabrir, sin avisos; app instalable.
   RF: RF-38, RF-40
   Depende de: T29
   Hecho cuando: `npm run build` genera el service worker y el manifiesto, y el navegador ofrece instalar la app en la vista previa del build.
 
-- [ ] **T31 — Primera visita sin conexión**
+- [x] **T31 — Primera visita sin conexión**
   Mensaje mínimo en el HTML inicial.
   RF: RF-39
   Depende de: T30
   Hecho cuando: un test verifica que el mensaje se muestra si los datos no cargan.
 
-- [ ] **T32 — Playwright y recorrido principal**
+- [x] **T32 — Playwright y recorrido principal**
   RF: RF-7, RF-8, RF-10, RF-11, RF-21
   Depende de: T30
   Hecho cuando: `npm run test:e2e` recorre inicio → mapa → civilización → ES/EN → cambio de mapa, más URL directa e inválida, en verde en Chromium y WebKit.
 
-- [ ] **T33 — e2e sin conexión y actualización**
+- [x] **T33 — e2e sin conexión y actualización**
   RF: RF-38, RF-39, RF-40
   Depende de: T31, T32
   Hecho cuando: los e2e verifican que todo funciona sin conexión tras la primera visita, que la primera visita sin conexión muestra el mensaje y que una versión nueva no cambia la página abierta pero se aplica al reabrir.
 
-- [ ] **T34 — e2e de rendimiento**
+- [x] **T34 — e2e de rendimiento**
   RF: NFR Rapidez
   Depende de: T32
   Hecho cuando: los e2e verifican cero peticiones de red al navegar tras la carga, ≤ 1 s hasta ver contenido con CPU ×4 más lenta y móvil emulado, y que se respeta el presupuesto de tamaño (JS ≤ 60 KB y datos ≤ 300 KB comprimidos).

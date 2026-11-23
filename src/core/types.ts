@@ -233,15 +233,12 @@ export interface TacticalCard {
   };
 }
 
-/** Estado de revisión que viaja con la ficha publicada (RF-28). null = sin aprobar (solo en borrador). */
-export interface CardReviewStatus {
-  reviewedPatch: string;
-  /** true si algo que la ficha menciona cambió después del parche de revisión. */
-  stale: boolean;
-}
-
-/** Ficha tal como llega al navegador: sin fuentes (RF-37) y con su estado de revisión. */
-export type PublishedCard = Omit<TacticalCard, "sources"> & { review: CardReviewStatus | null };
+/**
+ * Ficha tal como llega al navegador: sin fuentes (RF-37). `approved` es false solo en borrador.
+ * No lleva la vigencia frente a parches: la tarjeta no muestra aviso de parche (decisión 34);
+ * las fichas pendientes de revisión las lista `npm run pending` (RF-28, RF-31).
+ */
+export type PublishedCard = Omit<TacticalCard, "sources"> & { approved: boolean };
 
 /** Foto de referencia tomada al aprobar una ficha (RF-30). */
 export interface ReviewSnapshot {

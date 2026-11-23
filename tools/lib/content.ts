@@ -8,8 +8,7 @@
  *    su aprobación; bloquea en producción y es aviso en borrador.
  *  - Lo publicado no incluye las fuentes (RF-37).
  */
-import type { CardReviewStatus, PatchHistory, PublishedCard, ReviewSnapshot, TacticalCard } from "../../src/core/types.ts";
-import { computeStaleness } from "../../src/core/staleness.ts";
+import type { PublishedCard, ReviewSnapshot, TacticalCard } from "../../src/core/types.ts";
 import { CardSchemaError, expectedFileName, parseCard } from "./card-schema.ts";
 import { formatIssues, validateCards, type CardFile, type IntegrityContext } from "./integrity.ts";
 import { cardHash, cardKey } from "./review.ts";
@@ -26,21 +25,10 @@ export interface CompileResult {
   warnings: string[];
 }
 
-/** RF-37: quita las fuentes antes de publicar; añade el estado de revisión (RF-28). */
-export function toPublished(card: TacticalCard, review: CardReviewStatus | null): PublishedCard {
+/** RF-37: quita las fuentes antes de publicar; indica si la ficha está aprobada (si no, es un borrador). */
+export function toPublished(card: TacticalCard, approved: boolean): PublishedCard {
   const { sources: _sources, ...published } = card;
-  return { ...published, review };
-}
-
-/** Estado de revisión de una ficha: null si no está aprobada (solo posible en borrador). */
-function reviewStatus(
-  card: TacticalCard,
-  reviews: Record<string, ReviewSnapshot> | undefined,
-  histories: PatchHistory[],
-): CardReviewStatus | null {
-  const snapshot = reviews?.[cardKey(card)];
-  if (!snapshot) return null;
-  return { reviewedPatch: snapshot.reviewedPatch, stale: computeStaleness(snapshot, histories).stale };
+  return { ...published, approved };
 }
 
 /** Solo faltar fichas es tolerable en borrador; duplicadas o fuera de alcance, nunca. */
@@ -72,8 +60,6 @@ export function compileContent(
     allowIncomplete: boolean;
     /** Fotos de aprobación por clave de ficha ("franks.arabia.1v1"). Si se omite, no se comprueba. */
     reviews?: Record<string, ReviewSnapshot>;
-    /** Huellas de los parches importados, para calcular si cada ficha quedó desactualizada (RF-28). */
-    histories?: PatchHistory[];
   },
 ): CompileResult {
   const errors: string[] = [];
@@ -105,6 +91,6 @@ export function compileContent(
   const cards = parsed
     .map(({ card }) => card)
     .sort((a, b) => expectedFileName(a).localeCompare(expectedFileName(b)))
-    .map((card) => toPublished(card, reviewStatus(card, options.reviews, options.histories ?? [])));
+    .map((card) => toPublished(card, options.reviews?.[cardKey(card)] !== undefined));
   return { cards, errors, warnings };
 }

@@ -201,12 +201,12 @@ attack:                                   # un único plan [RF-14]
 ### 5.2 Validar y compilar contenido — `npm run build` (ejecuta `build-content` y luego `vite build`)
 *(Ajuste en T11)* Dos modos. **Producción** (`npm run build`): exige las 30 fichas (RF-36). **Borrador** (`npm run dev`, `npm run build:draft`): las fichas que faltan son avisos, para poder desarrollar y probar la app mientras se escribe el contenido. Formato, entidades inexistentes, árbol de la civilización y duplicados bloquean en ambos modos. La salida va a `src/generated/cards.json` (generada, fuera de Git).
 
-`build-content` lee las fichas y la foto de revisión, aplica las reglas de §4.2 y genera `cards.json` **sin fuentes** [RF-37], junto con el estado de vigencia de cada ficha [RF-28]. Ante cualquier error, el build falla con un mensaje que indica la ficha, el campo y el motivo.
+`build-content` lee las fichas y la foto de revisión, aplica las reglas de §4.2 y genera `cards.json` **sin fuentes** [RF-37], indicando si cada ficha está aprobada (las no aprobadas solo existen en borrador). *(Ajuste por la decisión 34: el navegador ya no recibe la vigencia, porque no muestra ningún aviso de parche; la vigencia solo la usa `pending` [RF-28, RF-31].)* Ante cualquier error, el build falla con un mensaje que indica la ficha, el campo y el motivo.
 
 ### 5.3 Revisar y aprobar fichas
 1. Yo redacto la ficha YAML (acordado en la entrevista, decisión 2).
 2. `npm run preview -- franks.arabia` muestra la ficha resuelta en ES y EN, con los nombres oficiales, para que la revises. También se ve en `npm run dev`, marcada como **BORRADOR** mientras no esté aprobada.
-3. Si la apruebas: `npm run approve -- franks.arabia` guarda la foto con el parche vigente [RF-30]. Si ya estaba aprobada y la vuelves a revisar tras un parche, el mismo comando la actualiza y el aviso desaparece [RF-29].
+3. Si la apruebas: `npm run approve -- franks.arabia` guarda la foto con el parche vigente [RF-30]. Si ya estaba aprobada y la vuelves a revisar tras un parche, el mismo comando la actualiza y deja de estar pendiente [RF-29].
 4. `npm run pending` lista las fichas con cambios desde su revisión, con la entidad y el parche de cada cambio [RF-31].
 
 ### 5.4 En el navegador

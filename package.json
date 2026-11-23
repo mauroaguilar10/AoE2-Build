@@ -14,7 +14,8 @@
     "lint": "tsc --noEmit",
     "approve": "node tools/approve.ts",
     "pending": "node tools/pending.ts",
-    "preview": "node tools/preview.ts"
+    "preview": "node tools/preview.ts",
+    "test:e2e": "playwright test"
   },
   "license": "UNLICENSED",
   "type": "module",
@@ -22,10 +23,14 @@
     "preact": "^11.2.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.65.1",
     "@preact/preset-vite": "^2.10.6",
+    "@testing-library/preact": "^3.2.6",
     "@types/node": "^24.19.2",
+    "happy-dom": "^21.0.4",
     "typescript": "^7.0.2",
     "vite": "^8.3.8",
+    "vite-plugin-pwa": "^2.0.0",
     "vitest": "^5.1.1",
     "yaml": "^2.9.1",
     "zod": "^4.6.7"

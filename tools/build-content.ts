@@ -17,7 +17,7 @@ import type { CivId, EntityRef, GameDataset } from "../src/core/types.ts";
 import { MAP_IDS } from "../src/core/types.ts";
 import { CARD_CIVS } from "../src/core/scope.ts";
 import { compileContent, type SourceFile } from "./lib/content.ts";
-import { loadHistories, loadReviews } from "./lib/files.ts";
+import { loadReviews } from "./lib/files.ts";
 
 const ROOT = join(import.meta.dirname, "..");
 
@@ -55,7 +55,6 @@ const result = compileContent(
   {
     allowIncomplete,
     reviews: loadReviews(resolve(values.reviews!)), // T12: aprobación
-    histories: loadHistories(join(dataDir, "history")), // T13: vigencia frente a parches
   },
 );
 

@@ -73,11 +73,15 @@ describe("T16 idioma de la app (RF-22, RF-24)", () => {
       expect(t("en", "gamePatch", { patch: "188329" })).toBe("Game data: patch 188329");
     });
 
-    it("t() incluye los textos exactos de la spec (RF-16, RF-19, RF-28, RF-39)", () => {
+    it("t() incluye los textos exactos de la spec (RF-16, RF-19, RF-39)", () => {
       expect(t("es", "noTacticalCard")).toBe("Ficha táctica aún no disponible para esta civilización");
       expect(t("es", "techTreeOffline")).toBe("Necesitas conexión para ver el árbol completo");
-      expect(t("es", "staleNotice", { patch: "188329" })).toBe("Revisada en el parche 188329; ha habido cambios después");
       expect(t("es", "firstLoadOffline")).toBe("Se necesita conexión para la primera carga");
+    });
+
+    it("RF-28 (decisión 34) no existe el texto del aviso de parche", () => {
+      expect("staleNotice" in MESSAGES.es).toBe(false);
+      expect("staleNotice" in MESSAGES.en).toBe(false);
     });
 
     it("t() falla si falta un parámetro, para no mostrar '{patch}' al jugador", () => {

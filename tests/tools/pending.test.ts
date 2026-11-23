@@ -6,7 +6,7 @@ import { afterAll, describe, expect, it } from "vitest";
 import { buildDataset, type BuiltDataset } from "../../tools/lib/build-dataset";
 import { TranslationReport } from "../../tools/lib/translations";
 import { findPending, formatPending } from "../../tools/lib/pending";
-import { loadHistories, loadReviews } from "../../tools/lib/files";
+import { loadReviews } from "../../tools/lib/files";
 import { compileContent } from "../../tools/lib/content";
 import { loadFixtureSource } from "../fixtures/load";
 import type { RawSource } from "../../src/core/types";
@@ -46,12 +46,13 @@ describe("T13 vigencia tras un parche y comando pending (RF-28, RF-31)", () => {
     });
   const approve = () => tool("approve", ["franks.arabia", "--cards", cards]);
   const pending = () => tool("pending");
-  const publishedStatus = () =>
+  /** La ficha tal como llega al navegador. */
+  const published = () =>
     compileContent([{ file: FILE, text: fixtureYaml }], {
       game: JSON.parse(readFileSync(join(data, "game.json"), "utf8")),
       availability: JSON.parse(readFileSync(join(data, "availability.json"), "utf8")),
       scope: { civs: ["Franks"], maps: ["arabia"] },
-    }, { allowIncomplete: false, reviews: loadReviews(reviews), histories: loadHistories(join(data, "history")) }).cards[0]!.review;
+    }, { allowIncomplete: false, reviews: loadReviews(reviews) }).cards[0]!;
 
   it("parche 188329: se aprueba la ficha y no hay nada pendiente", () => {
     writeDataset(buildDataset(loadFixtureSource(), "188329", new TranslationReport()));
@@ -59,12 +60,14 @@ describe("T13 vigencia tras un parche y comando pending (RF-28, RF-31)", () => {
     const result = pending();
     expect(result.status, result.stderr).toBe(0);
     expect(result.stdout).toMatch(/Ninguna ficha pendiente de revisión \(parche vigente 188329\)/);
-    expect(publishedStatus()).toEqual({ reviewedPatch: "188329", stale: false });
+    expect(published().approved).toBe(true);
   });
 
-  it("RF-28 parche 190000 con cambio de coste: la ficha publicada queda marcada como desactualizada", () => {
+  it("RF-28 parche 190000 con cambio de coste: la ficha publicada no lleva ningún aviso de parche (decisión 34)", () => {
     writeDataset(patch190000());
-    expect(publishedStatus()).toEqual({ reviewedPatch: "188329", stale: true });
+    const card = published();
+    expect(card.approved).toBe(true);
+    expect(JSON.stringify(card)).not.toMatch(/stale|reviewedPatch|188329/);
   });
 
   it("RF-31 pending lista la ficha con la entidad que cambió, su nombre y el parche", () => {
@@ -75,10 +78,10 @@ describe("T13 vigencia tras un parche y comando pending (RF-28, RF-31)", () => {
     expect(result.stdout).toMatch(/unit:448 · Scout Cavalry · cambió en el parche 190000/);
   });
 
-  it("RF-29 tras volver a aprobar, deja de aparecer en pending y deja de estar marcada", () => {
+  it("RF-29 tras volver a aprobar, deja de aparecer en pending", () => {
     expect(approve().stdout).toMatch(/188329 → 190000/);
     expect(pending().stdout).toMatch(/Ninguna ficha pendiente de revisión \(parche vigente 190000\)/);
-    expect(publishedStatus()).toEqual({ reviewedPatch: "190000", stale: false });
+    expect(published().approved).toBe(true);
   });
 
   describe("findPending / formatPending", () => {

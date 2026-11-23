@@ -14,6 +14,7 @@ Guía táctica bilingüe (ES/EN) de Age of Empires II: DE para consultar en ~30 
 * Fichas desactualizadas tras un parche: `npm run pending`
 * Aprobar una ficha revisada por el usuario: `npm run approve -- <civ>.<mapa>` (p. ej. `franks.arabia`). Solo cuando el usuario la haya aprobado explícitamente.
 * Tests: `npm test` (Vitest)
+* Tests de extremo a extremo (Chromium y WebKit, sobre el build): `npm run test:e2e` (Playwright; la primera vez, `npx playwright install chromium webkit`)
 * Lint (tipado estricto): `npm run lint`
 
 ## Estilo y convenciones

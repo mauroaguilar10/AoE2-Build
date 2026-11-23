@@ -15,7 +15,7 @@ Durante la pantalla de carga de una partida de Age of Empires II: DE el jugador 
 * H2: Como jugador intermedio quiero ver qué hacer con mis aldeanos y cuándo y con qué atacar para tener un plan claro desde el inicio.
 * H3: Como jugador quiero consultar las bonificaciones y los elementos únicos de cualquier civilización, incluida la de mi rival, para saber a qué me enfrento.
 * H4: Como jugador hispanohablante que consume contenido en inglés (o viceversa) quiero cambiar de idioma al instante, sin perder lo que estoy viendo, y ver los nombres oficiales de mi región.
-* H5: Como jugador quiero saber si una tarjeta puede estar desactualizada por un parche para no fiarme de un consejo obsoleto.
+* H5: Como mantenedor quiero saber qué tarjetas pueden haber quedado desactualizadas por un parche para revisarlas antes de que el jugador siga un consejo obsoleto. *(Cambiado por la decisión 34: antes era una historia del jugador.)*
 * H6: Como mantenedor quiero que no se pueda publicar contenido táctico incoherente con el juego y saber exactamente qué revisar tras cada parche para mantener la guía con poco esfuerzo.
 * H7: Como jugador quiero consultar la guía sin conexión para usarla aunque la red falle.
 
@@ -57,8 +57,8 @@ Durante la pantalla de carga de una partida de Age of Empires II: DE el jugador 
 ### Vigencia frente a parches (H5, H6)
 * RF-26: EL SISTEMA mostrará en el pie de todas las páginas el parche al que corresponden los datos del juego ("Datos del juego: parche X").
 * RF-27: CUANDO se actualicen los datos del juego, EL SISTEMA tomará el identificador de parche de la fuente de datos si esta lo proporciona; SI la fuente no lo proporciona, ENTONCES EL SISTEMA exigirá que el mantenedor lo indique e impedirá la publicación hasta que lo haga.
-* RF-28: SI alguna entidad mencionada en la ficha táctica mostrada, o la propia civilización, cambió en los datos del juego después del parche en que se revisó esa ficha (cuenta como cambio cualquier variación de coste, estadísticas, disponibilidad o texto de bonificación; no los cambios solo de traducción), ENTONCES EL SISTEMA mostrará en la tarjeta el aviso "Revisada en el parche X; ha habido cambios después", donde X es el parche en que se revisó la ficha.
-* RF-29: CUANDO el mantenedor registre que una ficha se revisó en el parche vigente, EL SISTEMA dejará de mostrar el aviso de RF-28 para esa ficha.
+* RF-28: SI alguna entidad mencionada en la ficha táctica mostrada, o la propia civilización, cambió en los datos del juego después del parche en que se revisó esa ficha (cuenta como cambio cualquier variación de coste, estadísticas, disponibilidad o texto de bonificación; no los cambios solo de traducción), ENTONCES EL SISTEMA considerará esa ficha pendiente de revisión para el mantenedor (RF-31). La tarjeta que ve el jugador no muestra ningún aviso de parche. *(Cambiado por la decisión 34: antes mostraba en la tarjeta "Revisada en el parche X; ha habido cambios después".)*
+* RF-29: CUANDO el mantenedor registre que una ficha se revisó en el parche vigente, EL SISTEMA dejará de considerarla pendiente de revisión (RF-28, RF-31).
 * RF-30: CUANDO el mantenedor apruebe una ficha, EL SISTEMA registrará como su parche de revisión el parche vigente de los datos del juego y conservará el estado de las entidades que menciona en ese parche, que servirá de referencia para detectar cambios posteriores (RF-28).
 * RF-31: CUANDO el mantenedor lo solicite, EL SISTEMA generará la lista de fichas tácticas pendientes de revisión, indicando para cada una las entidades que cambiaron y en qué parche.
 
@@ -116,7 +116,7 @@ Durante la pantalla de carga de una partida de Age of Empires II: DE el jugador 
 * Todos los RF cubiertos por al menos un test automático, con la suite en verde.
 * Las 10 civilizaciones con ficha táctica tienen ficha para los 3 mapas (30 fichas), sin errores de integridad (RF-32, RF-33, RF-34 y RF-36), cada una revisada y aprobada por el mantenedor y con al menos una fuente registrada.
 * Demostración manual en un móvil: abrir la app → elegir mapa → elegir civilización → cambiar ES/EN y nomenclatura → cambiar de mapa → repetir sin conexión.
-* Demostración del aviso de parche: simular un cambio en una entidad citada y comprobar el aviso (RF-28), la lista de pendientes (RF-31) y su desaparición tras la revisión (RF-29).
+* Demostración de la detección de cambios por parche: simular un cambio en una entidad citada y comprobar que la ficha aparece en la lista de pendientes (RF-28, RF-31), que desaparece de ella tras la revisión (RF-29) y que la tarjeta del jugador no muestra ningún aviso.
 
 ## Dudas abiertas
 * Ninguna. (Las 3 dudas iniciales se resolvieron: sin contenido táctico para civs sin ficha, acceso destacado en RF-9 y definición de "cambio" en RF-28.)

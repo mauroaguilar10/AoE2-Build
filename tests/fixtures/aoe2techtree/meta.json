@@ -1,0 +1,9 @@
+{
+ "repo": "SiegeEngineers/aoe2techtree",
+ "commit": "e56728e76b7d08301fba7b18d5f16bc8554c109a",
+ "civs": [
+  "Franks",
+  "Aztecs",
+  "Armenians"
+ ]
+}

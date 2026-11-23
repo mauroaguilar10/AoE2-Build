@@ -1,0 +1,13 @@
+{
+  "reviewedPatch": "188329",
+  "approvedAt": "2026-11-22",
+  "fingerprints": {
+    "civ:Franks": "0206016fed526a52",
+    "tech:39": "7403aba22e505738",
+    "tech:67": "df0a038b781322c2",
+    "tech:81": "6e66abc31788a96c",
+    "unit:38": "bdafe7b84afef926",
+    "unit:448": "4dfa18a380fb9763"
+  },
+  "cardHash": "f9bfffe4f7bc8a46"
+}

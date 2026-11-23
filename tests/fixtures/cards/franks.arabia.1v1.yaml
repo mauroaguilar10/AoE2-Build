@@ -1,0 +1,39 @@
+# FIXTURE DE TESTS — contenido ilustrativo, NO es una ficha táctica revisada.
+# La ficha real de Francos · Arabia se redacta y aprueba en la tarea T15.
+civ: Franks
+map: arabia
+role: 1v1
+sources:
+  - title: "Fuente de ejemplo para tests"
+    url: "https://example.com/franks-arabia"
+economy:
+  opening:
+    es: "Scouts (caballería de exploración) en Feudal"
+    en: "Feudal scouts"
+  ageUpPop:
+    feudal: 21
+    castle: 29
+  villagers:
+    feudal: { food: 13, wood: 8, gold: 0, stone: 0 }
+    castle: { food: 14, wood: 9, gold: 6, stone: 0 }
+  buildOrder:
+    - pop: 6
+      text:
+        es: "6 aldeanos a las ovejas"
+        en: "6 villagers on sheep"
+    - pop: 10
+      text:
+        es: "4 a madera; atrae el jabalí con la [[unit:448]]"
+        en: "4 on wood; lure the boar with the [[unit:448]]"
+attack:
+  when:
+    es: "Al llegar a Feudal, con 3-4 [[unit:448]]"
+    en: "On reaching Feudal with 3-4 [[unit:448]]"
+  core: [unit:448]
+  support: [unit:7]
+  transition:
+    units: [unit:38]
+    note:
+      es: "Pasa a caballeros al llegar a Castillos"
+      en: "Switch to knights on reaching Castle Age"
+  upgrades: [tech:39, tech:67, tech:81]

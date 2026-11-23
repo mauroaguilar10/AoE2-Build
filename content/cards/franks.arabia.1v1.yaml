@@ -1,0 +1,73 @@
+# Francos · Arabia · 1v1 — ficha piloto (T15), aprobada por el mantenedor.
+# Plan: scouts en Feudal → caballeros en Castillos (Fox AOE, "Scout rush into Knights · Open maps · Arabia").
+# Mecánicas verificadas contra los datos del parche 188329 (bonos, árbol tecnológico).
+# Notas de revisión:
+#  - Reparto en Feudal (13/6/1): derivado sumando los pasos del build order de Fox AOE.
+#  - Castillos (38 de población; 18/10/5): aproximado a partir de la guía genérica de 22 pop scouts + ~5 scouts.
+#  - Orden de mejoras (Forja → Barda de escamas → Ganadería): criterio propio, ninguna fuente da prioridad.
+#  - Descartada wolo.gg como fuente: contradice los datos del juego en 5 puntos.
+civ: Franks
+map: arabia
+role: 1v1
+sources:
+  - title: "Fox AOE — AoE2 Franks Guide: Build Orders & Strategy (actualizada 30/07/2026; opening 'Scout rush into Knights')"
+    url: "https://foxaoe.com/franks-civilization/"
+  - title: "Build Order Reference (Cicero) — 22 pop Scouts: reparto de aldeanos y tiempos de referencia hasta Castillos"
+    url: "https://johsaoe2debuildorderreference.site44.com/22-pop-scouts.html"
+  - title: "Fast Castle (BJL) — Mastering the Scout Rush in Age of Empires 2 (número de scouts y transición)"
+    url: "https://ageofempires.substack.com/p/aoe2-scout-rush-guide"
+economy:
+  opening:
+    es: "Scouts en Feudal y paso a caballeros en Castillos"
+    en: "Feudal scouts into Castle Age knights"
+  ageUpPop:
+    feudal: 21
+    castle: 38
+  villagers:
+    feudal: { food: 13, wood: 6, gold: 1, stone: 0 }
+    castle: { food: 18, wood: 10, gold: 5, stone: 0 }
+  buildOrder:
+    - pop: 6
+      text:
+        es: "Aldeanos 1-6 a las ovejas (los dos primeros construyen una casa cada uno)"
+        en: "Villagers 1-6 to sheep (the first two build a house each)"
+    - pop: 10
+      text:
+        es: "Aldeanos 7-10 a la madera; el primero construye el campamento maderero"
+        en: "Villagers 7-10 to wood; the first one builds the lumber camp"
+    - pop: 11
+      text:
+        es: "Aldeano 11: atrae el primer jabalí"
+        en: "Villager 11: lure the first boar"
+    - pop: 12
+      text:
+        es: "Aldeano 12: casa y molino junto a las bayas (los Francos recolectan bayas un 15 % más rápido)"
+        en: "Villager 12: house, then a mill at the berries (Franks forage 15% faster)"
+    - pop: 15
+      text:
+        es: "Aldeanos 13-15 a las bayas; atrae el segundo jabalí"
+        en: "Villagers 13-15 to berries; lure the second boar"
+    - pop: 18
+      text:
+        es: "Aldeanos 16-18 a la comida; cuando se acaben las ovejas, granjas. No investigues las mejoras del molino: los Francos las tienen gratis"
+        en: "Villagers 16-18 to food; farm once the sheep run out. Do not research mill upgrades: Franks get them for free"
+    - pop: 21
+      text:
+        es: "Aldeanos 19-21 entre madera y oro. Telar y sube a Feudal; mientras sube, un aldeano de madera construye un cuartel"
+        en: "Villagers 19-21 split between wood and gold. Loom and click up to Feudal; while advancing, a wood villager builds a barracks"
+    - pop: 21
+      text:
+        es: "Al llegar a Feudal: establo y [[unit:448]] sin parar; los nuevos aldeanos, a granjas"
+        en: "On reaching Feudal: stable and non-stop [[unit:448]]; new villagers go to farms"
+attack:
+  when:
+    es: "Al llegar a Feudal, con 3-5 unidades de [[unit:448]]: ataca a los aldeanos en madera, oro y bayas"
+    en: "On reaching Feudal, with 3-5 [[unit:448]]: raid villagers on wood, gold and berries"
+  core: [unit:448]
+  support: []
+  transition:
+    units: [unit:38]
+    note:
+      es: "Sube a Castillos mientras presionas y pasa a [[unit:38]] desde dos establos. Los Francos no tienen Pureza de sangre, pero su bonificación de +20 % de PV para unidades montadas (desde Feudal) lo compensa"
+      en: "Click up to Castle Age behind the pressure and switch to [[unit:38]] from two stables. Franks lack Bloodlines, but their +20% HP for mounted units (from Feudal) makes up for it"
+  upgrades: [tech:67, tech:81, tech:39]

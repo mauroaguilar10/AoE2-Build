@@ -1,0 +1,13 @@
+node_modules/
+dist/
+dev-dist/
+coverage/
+playwright-report/
+test-results/
+*.log
+.DS_Store
+.vite/
+.env
+.env.*
+.claude/settings.local.json
+src/generated/

@@ -1,0 +1,37 @@
+{
+  "name": "guia-age",
+  "version": "1.0.0",
+  "description": "Guía táctica bilingüe (ES/EN) de Age of Empires II: DE",
+  "scripts": {
+    "dev": "node tools/build-content.ts --allow-incomplete && vite",
+    "build": "node tools/build-content.ts && vite build",
+    "build:draft": "node tools/build-content.ts --allow-incomplete && vite build",
+    "serve": "vite preview",
+    "content:check": "node tools/build-content.ts",
+    "data:update": "node tools/import-data.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit",
+    "approve": "node tools/approve.ts",
+    "pending": "node tools/pending.ts",
+    "preview": "node tools/preview.ts"
+  },
+  "license": "UNLICENSED",
+  "type": "module",
+  "dependencies": {
+    "preact": "^11.2.0"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.6",
+    "@types/node": "^24.19.2",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.1",
+    "yaml": "^2.9.1",
+    "zod": "^4.6.7"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=24"
+  }
+}

@@ -1,0 +1,8282 @@
+{
+ "age_names": {
+  "antiquity": [
+   "407089",
+   "407090",
+   "407091",
+   "407092"
+  ],
+  "base": [
+   "4201",
+   "4202",
+   "4203",
+   "4204"
+  ]
+ },
+ "civs": {
+  "Franks": {
+   "Building": [
+    12,
+    45,
+    49,
+    50,
+    68,
+    70,
+    72,
+    79,
+    82,
+    84,
+    87,
+    101,
+    103,
+    104,
+    109,
+    117,
+    155,
+    199,
+    209,
+    234,
+    276,
+    487,
+    562,
+    584,
+    598,
+    621,
+    792
+   ],
+   "Tech": [
+    8,
+    12,
+    13,
+    14,
+    17,
+    22,
+    23,
+    34,
+    35,
+    39,
+    45,
+    46,
+    47,
+    48,
+    50,
+    51,
+    54,
+    55,
+    65,
+    67,
+    68,
+    74,
+    75,
+    76,
+    77,
+    80,
+    81,
+    82,
+    93,
+    101,
+    102,
+    103,
+    140,
+    182,
+    194,
+    199,
+    200,
+    202,
+    203,
+    211,
+    212,
+    213,
+    215,
+    230,
+    231,
+    233,
+    249,
+    252,
+    278,
+    280,
+    315,
+    321,
+    322,
+    374,
+    375,
+    377,
+    379,
+    408,
+    438,
+    439,
+    441,
+    493,
+    602,
+    608,
+    875,
+    906,
+    907,
+    908,
+    909,
+    1452,
+    1496
+   ],
+   "Unit": [
+    4,
+    5,
+    6,
+    7,
+    13,
+    17,
+    21,
+    24,
+    36,
+    38,
+    74,
+    75,
+    77,
+    83,
+    93,
+    125,
+    128,
+    279,
+    280,
+    281,
+    283,
+    331,
+    358,
+    359,
+    420,
+    422,
+    440,
+    442,
+    448,
+    473,
+    527,
+    528,
+    529,
+    531,
+    532,
+    539,
+    542,
+    545,
+    546,
+    550,
+    567,
+    569,
+    1103,
+    1104,
+    1105,
+    1258,
+    2626,
+    2627,
+    2628,
+    2700,
+    2701
+   ],
+   "era": "base",
+   "help_string_id": 120151,
+   "internal_name": "Franks",
+   "meta": {},
+   "name_string_id": 10272
+  },
+  "Aztecs": {
+   "Building": [
+    12,
+    45,
+    49,
+    50,
+    68,
+    70,
+    72,
+    79,
+    82,
+    84,
+    87,
+    103,
+    104,
+    109,
+    117,
+    155,
+    199,
+    209,
+    234,
+    276,
+    487,
+    562,
+    584,
+    598,
+    621,
+    792
+   ],
+   "Tech": [
+    8,
+    12,
+    13,
+    14,
+    17,
+    22,
+    23,
+    24,
+    34,
+    35,
+    45,
+    46,
+    47,
+    48,
+    54,
+    55,
+    65,
+    67,
+    68,
+    74,
+    75,
+    76,
+    77,
+    93,
+    101,
+    102,
+    103,
+    140,
+    182,
+    194,
+    199,
+    200,
+    201,
+    202,
+    203,
+    211,
+    212,
+    213,
+    215,
+    230,
+    231,
+    233,
+    249,
+    252,
+    278,
+    279,
+    280,
+    315,
+    316,
+    319,
+    321,
+    322,
+    373,
+    374,
+    377,
+    380,
+    408,
+    438,
+    439,
+    441,
+    460,
+    602,
+    608,
+    875,
+    906,
+    908
+   ],
+   "Unit": [
+    4,
+    6,
+    7,
+    13,
+    17,
+    21,
+    24,
+    74,
+    75,
+    77,
+    83,
+    93,
+    125,
+    128,
+    279,
+    280,
+    331,
+    358,
+    422,
+    440,
+    473,
+    492,
+    527,
+    529,
+    532,
+    539,
+    545,
+    548,
+    550,
+    567,
+    588,
+    725,
+    726,
+    751,
+    752,
+    753,
+    1103,
+    1104,
+    1105,
+    1258,
+    2626,
+    2627,
+    2628,
+    2633
+   ],
+   "era": "base",
+   "help_string_id": 120164,
+   "internal_name": "Aztecs",
+   "meta": {},
+   "name_string_id": 10285
+  },
+  "Armenians": {
+   "Building": [
+    12,
+    45,
+    49,
+    50,
+    68,
+    70,
+    72,
+    79,
+    82,
+    84,
+    87,
+    101,
+    103,
+    109,
+    117,
+    155,
+    199,
+    209,
+    234,
+    236,
+    276,
+    487,
+    598,
+    621,
+    792,
+    1806,
+    1808
+   ],
+   "Tech": [
+    8,
+    13,
+    14,
+    15,
+    17,
+    22,
+    23,
+    34,
+    35,
+    39,
+    45,
+    46,
+    47,
+    48,
+    50,
+    54,
+    55,
+    64,
+    65,
+    67,
+    68,
+    74,
+    75,
+    76,
+    77,
+    81,
+    82,
+    93,
+    101,
+    102,
+    103,
+    140,
+    182,
+    194,
+    199,
+    200,
+    201,
+    202,
+    203,
+    211,
+    212,
+    213,
+    215,
+    219,
+    230,
+    231,
+    233,
+    249,
+    252,
+    278,
+    280,
+    315,
+    316,
+    319,
+    321,
+    322,
+    374,
+    375,
+    379,
+    380,
+    408,
+    435,
+    438,
+    439,
+    441,
+    602,
+    875,
+    906,
+    907,
+    908,
+    909,
+    910,
+    921,
+    922
+   ],
+   "Unit": [
+    4,
+    6,
+    7,
+    13,
+    17,
+    21,
+    24,
+    38,
+    39,
+    74,
+    75,
+    77,
+    83,
+    93,
+    125,
+    128,
+    279,
+    280,
+    283,
+    331,
+    358,
+    359,
+    422,
+    440,
+    442,
+    448,
+    473,
+    492,
+    527,
+    528,
+    529,
+    539,
+    542,
+    545,
+    546,
+    548,
+    550,
+    567,
+    1103,
+    1104,
+    1105,
+    1258,
+    1795,
+    1800,
+    1802,
+    1811,
+    2626,
+    2627,
+    2628
+   ],
+   "era": "base",
+   "help_string_id": 120193,
+   "internal_name": "Armenians",
+   "meta": {},
+   "name_string_id": 10314
+  }
+ },
+ "data": {
+  "Unit": {
+   "4": {
+    "AccuracyPercent": 80,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     },
+     {
+      "Amount": 0,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 4,
+    "AttackDelaySeconds": 0.35,
+    "Attacks": [
+     {
+      "Amount": 3,
+      "Class": 27
+     },
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 4,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 17
+     },
+     {
+      "Amount": 0,
+      "Class": 13
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 45,
+     "Wood": 25
+    },
+    "FrameDelay": 15,
+    "GarrisonCapacity": 0,
+    "HP": 30,
+    "ID": 4,
+    "LanguageNameId": 5083,
+    "LineOfSight": 6,
+    "MaxCharge": 0,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 0,
+    "Range": 4,
+    "RechargeRate": 0,
+    "ReloadTime": 2,
+    "Speed": 0.96,
+    "TrainTime": 35,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "ARCHR"
+   },
+   "5": {
+    "AccuracyPercent": 75,
+    "Armours": [
+     {
+      "Amount": 1,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     },
+     {
+      "Amount": 0,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 23
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 17,
+    "AttackDelaySeconds": 0.35,
+    "Attacks": [
+     {
+      "Amount": 1,
+      "Class": 27
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 10,
+      "Class": 1
+     },
+     {
+      "Amount": 17,
+      "Class": 3
+     },
+     {
+      "Amount": 2,
+      "Class": 17
+     },
+     {
+      "Amount": -10,
+      "Class": 32
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Food": 45,
+     "Gold": 50
+    },
+    "FrameDelay": 15,
+    "GarrisonCapacity": 0,
+    "HP": 40,
+    "ID": 5,
+    "LanguageNameId": 5086,
+    "LineOfSight": 9,
+    "MaxCharge": 0,
+    "MeleeArmor": 1,
+    "MinRange": 0,
+    "PierceArmor": 0,
+    "Range": 7,
+    "RechargeRate": 0,
+    "ReloadTime": 3.45,
+    "Speed": 0.96,
+    "TrainTime": 34,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "HCANR"
+   },
+   "6": {
+    "AccuracyPercent": 90,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     },
+     {
+      "Amount": 4,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     },
+     {
+      "Amount": 0,
+      "Class": 38
+     }
+    ],
+    "Attack": 3,
+    "AttackDelaySeconds": 0.506667,
+    "Attacks": [
+     {
+      "Amount": 2,
+      "Class": 28
+     },
+     {
+      "Amount": 4,
+      "Class": 27
+     },
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 4,
+      "Class": 15
+     },
+     {
+      "Amount": 3,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 17
+     },
+     {
+      "Amount": 2,
+      "Class": 35
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Food": 25,
+     "Wood": 35
+    },
+    "FrameDelay": 19,
+    "GarrisonCapacity": 0,
+    "HP": 35,
+    "ID": 6,
+    "LanguageNameId": 5087,
+    "LineOfSight": 7,
+    "MaxCharge": 0,
+    "MeleeArmor": 0,
+    "MinRange": 1,
+    "PierceArmor": 4,
+    "Range": 5,
+    "RechargeRate": 0,
+    "ReloadTime": 3,
+    "Speed": 0.96,
+    "TrainTime": 22,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "HXBOW"
+   },
+   "7": {
+    "AccuracyPercent": 90,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     },
+     {
+      "Amount": 3,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     },
+     {
+      "Amount": 0,
+      "Class": 38
+     }
+    ],
+    "Attack": 2,
+    "AttackDelaySeconds": 0.506667,
+    "Attacks": [
+     {
+      "Amount": 0,
+      "Class": 28
+     },
+     {
+      "Amount": 3,
+      "Class": 27
+     },
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 3,
+      "Class": 15
+     },
+     {
+      "Amount": 2,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 17
+     },
+     {
+      "Amount": 2,
+      "Class": 35
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Food": 25,
+     "Wood": 35
+    },
+    "FrameDelay": 19,
+    "GarrisonCapacity": 0,
+    "HP": 30,
+    "ID": 7,
+    "LanguageNameId": 5088,
+    "LineOfSight": 6,
+    "MaxCharge": 0,
+    "MeleeArmor": 0,
+    "MinRange": 1,
+    "PierceArmor": 3,
+    "Range": 4,
+    "RechargeRate": 0,
+    "ReloadTime": 3,
+    "Speed": 0.96,
+    "TrainTime": 26,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "XBOWM"
+   },
+   "13": {
+    "AccuracyPercent": 0,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 34
+     },
+     {
+      "Amount": 1,
+      "Class": 4
+     },
+     {
+      "Amount": 1,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     },
+     {
+      "Amount": 0,
+      "Class": 16
+     }
+    ],
+    "Attack": 0,
+    "AttackDelaySeconds": 0,
+    "Attacks": [],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Wood": 75
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 50,
+    "ID": 13,
+    "LanguageNameId": 5090,
+    "LineOfSight": 5,
+    "MaxCharge": 0,
+    "MeleeArmor": 1,
+    "MinRange": 0,
+    "PierceArmor": 1,
+    "Range": 0,
+    "RechargeRate": 0,
+    "ReloadTime": 0,
+    "Speed": 1.26,
+    "TrainTime": 40,
+    "Trait": 2,
+    "TraitPiece": 0,
+    "internal_name": "FSHSP"
+   },
+   "17": {
+    "AccuracyPercent": 0,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 16
+     },
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 6,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 0,
+    "AttackDelaySeconds": 0,
+    "Attacks": [],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 50,
+     "Wood": 100
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 80,
+    "ID": 17,
+    "LanguageNameId": 5089,
+    "LineOfSight": 6,
+    "MaxCharge": 0,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 6,
+    "Range": 0,
+    "RechargeRate": 0,
+    "ReloadTime": 0,
+    "Speed": 1.65,
+    "TrainTime": 36,
+    "Trait": 2,
+    "TraitPiece": 0,
+    "internal_name": "COGXX"
+   },
+   "21": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 16
+     },
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 4,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     },
+     {
+      "Amount": 0,
+      "Class": 60
+     }
+    ],
+    "Attack": 7,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 6,
+      "Class": 11
+     },
+     {
+      "Amount": 0,
+      "Class": 16
+     },
+     {
+      "Amount": 7,
+      "Class": 3
+     },
+     {
+      "Amount": 3,
+      "Class": 17
+     },
+     {
+      "Amount": 5,
+      "Class": 60
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 30,
+     "Wood": 90
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 125,
+    "ID": 21,
+    "LanguageNameId": 5091,
+    "LineOfSight": 8,
+    "MaxCharge": 0,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 4,
+    "Range": 6,
+    "RechargeRate": 0,
+    "ReloadTime": 3,
+    "Speed": 1.36,
+    "TrainTime": 27,
+    "Trait": 2,
+    "TraitPiece": 0,
+    "internal_name": "GALLY"
+   },
+   "24": {
+    "AccuracyPercent": 85,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     },
+     {
+      "Amount": 0,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 5,
+    "AttackDelaySeconds": 0.35,
+    "Attacks": [
+     {
+      "Amount": 3,
+      "Class": 27
+     },
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 5,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 17
+     },
+     {
+      "Amount": 0,
+      "Class": 13
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 45,
+     "Wood": 25
+    },
+    "FrameDelay": 15,
+    "GarrisonCapacity": 0,
+    "HP": 35,
+    "ID": 24,
+    "LanguageNameId": 5084,
+    "LineOfSight": 7,
+    "MaxCharge": 0,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 0,
+    "Range": 5,
+    "RechargeRate": 0,
+    "ReloadTime": 2,
+    "Speed": 0.96,
+    "TrainTime": 27,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "CARCH"
+   },
+   "36": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 2,
+      "Class": 4
+     },
+     {
+      "Amount": 5,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 20
+     },
+     {
+      "Amount": 0,
+      "Class": 23
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 40,
+    "AttackDelaySeconds": 0.21,
+    "Attacks": [
+     {
+      "Amount": 200,
+      "Class": 11
+     },
+     {
+      "Amount": 40,
+      "Class": 16
+     },
+     {
+      "Amount": 40,
+      "Class": 4
+     },
+     {
+      "Amount": 20,
+      "Class": 20
+     },
+     {
+      "Amount": 40,
+      "Class": 13
+     },
+     {
+      "Amount": 40,
+      "Class": 37
+     }
+    ],
+    "BlastWidth": 0.5,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 225,
+     "Wood": 225
+    },
+    "FrameDelay": 7,
+    "GarrisonCapacity": 0,
+    "HP": 80,
+    "ID": 36,
+    "LanguageNameId": 5093,
+    "LineOfSight": 14,
+    "MaxCharge": 0,
+    "MeleeArmor": 2,
+    "MinRange": 5,
+    "PierceArmor": 5,
+    "Range": 12,
+    "RechargeRate": 0,
+    "ReloadTime": 6.5,
+    "Speed": 0.7,
+    "TrainTime": 56,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "BCANN"
+   },
+   "38": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 2,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 8
+     },
+     {
+      "Amount": 2,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 10,
+    "AttackDelaySeconds": 0.671667,
+    "Attacks": [
+     {
+      "Amount": 10,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 0,
+      "Class": 38
+     },
+     {
+      "Amount": -3,
+      "Class": 39
+     },
+     {
+      "Amount": 0,
+      "Class": 20
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Food": 60,
+     "Gold": 75
+    },
+    "FrameDelay": 13,
+    "GarrisonCapacity": 0,
+    "HP": 100,
+    "ID": 38,
+    "LanguageNameId": 5068,
+    "LineOfSight": 4,
+    "MaxCharge": 0,
+    "MeleeArmor": 2,
+    "MinRange": 0,
+    "PierceArmor": 2,
+    "Range": 0,
+    "RechargeRate": 0,
+    "ReloadTime": 1.8,
+    "Speed": 1.35,
+    "TrainTime": 30,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "KNGHT"
+   },
+   "39": {
+    "AccuracyPercent": 50,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 28
+     },
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     },
+     {
+      "Amount": 0,
+      "Class": 8
+     },
+     {
+      "Amount": 0,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 6,
+    "AttackDelaySeconds": 0.91,
+    "Attacks": [
+     {
+      "Amount": 2,
+      "Class": 27
+     },
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 6,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 17
+     },
+     {
+      "Amount": -3,
+      "Class": 39
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     },
+     {
+      "Amount": 0,
+      "Class": 38
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 60,
+     "Wood": 40
+    },
+    "FrameDelay": 35,
+    "GarrisonCapacity": 0,
+    "HP": 50,
+    "ID": 39,
+    "LanguageNameId": 5085,
+    "LineOfSight": 5,
+    "MaxCharge": 0,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 0,
+    "Range": 4,
+    "RechargeRate": 0,
+    "ReloadTime": 2,
+    "Speed": 1.4,
+    "TrainTime": 37,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "CVRCH"
+   },
+   "74": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 1
+     },
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 1,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 4,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 0,
+      "Class": 29
+     },
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 4,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 8
+     },
+     {
+      "Amount": 0,
+      "Class": 30
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Food": 50,
+     "Gold": 20
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 40,
+    "ID": 74,
+    "LanguageNameId": 5079,
+    "LineOfSight": 4,
+    "MaxCharge": 0,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 1,
+    "Range": 0,
+    "RechargeRate": 0,
+    "ReloadTime": 2,
+    "Speed": 0.9,
+    "TrainTime": 21,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "SPRMN"
+   },
+   "75": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 1
+     },
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 1,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 6,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 3,
+      "Class": 29
+     },
+     {
+      "Amount": 2,
+      "Class": 21
+     },
+     {
+      "Amount": 6,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 8
+     },
+     {
+      "Amount": 0,
+      "Class": 30
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Food": 50,
+     "Gold": 20
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 45,
+    "ID": 75,
+    "LanguageNameId": 5080,
+    "LineOfSight": 4,
+    "MaxCharge": 0,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 1,
+    "Range": 0,
+    "RechargeRate": 0,
+    "ReloadTime": 2,
+    "Speed": 0.96,
+    "TrainTime": 21,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "SWDMN"
+   },
+   "77": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 1
+     },
+     {
+      "Amount": 1,
+      "Class": 4
+     },
+     {
+      "Amount": 1,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 9,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 8,
+      "Class": 29
+     },
+     {
+      "Amount": 3,
+      "Class": 21
+     },
+     {
+      "Amount": 9,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 8
+     },
+     {
+      "Amount": 0,
+      "Class": 30
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Food": 50,
+     "Gold": 20
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 60,
+    "ID": 77,
+    "LanguageNameId": 5081,
+    "LineOfSight": 4,
+    "MaxCharge": 0,
+    "MeleeArmor": 1,
+    "MinRange": 0,
+    "PierceArmor": 1,
+    "Range": 0,
+    "RechargeRate": 0,
+    "ReloadTime": 2,
+    "Speed": 0.96,
+    "TrainTime": 21,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "THSWD"
+   },
+   "83": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 3,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 3,
+      "Class": 11
+     },
+     {
+      "Amount": 3,
+      "Class": 4
+     },
+     {
+      "Amount": 6,
+      "Class": 13
+     },
+     {
+      "Amount": 0,
+      "Class": 14
+     },
+     {
+      "Amount": 0,
+      "Class": 17
+     },
+     {
+      "Amount": 6,
+      "Class": 37
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Food": 50
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 25,
+    "ID": 83,
+    "LanguageNameId": 5121,
+    "LineOfSight": 4,
+    "MaxCharge": 0,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 0,
+    "Range": 0,
+    "RechargeRate": 0,
+    "ReloadTime": 2,
+    "Speed": 0.8,
+    "TrainTime": 25,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "VMBAS"
+   },
+   "93": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 27
+     },
+     {
+      "Amount": 0,
+      "Class": 1
+     },
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 3,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 1,
+      "Class": 29
+     },
+     {
+      "Amount": 1,
+      "Class": 21
+     },
+     {
+      "Amount": 15,
+      "Class": 5
+     },
+     {
+      "Amount": 3,
+      "Class": 4
+     },
+     {
+      "Amount": 15,
+      "Class": 8
+     },
+     {
+      "Amount": 9,
+      "Class": 16
+     },
+     {
+      "Amount": 12,
+      "Class": 30
+     },
+     {
+      "Amount": 0,
+      "Class": 35
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Food": 35,
+     "Wood": 25
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 45,
+    "ID": 93,
+    "LanguageNameId": 5078,
+    "LineOfSight": 4,
+    "MaxCharge": 0,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 0,
+    "Range": 0,
+    "RechargeRate": 0,
+    "ReloadTime": 3,
+    "Speed": 1,
+    "TrainTime": 22,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "PKEMN"
+   },
+   "125": {
+    "AccuracyPercent": 38,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 25
+     },
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 0,
+    "AttackDelaySeconds": 0,
+    "Attacks": [],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Food": 0,
+     "Gold": 100
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 30,
+    "ID": 125,
+    "LanguageNameId": 5099,
+    "LineOfSight": 11,
+    "MaxCharge": 0,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 0,
+    "Range": 9,
+    "RechargeRate": 0,
+    "ReloadTime": 1.6,
+    "Speed": 0.7,
+    "TrainTime": 51,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "MONKX"
+   },
+   "128": {
+    "AccuracyPercent": 0,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 0,
+    "AttackDelaySeconds": 0,
+    "Attacks": [],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 50,
+     "Wood": 100
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 70,
+    "ID": 128,
+    "LanguageNameId": 5100,
+    "LineOfSight": 7,
+    "MaxCharge": 0,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 0,
+    "Range": 0,
+    "RechargeRate": 0,
+    "ReloadTime": 0,
+    "Speed": 1.25,
+    "TrainTime": 51,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "TCART"
+   },
+   "279": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 7,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 20
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 11,
+    "AttackDelaySeconds": 0.16,
+    "Attacks": [
+     {
+      "Amount": 3,
+      "Class": 11
+     },
+     {
+      "Amount": 7,
+      "Class": 5
+     },
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 11,
+      "Class": 3
+     },
+     {
+      "Amount": 1,
+      "Class": 17
+     },
+     {
+      "Amount": 1,
+      "Class": 1
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 75,
+     "Wood": 75
+    },
+    "FrameDelay": 12,
+    "GarrisonCapacity": 0,
+    "HP": 40,
+    "ID": 279,
+    "LanguageNameId": 5096,
+    "LineOfSight": 9,
+    "MaxCharge": 0,
+    "MeleeArmor": 0,
+    "MinRange": 2,
+    "PierceArmor": 7,
+    "Range": 7,
+    "RechargeRate": 0,
+    "ReloadTime": 3.6,
+    "Speed": 0.65,
+    "TrainTime": 30,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "SCBAL"
+   },
+   "280": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 6,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 20
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 40,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 35,
+      "Class": 11
+     },
+     {
+      "Amount": 40,
+      "Class": 4
+     },
+     {
+      "Amount": 12,
+      "Class": 20
+     },
+     {
+      "Amount": 40,
+      "Class": 37
+     },
+     {
+      "Amount": -1,
+      "Class": 25
+     }
+    ],
+    "BlastWidth": 1,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 135,
+     "Wood": 160
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 50,
+    "ID": 280,
+    "LanguageNameId": 5095,
+    "LineOfSight": 9,
+    "MaxCharge": 0,
+    "MeleeArmor": 0,
+    "MinRange": 3,
+    "PierceArmor": 6,
+    "Range": 7,
+    "RechargeRate": 0,
+    "ReloadTime": 6,
+    "Speed": 0.6,
+    "TrainTime": 46,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "MANGO"
+   },
+   "281": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 1
+     },
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 19
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 7,
+    "AttackDelaySeconds": 0.995556,
+    "Attacks": [
+     {
+      "Amount": 1,
+      "Class": 29
+     },
+     {
+      "Amount": 1,
+      "Class": 21
+     },
+     {
+      "Amount": 7,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     },
+     {
+      "Amount": 0,
+      "Class": 8
+     },
+     {
+      "Amount": 0,
+      "Class": 30
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Food": 55,
+     "Gold": 25
+    },
+    "FrameDelay": 28,
+    "GarrisonCapacity": 0,
+    "HP": 60,
+    "ID": 281,
+    "LanguageNameId": 5111,
+    "LineOfSight": 7,
+    "MaxCharge": 0,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 0,
+    "Range": 5,
+    "RechargeRate": 0,
+    "ReloadTime": 2,
+    "Speed": 1,
+    "TrainTime": 13,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "TAXEM"
+   },
+   "283": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 2,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 8
+     },
+     {
+      "Amount": 2,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 12,
+    "AttackDelaySeconds": 0.671667,
+    "Attacks": [
+     {
+      "Amount": 12,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 0,
+      "Class": 38
+     },
+     {
+      "Amount": -3,
+      "Class": 39
+     },
+     {
+      "Amount": 0,
+      "Class": 20
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Food": 60,
+     "Gold": 75
+    },
+    "FrameDelay": 26,
+    "GarrisonCapacity": 0,
+    "HP": 120,
+    "ID": 283,
+    "LanguageNameId": 5070,
+    "LineOfSight": 4,
+    "MaxCharge": 0,
+    "MeleeArmor": 2,
+    "MinRange": 0,
+    "PierceArmor": 2,
+    "Range": 0,
+    "RechargeRate": 0,
+    "ReloadTime": 1.8,
+    "Speed": 1.35,
+    "TrainTime": 30,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "PALDN"
+   },
+   "331": {
+    "AccuracyPercent": 92,
+    "Armours": [
+     {
+      "Amount": 2,
+      "Class": 4
+     },
+     {
+      "Amount": 8,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 20
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 200,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 250,
+      "Class": 11
+     },
+     {
+      "Amount": 200,
+      "Class": 3
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 200,
+     "Wood": 200
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 150,
+    "ID": 331,
+    "LanguageNameId": 5381,
+    "LineOfSight": 19,
+    "MaxCharge": 0,
+    "MeleeArmor": 2,
+    "MinRange": 4,
+    "PierceArmor": 8,
+    "Range": 16,
+    "RechargeRate": 0,
+    "ReloadTime": 10,
+    "Speed": 0.8,
+    "TrainTime": 50,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "PTREB"
+   },
+   "358": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 27
+     },
+     {
+      "Amount": 0,
+      "Class": 1
+     },
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 4,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 1,
+      "Class": 29
+     },
+     {
+      "Amount": 1,
+      "Class": 21
+     },
+     {
+      "Amount": 25,
+      "Class": 5
+     },
+     {
+      "Amount": 4,
+      "Class": 4
+     },
+     {
+      "Amount": 22,
+      "Class": 8
+     },
+     {
+      "Amount": 16,
+      "Class": 16
+     },
+     {
+      "Amount": 18,
+      "Class": 30
+     },
+     {
+      "Amount": 7,
+      "Class": 35
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Food": 35,
+     "Wood": 25
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 55,
+    "ID": 358,
+    "LanguageNameId": 5408,
+    "LineOfSight": 4,
+    "MaxCharge": 0,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 0,
+    "Range": 0,
+    "RechargeRate": 0,
+    "ReloadTime": 3,
+    "Speed": 1,
+    "TrainTime": 22,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "ISPKM"
+   },
+   "359": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 27
+     },
+     {
+      "Amount": 0,
+      "Class": 1
+     },
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 6,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 1,
+      "Class": 29
+     },
+     {
+      "Amount": 1,
+      "Class": 21
+     },
+     {
+      "Amount": 28,
+      "Class": 5
+     },
+     {
+      "Amount": 6,
+      "Class": 4
+     },
+     {
+      "Amount": 32,
+      "Class": 8
+     },
+     {
+      "Amount": 17,
+      "Class": 16
+     },
+     {
+      "Amount": 26,
+      "Class": 30
+     },
+     {
+      "Amount": 7,
+      "Class": 35
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Food": 35,
+     "Wood": 25
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 60,
+    "ID": 359,
+    "LanguageNameId": 5409,
+    "LineOfSight": 4,
+    "MaxCharge": 0,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 0,
+    "Range": 0,
+    "RechargeRate": 0,
+    "ReloadTime": 3,
+    "Speed": 1,
+    "TrainTime": 22,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "HLBDM"
+   },
+   "420": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 16
+     },
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 5,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 23
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     },
+     {
+      "Amount": 0,
+      "Class": 60
+     }
+    ],
+    "Attack": 50,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 200,
+      "Class": 11
+     },
+     {
+      "Amount": 50,
+      "Class": 4
+     },
+     {
+      "Amount": 25,
+      "Class": 20
+     }
+    ],
+    "BlastWidth": 0.25,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 150,
+     "Wood": 200
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 120,
+    "ID": 420,
+    "LanguageNameId": 5287,
+    "LineOfSight": 15,
+    "MaxCharge": 0,
+    "MeleeArmor": 0,
+    "MinRange": 3,
+    "PierceArmor": 5,
+    "Range": 13,
+    "RechargeRate": 0,
+    "ReloadTime": 10,
+    "Speed": 1.05,
+    "TrainTime": 46,
+    "Trait": 2,
+    "TraitPiece": 0,
+    "internal_name": "CANGA"
+   },
+   "422": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": -2,
+      "Class": 4
+     },
+     {
+      "Amount": 190,
+      "Class": 3
+     },
+     {
+      "Amount": 1,
+      "Class": 17
+     },
+     {
+      "Amount": 0,
+      "Class": 20
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 3,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 160,
+      "Class": 11
+     },
+     {
+      "Amount": 3,
+      "Class": 4
+     },
+     {
+      "Amount": 50,
+      "Class": 20
+     }
+    ],
+    "BlastWidth": 1.5,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 75,
+     "Wood": 160
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 6,
+    "HP": 200,
+    "ID": 422,
+    "LanguageNameId": 5289,
+    "LineOfSight": 5,
+    "MaxCharge": 0,
+    "MeleeArmor": -2,
+    "MinRange": 0,
+    "PierceArmor": 190,
+    "Range": 0,
+    "RechargeRate": 0,
+    "ReloadTime": 5,
+    "Speed": 0.6,
+    "TrainTime": 36,
+    "Trait": 1,
+    "TraitPiece": 0,
+    "internal_name": "CBATR"
+   },
+   "440": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 2,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 25,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 100,
+      "Class": 26
+     },
+     {
+      "Amount": 500,
+      "Class": 11
+     },
+     {
+      "Amount": 25,
+      "Class": 4
+     },
+     {
+      "Amount": 60,
+      "Class": 20
+     },
+     {
+      "Amount": 900,
+      "Class": 22
+     }
+    ],
+    "BlastWidth": 0.5,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Food": 65,
+     "Gold": 20
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 50,
+    "ID": 440,
+    "LanguageNameId": 5660,
+    "LineOfSight": 4,
+    "MaxCharge": 0,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 2,
+    "Range": 0,
+    "RechargeRate": 0,
+    "ReloadTime": 0,
+    "Speed": 0.8,
+    "TrainTime": 25,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "PETARD"
+   },
+   "441": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 8
+     },
+     {
+      "Amount": 2,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 7,
+    "AttackDelaySeconds": 0.5,
+    "Attacks": [
+     {
+      "Amount": 12,
+      "Class": 25
+     },
+     {
+      "Amount": 7,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     },
+     {
+      "Amount": 0,
+      "Class": 38
+     },
+     {
+      "Amount": -3,
+      "Class": 39
+     },
+     {
+      "Amount": 0,
+      "Class": 20
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Food": 80
+    },
+    "FrameDelay": 10,
+    "GarrisonCapacity": 0,
+    "HP": 75,
+    "ID": 441,
+    "LanguageNameId": 5661,
+    "LineOfSight": 4,
+    "MaxCharge": 0,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 2,
+    "Range": 0,
+    "RechargeRate": 0,
+    "ReloadTime": 1.9,
+    "Speed": 1.5,
+    "TrainTime": 30,
+    "Trait": 16,
+    "TraitPiece": 0,
+    "internal_name": "HUSSAR"
+   },
+   "442": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 16
+     },
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 6,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     },
+     {
+      "Amount": 0,
+      "Class": 60
+     }
+    ],
+    "Attack": 9,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 6,
+      "Class": 11
+     },
+     {
+      "Amount": 0,
+      "Class": 16
+     },
+     {
+      "Amount": 9,
+      "Class": 3
+     },
+     {
+      "Amount": 3,
+      "Class": 17
+     },
+     {
+      "Amount": 9,
+      "Class": 60
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 30,
+     "Wood": 90
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 155,
+    "ID": 442,
+    "LanguageNameId": 5309,
+    "LineOfSight": 9,
+    "MaxCharge": 0,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 6,
+    "Range": 7,
+    "RechargeRate": 0,
+    "ReloadTime": 3,
+    "Speed": 1.36,
+    "TrainTime": 27,
+    "Trait": 2,
+    "TraitPiece": 0,
+    "internal_name": "WARGA"
+   },
+   "448": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 8
+     },
+     {
+      "Amount": 2,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 3,
+    "AttackDelaySeconds": 0.6,
+    "Attacks": [
+     {
+      "Amount": 6,
+      "Class": 25
+     },
+     {
+      "Amount": 3,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     },
+     {
+      "Amount": 0,
+      "Class": 38
+     },
+     {
+      "Amount": -3,
+      "Class": 39
+     },
+     {
+      "Amount": 0,
+      "Class": 20
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Food": 80
+    },
+    "FrameDelay": 12,
+    "GarrisonCapacity": 0,
+    "HP": 45,
+    "ID": 448,
+    "LanguageNameId": 5326,
+    "LineOfSight": 4,
+    "MaxCharge": 0,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 2,
+    "Range": 0,
+    "RechargeRate": 0,
+    "ReloadTime": 2,
+    "Speed": 1.2,
+    "TrainTime": 30,
+    "Trait": 16,
+    "TraitPiece": 0,
+    "internal_name": "SCOUT"
+   },
+   "473": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 1
+     },
+     {
+      "Amount": 1,
+      "Class": 4
+     },
+     {
+      "Amount": 1,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 12,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 9,
+      "Class": 29
+     },
+     {
+      "Amount": 4,
+      "Class": 21
+     },
+     {
+      "Amount": 12,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 8
+     },
+     {
+      "Amount": 0,
+      "Class": 30
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Food": 50,
+     "Gold": 20
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 65,
+    "ID": 473,
+    "LanguageNameId": 5411,
+    "LineOfSight": 5,
+    "MaxCharge": 0,
+    "MeleeArmor": 1,
+    "MinRange": 0,
+    "PierceArmor": 1,
+    "Range": 0,
+    "RechargeRate": 0,
+    "ReloadTime": 2,
+    "Speed": 0.96,
+    "TrainTime": 21,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "HTHSW"
+   },
+   "474": {
+    "AccuracyPercent": 80,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 28
+     },
+     {
+      "Amount": 1,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     },
+     {
+      "Amount": 0,
+      "Class": 8
+     },
+     {
+      "Amount": 0,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 7,
+    "AttackDelaySeconds": 0.897,
+    "Attacks": [
+     {
+      "Amount": 4,
+      "Class": 27
+     },
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 7,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 17
+     },
+     {
+      "Amount": -3,
+      "Class": 39
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     },
+     {
+      "Amount": 0,
+      "Class": 38
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 60,
+     "Wood": 40
+    },
+    "FrameDelay": 46,
+    "GarrisonCapacity": 0,
+    "HP": 60,
+    "ID": 474,
+    "LanguageNameId": 5412,
+    "LineOfSight": 6,
+    "MaxCharge": 0,
+    "MeleeArmor": 1,
+    "MinRange": 0,
+    "PierceArmor": 0,
+    "Range": 4,
+    "RechargeRate": 0,
+    "ReloadTime": 2,
+    "Speed": 1.4,
+    "TrainTime": 30,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "HCVAR"
+   },
+   "492": {
+    "AccuracyPercent": 90,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     },
+     {
+      "Amount": 0,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 6,
+    "AttackDelaySeconds": 0.342222,
+    "Attacks": [
+     {
+      "Amount": 3,
+      "Class": 27
+     },
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 6,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 17
+     },
+     {
+      "Amount": 0,
+      "Class": 13
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 45,
+     "Wood": 25
+    },
+    "FrameDelay": 20,
+    "GarrisonCapacity": 0,
+    "HP": 40,
+    "ID": 492,
+    "LanguageNameId": 5418,
+    "LineOfSight": 7,
+    "MaxCharge": 0,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 0,
+    "Range": 5,
+    "RechargeRate": 0,
+    "ReloadTime": 2,
+    "Speed": 0.96,
+    "TrainTime": 27,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "ACOAR"
+   },
+   "527": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 16
+     },
+     {
+      "Amount": 1,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 95,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 220,
+      "Class": 11
+     },
+     {
+      "Amount": 95,
+      "Class": 4
+     }
+    ],
+    "BlastWidth": 3,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 80,
+     "Wood": 45
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 50,
+    "ID": 527,
+    "LanguageNameId": 5424,
+    "LineOfSight": 6,
+    "MaxCharge": 0,
+    "MeleeArmor": 1,
+    "MinRange": 0,
+    "PierceArmor": 0,
+    "Range": 0,
+    "RechargeRate": 0,
+    "ReloadTime": 0,
+    "Speed": 1.52,
+    "TrainTime": 31,
+    "Trait": 2,
+    "TraitPiece": 0,
+    "internal_name": "RMSHP"
+   },
+   "528": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 16
+     },
+     {
+      "Amount": 2,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 120,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 280,
+      "Class": 11
+     },
+     {
+      "Amount": 120,
+      "Class": 4
+     }
+    ],
+    "BlastWidth": 3.25,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 80,
+     "Wood": 45
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 70,
+    "ID": 528,
+    "LanguageNameId": 5425,
+    "LineOfSight": 6,
+    "MaxCharge": 0,
+    "MeleeArmor": 2,
+    "MinRange": 0,
+    "PierceArmor": 0,
+    "Range": 0,
+    "RechargeRate": 0,
+    "ReloadTime": 0,
+    "Speed": 1.52,
+    "TrainTime": 31,
+    "Trait": 2,
+    "TraitPiece": 0,
+    "internal_name": "CRMSH"
+   },
+   "529": {
+    "AccuracyPercent": 0,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 16
+     },
+     {
+      "Amount": 2,
+      "Class": 4
+     },
+     {
+      "Amount": 4,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     },
+     {
+      "Amount": 0,
+      "Class": 41
+     }
+    ],
+    "Attack": 3,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 2,
+      "Class": 11
+     },
+     {
+      "Amount": 0,
+      "Class": 16
+     },
+     {
+      "Amount": 0,
+      "Class": 2
+     },
+     {
+      "Amount": 3,
+      "Class": 4
+     },
+     {
+      "Amount": 1,
+      "Class": 60
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 45,
+     "Wood": 75
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 120,
+    "ID": 529,
+    "LanguageNameId": 5426,
+    "LineOfSight": 5,
+    "MaxCharge": 0,
+    "MeleeArmor": 2,
+    "MinRange": 0,
+    "PierceArmor": 4,
+    "Range": 2.5,
+    "RechargeDuration": 0,
+    "RechargeRate": 0.04,
+    "ReloadTime": 0.25,
+    "Speed": 1.47,
+    "TrainTime": 27,
+    "Trait": 2,
+    "TraitPiece": 0,
+    "internal_name": "FRGAL"
+   },
+   "531": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 1
+     },
+     {
+      "Amount": 1,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 19
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 8,
+    "AttackDelaySeconds": 0.815111,
+    "Attacks": [
+     {
+      "Amount": 2,
+      "Class": 29
+     },
+     {
+      "Amount": 2,
+      "Class": 21
+     },
+     {
+      "Amount": 8,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     },
+     {
+      "Amount": 0,
+      "Class": 8
+     },
+     {
+      "Amount": 0,
+      "Class": 30
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Food": 55,
+     "Gold": 25
+    },
+    "FrameDelay": 28,
+    "GarrisonCapacity": 0,
+    "HP": 70,
+    "ID": 531,
+    "LanguageNameId": 5461,
+    "LineOfSight": 9,
+    "MaxCharge": 0,
+    "MeleeArmor": 1,
+    "MinRange": 0,
+    "PierceArmor": 0,
+    "Range": 6,
+    "RechargeRate": 0,
+    "ReloadTime": 2,
+    "Speed": 1,
+    "TrainTime": 13,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "UTAXE"
+   },
+   "532": {
+    "AccuracyPercent": 0,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 16
+     },
+     {
+      "Amount": 3,
+      "Class": 4
+     },
+     {
+      "Amount": 7,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     },
+     {
+      "Amount": 0,
+      "Class": 41
+     }
+    ],
+    "Attack": 4,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 3,
+      "Class": 11
+     },
+     {
+      "Amount": 0,
+      "Class": 16
+     },
+     {
+      "Amount": 0,
+      "Class": 2
+     },
+     {
+      "Amount": 4,
+      "Class": 4
+     },
+     {
+      "Amount": 1,
+      "Class": 60
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 45,
+     "Wood": 75
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 140,
+    "ID": 532,
+    "LanguageNameId": 5429,
+    "LineOfSight": 6,
+    "MaxCharge": 0,
+    "MeleeArmor": 3,
+    "MinRange": 0,
+    "PierceArmor": 7,
+    "Range": 2.5,
+    "RechargeDuration": 0,
+    "RechargeRate": 0.04,
+    "ReloadTime": 0.25,
+    "Speed": 1.56,
+    "TrainTime": 27,
+    "Trait": 2,
+    "TraitPiece": 0,
+    "internal_name": "HFGAL"
+   },
+   "539": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 16
+     },
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 3,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     },
+     {
+      "Amount": 0,
+      "Class": 60
+     }
+    ],
+    "Attack": 6,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 6,
+      "Class": 11
+     },
+     {
+      "Amount": 0,
+      "Class": 16
+     },
+     {
+      "Amount": 6,
+      "Class": 3
+     },
+     {
+      "Amount": 3,
+      "Class": 17
+     },
+     {
+      "Amount": 5,
+      "Class": 60
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 30,
+     "Wood": 90
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 110,
+    "ID": 539,
+    "LanguageNameId": 5436,
+    "LineOfSight": 7,
+    "MaxCharge": 0,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 3,
+    "Range": 5,
+    "RechargeRate": 0,
+    "ReloadTime": 3,
+    "Speed": 1.36,
+    "TrainTime": 45,
+    "Trait": 2,
+    "TraitPiece": 0,
+    "internal_name": "SGALY"
+   },
+   "542": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 1,
+      "Class": 4
+     },
+     {
+      "Amount": 8,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 20
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 14,
+    "AttackDelaySeconds": 0.16,
+    "Attacks": [
+     {
+      "Amount": 6,
+      "Class": 11
+     },
+     {
+      "Amount": 10,
+      "Class": 5
+     },
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 14,
+      "Class": 3
+     },
+     {
+      "Amount": 2,
+      "Class": 17
+     },
+     {
+      "Amount": 2,
+      "Class": 1
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 75,
+     "Wood": 75
+    },
+    "FrameDelay": 6,
+    "GarrisonCapacity": 0,
+    "HP": 60,
+    "ID": 542,
+    "LanguageNameId": 5439,
+    "LineOfSight": 9,
+    "MaxCharge": 0,
+    "MeleeArmor": 1,
+    "MinRange": 2,
+    "PierceArmor": 8,
+    "Range": 7,
+    "RechargeRate": 0,
+    "ReloadTime": 3.6,
+    "Speed": 0.65,
+    "TrainTime": 30,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "HWBAL"
+   },
+   "545": {
+    "AccuracyPercent": 0,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 16
+     },
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 2,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 0,
+    "AttackDelaySeconds": 0,
+    "Attacks": [],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Wood": 125
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 20,
+    "HP": 70,
+    "ID": 545,
+    "LanguageNameId": 5443,
+    "LineOfSight": 5,
+    "MaxCharge": 0,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 2,
+    "Range": 0,
+    "RechargeRate": 0,
+    "ReloadTime": 0,
+    "Speed": 1.45,
+    "TrainTime": 46,
+    "Trait": 3,
+    "TraitPiece": 0,
+    "internal_name": "XPORT"
+   },
+   "546": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 8
+     },
+     {
+      "Amount": 2,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 7,
+    "AttackDelaySeconds": 0.5,
+    "Attacks": [
+     {
+      "Amount": 10,
+      "Class": 25
+     },
+     {
+      "Amount": 7,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     },
+     {
+      "Amount": 0,
+      "Class": 38
+     },
+     {
+      "Amount": -3,
+      "Class": 39
+     },
+     {
+      "Amount": 0,
+      "Class": 20
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Food": 80
+    },
+    "FrameDelay": 10,
+    "GarrisonCapacity": 0,
+    "HP": 60,
+    "ID": 546,
+    "LanguageNameId": 5444,
+    "LineOfSight": 4,
+    "MaxCharge": 0,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 2,
+    "Range": 0,
+    "RechargeRate": 0,
+    "ReloadTime": 2,
+    "Speed": 1.5,
+    "TrainTime": 30,
+    "Trait": 16,
+    "TraitPiece": 0,
+    "internal_name": "LTCAV"
+   },
+   "548": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": -1,
+      "Class": 4
+     },
+     {
+      "Amount": 195,
+      "Class": 3
+     },
+     {
+      "Amount": 2,
+      "Class": 17
+     },
+     {
+      "Amount": 0,
+      "Class": 20
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 4,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 200,
+      "Class": 11
+     },
+     {
+      "Amount": 4,
+      "Class": 4
+     },
+     {
+      "Amount": 65,
+      "Class": 20
+     }
+    ],
+    "BlastWidth": 2,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 75,
+     "Wood": 160
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 6,
+    "HP": 270,
+    "ID": 548,
+    "LanguageNameId": 5446,
+    "LineOfSight": 5,
+    "MaxCharge": 0,
+    "MeleeArmor": -1,
+    "MinRange": 0,
+    "PierceArmor": 195,
+    "Range": 0,
+    "RechargeRate": 0,
+    "ReloadTime": 5,
+    "Speed": 0.6,
+    "TrainTime": 36,
+    "Trait": 1,
+    "TraitPiece": 0,
+    "internal_name": "SGRAM"
+   },
+   "550": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 8,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 20
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 55,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 45,
+      "Class": 11
+     },
+     {
+      "Amount": 55,
+      "Class": 4
+     },
+     {
+      "Amount": 12,
+      "Class": 20
+     },
+     {
+      "Amount": 50,
+      "Class": 37
+     }
+    ],
+    "BlastWidth": 1.25,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 135,
+     "Wood": 160
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 60,
+    "ID": 550,
+    "LanguageNameId": 5448,
+    "LineOfSight": 10,
+    "MaxCharge": 0,
+    "MeleeArmor": 0,
+    "MinRange": 3,
+    "PierceArmor": 8,
+    "Range": 8,
+    "RechargeRate": 0,
+    "ReloadTime": 6,
+    "Speed": 0.6,
+    "TrainTime": 46,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "ONAGR"
+   },
+   "567": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 1
+     },
+     {
+      "Amount": 1,
+      "Class": 4
+     },
+     {
+      "Amount": 1,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 14,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 9,
+      "Class": 29
+     },
+     {
+      "Amount": 4,
+      "Class": 21
+     },
+     {
+      "Amount": 14,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 8
+     },
+     {
+      "Amount": 0,
+      "Class": 30
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Food": 50,
+     "Gold": 20
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 70,
+    "ID": 567,
+    "LanguageNameId": 5469,
+    "LineOfSight": 5,
+    "MaxCharge": 0,
+    "MeleeArmor": 1,
+    "MinRange": 0,
+    "PierceArmor": 1,
+    "Range": 0,
+    "RechargeRate": 0,
+    "ReloadTime": 2,
+    "Speed": 0.96,
+    "TrainTime": 21,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "HEROI"
+   },
+   "569": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 2,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 8
+     },
+     {
+      "Amount": 3,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 14,
+    "AttackDelaySeconds": 0.671667,
+    "Attacks": [
+     {
+      "Amount": 14,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 0,
+      "Class": 38
+     },
+     {
+      "Amount": -3,
+      "Class": 39
+     },
+     {
+      "Amount": 0,
+      "Class": 20
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Food": 60,
+     "Gold": 75
+    },
+    "FrameDelay": 13,
+    "GarrisonCapacity": 0,
+    "HP": 160,
+    "ID": 569,
+    "LanguageNameId": 5471,
+    "LineOfSight": 5,
+    "MaxCharge": 0,
+    "MeleeArmor": 2,
+    "MinRange": 0,
+    "PierceArmor": 3,
+    "Range": 0,
+    "RechargeRate": 0,
+    "ReloadTime": 1.9,
+    "Speed": 1.35,
+    "TrainTime": 30,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "HEROC"
+   },
+   "588": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 8,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 20
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 75,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 60,
+      "Class": 11
+     },
+     {
+      "Amount": 75,
+      "Class": 4
+     },
+     {
+      "Amount": 12,
+      "Class": 20
+     },
+     {
+      "Amount": 50,
+      "Class": 37
+     }
+    ],
+    "BlastWidth": 1.5,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 135,
+     "Wood": 160
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 70,
+    "ID": 588,
+    "LanguageNameId": 5493,
+    "LineOfSight": 10,
+    "MaxCharge": 0,
+    "MeleeArmor": 0,
+    "MinRange": 3,
+    "PierceArmor": 8,
+    "Range": 8,
+    "RechargeRate": 0,
+    "ReloadTime": 6,
+    "Speed": 0.6,
+    "TrainTime": 46,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "SNAGR"
+   },
+   "691": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 16
+     },
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 6,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 23
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     },
+     {
+      "Amount": 0,
+      "Class": 60
+     }
+    ],
+    "Attack": 60,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 275,
+      "Class": 11
+     },
+     {
+      "Amount": 60,
+      "Class": 4
+     },
+     {
+      "Amount": 25,
+      "Class": 20
+     }
+    ],
+    "BlastWidth": 0.3,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 150,
+     "Wood": 200
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 150,
+    "ID": 691,
+    "LanguageNameId": 5573,
+    "LineOfSight": 17,
+    "MaxCharge": 0,
+    "MeleeArmor": 0,
+    "MinRange": 3,
+    "PierceArmor": 6,
+    "Range": 15,
+    "RechargeRate": 0,
+    "ReloadTime": 10,
+    "Speed": 1.05,
+    "TrainTime": 46,
+    "Trait": 2,
+    "TraitPiece": 0,
+    "internal_name": "CNGAU"
+   },
+   "725": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 1
+     },
+     {
+      "Amount": 1,
+      "Class": 4
+     },
+     {
+      "Amount": 2,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 19
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 15,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 2,
+      "Class": 29
+     },
+     {
+      "Amount": 2,
+      "Class": 21
+     },
+     {
+      "Amount": 5,
+      "Class": 1
+     },
+     {
+      "Amount": 15,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 8
+     },
+     {
+      "Amount": 0,
+      "Class": 30
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Food": 60,
+     "Gold": 30
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 65,
+    "ID": 725,
+    "LanguageNameId": 5667,
+    "LineOfSight": 3,
+    "MaxCharge": 0,
+    "MeleeArmor": 1,
+    "MinRange": 0,
+    "PierceArmor": 2,
+    "Range": 0,
+    "RechargeRate": 0,
+    "ReloadTime": 2,
+    "Speed": 1,
+    "TrainTime": 12,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "JAGUAR"
+   },
+   "726": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 1
+     },
+     {
+      "Amount": 2,
+      "Class": 4
+     },
+     {
+      "Amount": 2,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 19
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 19,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 2,
+      "Class": 29
+     },
+     {
+      "Amount": 2,
+      "Class": 21
+     },
+     {
+      "Amount": 6,
+      "Class": 1
+     },
+     {
+      "Amount": 19,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 8
+     },
+     {
+      "Amount": 0,
+      "Class": 30
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Food": 60,
+     "Gold": 30
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 75,
+    "ID": 726,
+    "LanguageNameId": 5669,
+    "LineOfSight": 5,
+    "MaxCharge": 0,
+    "MeleeArmor": 2,
+    "MinRange": 0,
+    "PierceArmor": 2,
+    "Range": 0,
+    "RechargeRate": 0,
+    "ReloadTime": 2,
+    "Speed": 1,
+    "TrainTime": 12,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "JAGUARX"
+   },
+   "751": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 29
+     },
+     {
+      "Amount": 0,
+      "Class": 1
+     },
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 2,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 4,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 8,
+      "Class": 25
+     },
+     {
+      "Amount": 4,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 8
+     },
+     {
+      "Amount": 3,
+      "Class": 20
+     },
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 0,
+      "Class": 16
+     },
+     {
+      "Amount": 0,
+      "Class": 30
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Food": 20,
+     "Gold": 50
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 50,
+    "ID": 751,
+    "LanguageNameId": 5672,
+    "LineOfSight": 5,
+    "MaxCharge": 0,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 2,
+    "Range": 0,
+    "RechargeRate": 0,
+    "ReloadTime": 2,
+    "Speed": 1.1,
+    "TrainTime": 46,
+    "Trait": 16,
+    "TraitPiece": 0,
+    "internal_name": "EAGLE"
+   },
+   "752": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 29
+     },
+     {
+      "Amount": 0,
+      "Class": 1
+     },
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 4,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 9,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 10,
+      "Class": 25
+     },
+     {
+      "Amount": 9,
+      "Class": 4
+     },
+     {
+      "Amount": 4,
+      "Class": 8
+     },
+     {
+      "Amount": 2,
+      "Class": 16
+     },
+     {
+      "Amount": 5,
+      "Class": 20
+     },
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 3,
+      "Class": 30
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Food": 20,
+     "Gold": 50
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 60,
+    "ID": 752,
+    "LanguageNameId": 5673,
+    "LineOfSight": 6,
+    "MaxCharge": 0,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 4,
+    "Range": 0,
+    "RechargeRate": 0,
+    "ReloadTime": 2,
+    "Speed": 1.3,
+    "TrainTime": 20,
+    "Trait": 16,
+    "TraitPiece": 0,
+    "internal_name": "EAGLEX"
+   },
+   "753": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 29
+     },
+     {
+      "Amount": 0,
+      "Class": 1
+     },
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 3,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 7,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 8,
+      "Class": 25
+     },
+     {
+      "Amount": 7,
+      "Class": 4
+     },
+     {
+      "Amount": 3,
+      "Class": 8
+     },
+     {
+      "Amount": 3,
+      "Class": 20
+     },
+     {
+      "Amount": 1,
+      "Class": 16
+     },
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 2,
+      "Class": 30
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Food": 20,
+     "Gold": 50
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 55,
+    "ID": 753,
+    "LanguageNameId": 5671,
+    "LineOfSight": 6,
+    "MaxCharge": 0,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 3,
+    "Range": 0,
+    "RechargeRate": 0,
+    "ReloadTime": 2,
+    "Speed": 1.15,
+    "TrainTime": 35,
+    "Trait": 16,
+    "TraitPiece": 0,
+    "internal_name": "EAGLEH"
+   },
+   "1103": {
+    "AccuracyPercent": 0,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 16
+     },
+     {
+      "Amount": 1,
+      "Class": 4
+     },
+     {
+      "Amount": 4,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     },
+     {
+      "Amount": 0,
+      "Class": 41
+     }
+    ],
+    "Attack": 2,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 0,
+      "Class": 16
+     },
+     {
+      "Amount": 0,
+      "Class": 2
+     },
+     {
+      "Amount": 2,
+      "Class": 4
+     },
+     {
+      "Amount": 1,
+      "Class": 60
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 45,
+     "Wood": 75
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 110,
+    "ID": 1103,
+    "LanguageNameId": 5160,
+    "LineOfSight": 5,
+    "MaxCharge": 0,
+    "MeleeArmor": 1,
+    "MinRange": 0,
+    "PierceArmor": 4,
+    "Range": 2.5,
+    "RechargeDuration": 0,
+    "RechargeRate": 0.04,
+    "ReloadTime": 0.25,
+    "Speed": 1.36,
+    "TrainTime": 49,
+    "Trait": 2,
+    "TraitPiece": 0,
+    "internal_name": "SFRGAL"
+   },
+   "1104": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 16
+     },
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 75,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 180,
+      "Class": 11
+     },
+     {
+      "Amount": 75,
+      "Class": 4
+     }
+    ],
+    "BlastWidth": 2.5,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 80,
+     "Wood": 45
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 40,
+    "ID": 1104,
+    "LanguageNameId": 5162,
+    "LineOfSight": 6,
+    "MaxCharge": 0,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 0,
+    "Range": 0,
+    "RechargeRate": 0,
+    "ReloadTime": 0,
+    "Speed": 1.42,
+    "TrainTime": 45,
+    "Trait": 2,
+    "TraitPiece": 0,
+    "internal_name": "SDGAL"
+   },
+   "1105": {
+    "AccuracyPercent": 0,
+    "Armours": [
+     {
+      "Amount": -2,
+      "Class": 4
+     },
+     {
+      "Amount": 100,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 17
+     },
+     {
+      "Amount": 0,
+      "Class": 20
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 0,
+    "AttackDelaySeconds": 0,
+    "Attacks": [],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 120,
+     "Wood": 100
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 10,
+    "HP": 175,
+    "ID": 1105,
+    "LanguageNameId": 5445,
+    "LineOfSight": 6,
+    "MaxCharge": 0,
+    "MeleeArmor": -2,
+    "MinRange": 0,
+    "PierceArmor": 100,
+    "Range": 0,
+    "RechargeRate": 0,
+    "ReloadTime": 0,
+    "Speed": 0.96,
+    "TrainTime": 36,
+    "Trait": 1,
+    "TraitPiece": 0,
+    "internal_name": "SIEGTWR"
+   },
+   "1258": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": -3,
+      "Class": 4
+     },
+     {
+      "Amount": 180,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 17
+     },
+     {
+      "Amount": 0,
+      "Class": 20
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 2,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 150,
+      "Class": 11
+     },
+     {
+      "Amount": 2,
+      "Class": 4
+     },
+     {
+      "Amount": 40,
+      "Class": 20
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 75,
+     "Wood": 160
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 6,
+    "HP": 175,
+    "ID": 1258,
+    "LanguageNameId": 5094,
+    "LineOfSight": 5,
+    "MaxCharge": 0,
+    "MeleeArmor": -3,
+    "MinRange": 0,
+    "PierceArmor": 180,
+    "Range": 0,
+    "RechargeRate": 0,
+    "ReloadTime": 5,
+    "Speed": 0.6,
+    "TrainTime": 36,
+    "Trait": 1,
+    "TraitPiece": 0,
+    "internal_name": "BTRAM"
+   },
+   "1795": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 16
+     },
+     {
+      "Amount": 1,
+      "Class": 4
+     },
+     {
+      "Amount": 6,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     },
+     {
+      "Amount": 0,
+      "Class": 60
+     }
+    ],
+    "Attack": 8,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 8,
+      "Class": 4
+     },
+     {
+      "Amount": 34,
+      "Class": 11
+     },
+     {
+      "Amount": 2,
+      "Class": 20
+     },
+     {
+      "Amount": 15,
+      "Class": 22
+     },
+     {
+      "Amount": 9,
+      "Class": 26
+     }
+    ],
+    "BlastWidth": 0.8,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 150,
+     "Wood": 175
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 125,
+    "ID": 1795,
+    "LanguageNameId": 5055,
+    "LineOfSight": 14,
+    "MaxCharge": 0,
+    "MeleeArmor": 1,
+    "MinRange": 3,
+    "PierceArmor": 6,
+    "Range": 12,
+    "RechargeRate": 0,
+    "ReloadTime": 8,
+    "Speed": 1.15,
+    "TrainTime": 65,
+    "Trait": 2,
+    "TraitPiece": 0,
+    "internal_name": "DROMON"
+   },
+   "1800": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 1,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     },
+     {
+      "Amount": 0,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 19
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 4,
+    "AttackDelaySeconds": 0.5,
+    "Attacks": [
+     {
+      "Amount": 2,
+      "Class": 27
+     },
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 4,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 17
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 45,
+     "Wood": 35
+    },
+    "FrameDelay": 12,
+    "GarrisonCapacity": 0,
+    "HP": 40,
+    "ID": 1800,
+    "LanguageNameId": 5033,
+    "LineOfSight": 7,
+    "MaxCharge": 0,
+    "MeleeArmor": 1,
+    "MinRange": 0,
+    "PierceArmor": 0,
+    "Range": 4,
+    "RechargeRate": 0,
+    "ReloadTime": 2,
+    "Speed": 0.96,
+    "TrainTime": 12,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "COMPBOW"
+   },
+   "1802": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 2,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     },
+     {
+      "Amount": 0,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 19
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 4,
+    "AttackDelaySeconds": 0.5,
+    "Attacks": [
+     {
+      "Amount": 2,
+      "Class": 27
+     },
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 4,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 17
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 45,
+     "Wood": 35
+    },
+    "FrameDelay": 12,
+    "GarrisonCapacity": 0,
+    "HP": 50,
+    "ID": 1802,
+    "LanguageNameId": 5034,
+    "LineOfSight": 7,
+    "MaxCharge": 0,
+    "MeleeArmor": 2,
+    "MinRange": 0,
+    "PierceArmor": 0,
+    "Range": 4,
+    "RechargeRate": 0,
+    "ReloadTime": 2,
+    "Speed": 0.96,
+    "TrainTime": 10,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "ECOMPBOW"
+   },
+   "1811": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 1
+     },
+     {
+      "Amount": 1,
+      "Class": 4
+     },
+     {
+      "Amount": 1,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 25
+     },
+     {
+      "Amount": 0,
+      "Class": 19
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 11,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 0,
+      "Class": 29
+     },
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 11,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 8
+     },
+     {
+      "Amount": 0,
+      "Class": 30
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Food": 40,
+     "Gold": 50
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 80,
+    "ID": 1811,
+    "LanguageNameId": 5037,
+    "LineOfSight": 3,
+    "MaxCharge": 0,
+    "MeleeArmor": 1,
+    "MinRange": 0,
+    "PierceArmor": 1,
+    "Range": 0,
+    "RechargeRate": 0,
+    "ReloadTime": 2,
+    "Speed": 0.85,
+    "TrainTime": 30,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "WARRIORPRIEST"
+   },
+   "2626": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 16
+     },
+     {
+      "Amount": 3,
+      "Class": 4
+     },
+     {
+      "Amount": 1,
+      "Class": 3
+     }
+    ],
+    "Attack": 4,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 0,
+      "Class": 16
+     },
+     {
+      "Amount": 4,
+      "Class": 4
+     },
+     {
+      "Amount": -3,
+      "Class": 21
+     },
+     {
+      "Amount": 1,
+      "Class": 41
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 35,
+     "Wood": 75
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 85,
+    "ID": 2626,
+    "LanguageNameId": 5523,
+    "LineOfSight": 5,
+    "MaxCharge": 0,
+    "MeleeArmor": 3,
+    "MinRange": 0,
+    "PierceArmor": 1,
+    "Range": 1,
+    "RechargeRate": 0,
+    "ReloadTime": 1.75,
+    "Speed": 1.42,
+    "TrainTime": 42,
+    "Trait": 2,
+    "TraitPiece": 0,
+    "internal_name": "Hulk"
+   },
+   "2627": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 16
+     },
+     {
+      "Amount": 4,
+      "Class": 4
+     },
+     {
+      "Amount": 1,
+      "Class": 3
+     }
+    ],
+    "Attack": 4,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 0,
+      "Class": 16
+     },
+     {
+      "Amount": 4,
+      "Class": 4
+     },
+     {
+      "Amount": -3,
+      "Class": 21
+     },
+     {
+      "Amount": 1,
+      "Class": 41
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 35,
+     "Wood": 75
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 110,
+    "ID": 2627,
+    "LanguageNameId": 5524,
+    "LineOfSight": 5,
+    "MaxCharge": 0,
+    "MeleeArmor": 4,
+    "MinRange": 0,
+    "PierceArmor": 1,
+    "Range": 1,
+    "RechargeRate": 0,
+    "ReloadTime": 1.5,
+    "Speed": 1.42,
+    "TrainTime": 27,
+    "Trait": 2,
+    "TraitPiece": 0,
+    "internal_name": "War hulk"
+   },
+   "2628": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 16
+     },
+     {
+      "Amount": 6,
+      "Class": 4
+     },
+     {
+      "Amount": 1,
+      "Class": 3
+     }
+    ],
+    "Attack": 4,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 0,
+      "Class": 16
+     },
+     {
+      "Amount": 4,
+      "Class": 4
+     },
+     {
+      "Amount": -3,
+      "Class": 21
+     },
+     {
+      "Amount": 1,
+      "Class": 41
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 35,
+     "Wood": 75
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 135,
+    "ID": 2628,
+    "LanguageNameId": 5525,
+    "LineOfSight": 6,
+    "MaxCharge": 0,
+    "MeleeArmor": 6,
+    "MinRange": 0,
+    "PierceArmor": 1,
+    "Range": 1,
+    "RechargeRate": 0,
+    "ReloadTime": 1.5,
+    "Speed": 1.52,
+    "TrainTime": 27,
+    "Trait": 2,
+    "TraitPiece": 0,
+    "internal_name": "Carrack"
+   },
+   "2633": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 16
+     },
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 6,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     },
+     {
+      "Amount": 0,
+      "Class": 60
+     }
+    ],
+    "Attack": 30,
+    "AttackDelaySeconds": 0,
+    "Attacks": [
+     {
+      "Amount": 130,
+      "Class": 11
+     },
+     {
+      "Amount": 30,
+      "Class": 4
+     },
+     {
+      "Amount": 10,
+      "Class": 20
+     }
+    ],
+    "BlastWidth": 0.3,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 100,
+     "Wood": 225
+    },
+    "FrameDelay": 0,
+    "GarrisonCapacity": 0,
+    "HP": 140,
+    "ID": 2633,
+    "LanguageNameId": 5572,
+    "LineOfSight": 14,
+    "MaxCharge": 0,
+    "MeleeArmor": 0,
+    "MinRange": 3,
+    "PierceArmor": 6,
+    "Range": 12,
+    "RechargeRate": 0,
+    "ReloadTime": 6,
+    "Speed": 1,
+    "TrainTime": 55,
+    "Trait": 2,
+    "TraitPiece": 0,
+    "internal_name": "CATAGA"
+   },
+   "2700": {
+    "AccuracyPercent": 80,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 3
+     },
+     {
+      "Amount": 2,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     },
+     {
+      "Amount": 0,
+      "Class": 8
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     },
+     {
+      "Amount": 0,
+      "Class": 28
+     }
+    ],
+    "Attack": 7,
+    "AttackDelaySeconds": 0.91,
+    "Attacks": [
+     {
+      "Amount": 7,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 0,
+      "Class": 17
+     },
+     {
+      "Amount": -3,
+      "Class": 39
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     },
+     {
+      "Amount": 0,
+      "Class": 38
+     },
+     {
+      "Amount": 1,
+      "Class": 27
+     },
+     {
+      "Amount": 0,
+      "Class": 1
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 65,
+     "Wood": 40
+    },
+    "FrameDelay": 21,
+    "GarrisonCapacity": 0,
+    "HP": 45,
+    "ID": 2700,
+    "LanguageNameId": 5527,
+    "LineOfSight": 6,
+    "MaxCharge": 0,
+    "MeleeArmor": 2,
+    "MinRange": 0,
+    "PierceArmor": 0,
+    "Range": 4,
+    "RechargeRate": 0,
+    "ReloadTime": 2.5,
+    "Speed": 1.25,
+    "TrainTime": 40,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "Mounted Crossbowman"
+   },
+   "2701": {
+    "AccuracyPercent": 80,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 3
+     },
+     {
+      "Amount": 2,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     },
+     {
+      "Amount": 0,
+      "Class": 8
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     },
+     {
+      "Amount": 0,
+      "Class": 28
+     }
+    ],
+    "Attack": 8,
+    "AttackDelaySeconds": 0.996667,
+    "Attacks": [
+     {
+      "Amount": 8,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 0,
+      "Class": 17
+     },
+     {
+      "Amount": -3,
+      "Class": 39
+     },
+     {
+      "Amount": 0,
+      "Class": 15
+     },
+     {
+      "Amount": 0,
+      "Class": 38
+     },
+     {
+      "Amount": 1,
+      "Class": 27
+     },
+     {
+      "Amount": 0,
+      "Class": 1
+     }
+    ],
+    "BlastWidth": 0,
+    "ChargeEvent": 0,
+    "ChargeType": 0,
+    "Cost": {
+     "Gold": 65,
+     "Wood": 40
+    },
+    "FrameDelay": 23,
+    "GarrisonCapacity": 0,
+    "HP": 55,
+    "ID": 2701,
+    "LanguageNameId": 5528,
+    "LineOfSight": 6,
+    "MaxCharge": 0,
+    "MeleeArmor": 2,
+    "MinRange": 0,
+    "PierceArmor": 0,
+    "Range": 4,
+    "RechargeRate": 0,
+    "ReloadTime": 2.5,
+    "Speed": 1.25,
+    "TrainTime": 30,
+    "Trait": 0,
+    "TraitPiece": 0,
+    "internal_name": "Heavy Mounted Crossbowman"
+   }
+  },
+  "Tech": {
+   "8": {
+    "Cost": {
+     "Food": 75
+    },
+    "ID": 8,
+    "LanguageNameId": 7008,
+    "Repeatable": false,
+    "ResearchTime": 25,
+    "internal_name": "Town Watch"
+   },
+   "12": {
+    "Cost": {
+     "Food": 250,
+     "Wood": 250
+    },
+    "ID": 12,
+    "LanguageNameId": 7012,
+    "Repeatable": true,
+    "ResearchTime": 70,
+    "internal_name": "Crop rotation"
+   },
+   "13": {
+    "Cost": {
+     "Food": 125,
+     "Wood": 125
+    },
+    "ID": 13,
+    "LanguageNameId": 7013,
+    "Repeatable": true,
+    "ResearchTime": 40,
+    "internal_name": "Heavy plow"
+   },
+   "14": {
+    "Cost": {
+     "Food": 75,
+     "Wood": 75
+    },
+    "ID": 14,
+    "LanguageNameId": 7014,
+    "Repeatable": true,
+    "ResearchTime": 20,
+    "internal_name": "Horse collar"
+   },
+   "15": {
+    "Cost": {
+     "Food": 300,
+     "Gold": 200
+    },
+    "ID": 15,
+    "LanguageNameId": 7015,
+    "Repeatable": false,
+    "ResearchTime": 50,
+    "internal_name": "Guilds"
+   },
+   "17": {
+    "Cost": {
+     "Food": 300,
+     "Gold": 200
+    },
+    "ID": 17,
+    "LanguageNameId": 7017,
+    "Repeatable": false,
+    "ResearchTime": 70,
+    "internal_name": "Banking"
+   },
+   "22": {
+    "Cost": {
+     "Gold": 50
+    },
+    "ID": 22,
+    "LanguageNameId": 7022,
+    "Repeatable": true,
+    "ResearchTime": 25,
+    "internal_name": "Loom"
+   },
+   "23": {
+    "Cost": {
+     "Food": 200,
+     "Gold": 100
+    },
+    "ID": 23,
+    "LanguageNameId": 7023,
+    "Repeatable": false,
+    "ResearchTime": 70,
+    "internal_name": "Coinage"
+   },
+   "24": {
+    "Cost": {
+     "Food": 450,
+     "Gold": 750
+    },
+    "ID": 24,
+    "LanguageNameId": 7429,
+    "Repeatable": true,
+    "ResearchTime": 60,
+    "internal_name": "Aztec Garland Wars"
+   },
+   "34": {
+    "Cost": {
+     "Gold": 100,
+     "Wood": 150
+    },
+    "ID": 34,
+    "LanguageNameId": 7034,
+    "Repeatable": true,
+    "ResearchTime": 50,
+    "internal_name": "War Galley"
+   },
+   "35": {
+    "Cost": {
+     "Gold": 315,
+     "Wood": 400
+    },
+    "ID": 35,
+    "LanguageNameId": 7035,
+    "Repeatable": true,
+    "ResearchTime": 65,
+    "internal_name": "Galleon"
+   },
+   "39": {
+    "Cost": {
+     "Food": 150
+    },
+    "ID": 39,
+    "LanguageNameId": 7039,
+    "Repeatable": true,
+    "ResearchTime": 40,
+    "internal_name": "Husbandry"
+   },
+   "45": {
+    "Cost": {
+     "Food": 550,
+     "Gold": 750
+    },
+    "ID": 45,
+    "LanguageNameId": 7045,
+    "Repeatable": true,
+    "ResearchTime": 60,
+    "internal_name": "Faith"
+   },
+   "46": {
+    "Cost": {
+     "Food": 100,
+     "Gold": 200
+    },
+    "ID": 46,
+    "LanguageNameId": 7462,
+    "Repeatable": true,
+    "ResearchTime": 40,
+    "internal_name": "Devotion"
+   },
+   "47": {
+    "Cost": {
+     "Food": 300,
+     "Gold": 200
+    },
+    "ID": 47,
+    "LanguageNameId": 7047,
+    "Repeatable": true,
+    "ResearchTime": 100,
+    "internal_name": "Chemistry"
+   },
+   "48": {
+    "Cost": {
+     "Food": 200,
+     "Gold": 200
+    },
+    "ID": 48,
+    "LanguageNameId": 7410,
+    "Repeatable": true,
+    "ResearchTime": 40,
+    "internal_name": "Caravan"
+   },
+   "50": {
+    "Cost": {
+     "Food": 150,
+     "Wood": 175
+    },
+    "ID": 50,
+    "LanguageNameId": 7050,
+    "Repeatable": true,
+    "ResearchTime": 50,
+    "internal_name": "Masonry"
+   },
+   "51": {
+    "Cost": {
+     "Food": 300,
+     "Wood": 200
+    },
+    "ID": 51,
+    "LanguageNameId": 7051,
+    "Repeatable": true,
+    "ResearchTime": 70,
+    "internal_name": "Architecture"
+   },
+   "54": {
+    "Cost": {
+     "Stone": 50,
+     "Wood": 200
+    },
+    "ID": 54,
+    "LanguageNameId": 7054,
+    "Repeatable": true,
+    "ResearchTime": 20,
+    "internal_name": "Stone cutting"
+   },
+   "55": {
+    "Cost": {
+     "Food": 100,
+     "Wood": 75
+    },
+    "ID": 55,
+    "LanguageNameId": 7055,
+    "Repeatable": true,
+    "ResearchTime": 30,
+    "internal_name": "Gold Mining"
+   },
+   "63": {
+    "Cost": {
+     "Food": 500,
+     "Wood": 350
+    },
+    "ID": 63,
+    "LanguageNameId": 7063,
+    "Repeatable": true,
+    "ResearchTime": 75,
+    "internal_name": "Keep"
+   },
+   "64": {
+    "Cost": {
+     "Food": 800,
+     "Wood": 400
+    },
+    "ID": 64,
+    "LanguageNameId": 7320,
+    "Repeatable": false,
+    "ResearchTime": 60,
+    "internal_name": "Bombard Tower"
+   },
+   "65": {
+    "Cost": {
+     "Food": 100,
+     "Wood": 125
+    },
+    "ID": 65,
+    "LanguageNameId": 7314,
+    "Repeatable": true,
+    "ResearchTime": 30,
+    "internal_name": "Gillnets"
+   },
+   "67": {
+    "Cost": {
+     "Food": 150
+    },
+    "ID": 67,
+    "LanguageNameId": 7067,
+    "Repeatable": true,
+    "ResearchTime": 50,
+    "internal_name": "Forging"
+   },
+   "68": {
+    "Cost": {
+     "Food": 220,
+     "Gold": 120
+    },
+    "ID": 68,
+    "LanguageNameId": 7068,
+    "Repeatable": true,
+    "ResearchTime": 75,
+    "internal_name": "Iron casting"
+   },
+   "74": {
+    "Cost": {
+     "Food": 100
+    },
+    "ID": 74,
+    "LanguageNameId": 7074,
+    "Repeatable": true,
+    "ResearchTime": 40,
+    "internal_name": "Scale Mail Armor"
+   },
+   "75": {
+    "Cost": {
+     "Food": 275,
+     "Gold": 225
+    },
+    "ID": 75,
+    "LanguageNameId": 7075,
+    "Repeatable": true,
+    "ResearchTime": 100,
+    "internal_name": "Blast Furnace"
+   },
+   "76": {
+    "Cost": {
+     "Food": 200,
+     "Gold": 100
+    },
+    "ID": 76,
+    "LanguageNameId": 7076,
+    "Repeatable": true,
+    "ResearchTime": 55,
+    "internal_name": "Chain Mail Armor"
+   },
+   "77": {
+    "Cost": {
+     "Food": 300,
+     "Gold": 150
+    },
+    "ID": 77,
+    "LanguageNameId": 7077,
+    "Repeatable": true,
+    "ResearchTime": 70,
+    "internal_name": "Plate Mail Armor"
+   },
+   "80": {
+    "Cost": {
+     "Food": 350,
+     "Gold": 200
+    },
+    "ID": 80,
+    "LanguageNameId": 7080,
+    "Repeatable": true,
+    "ResearchTime": 75,
+    "internal_name": "Plate Barding Armor"
+   },
+   "81": {
+    "Cost": {
+     "Food": 150
+    },
+    "ID": 81,
+    "LanguageNameId": 7081,
+    "Repeatable": true,
+    "ResearchTime": 45,
+    "internal_name": "Scale Barding Armor"
+   },
+   "82": {
+    "Cost": {
+     "Food": 250,
+     "Gold": 150
+    },
+    "ID": 82,
+    "LanguageNameId": 7082,
+    "Repeatable": true,
+    "ResearchTime": 60,
+    "internal_name": "Chain Barding Armor"
+   },
+   "93": {
+    "Cost": {
+     "Gold": 175,
+     "Wood": 300
+    },
+    "ID": 93,
+    "LanguageNameId": 7093,
+    "Repeatable": false,
+    "ResearchTime": 60,
+    "internal_name": "Ballistics"
+   },
+   "101": {
+    "Cost": {
+     "Food": 500
+    },
+    "ID": 101,
+    "LanguageNameId": 7101,
+    "Repeatable": false,
+    "ResearchTime": 130,
+    "internal_name": "Middle Age"
+   },
+   "102": {
+    "Cost": {
+     "Food": 800,
+     "Gold": 200
+    },
+    "ID": 102,
+    "LanguageNameId": 7102,
+    "Repeatable": false,
+    "ResearchTime": 160,
+    "internal_name": "Feudal Age"
+   },
+   "103": {
+    "Cost": {
+     "Food": 1000,
+     "Gold": 800
+    },
+    "ID": 103,
+    "LanguageNameId": 7103,
+    "Repeatable": false,
+    "ResearchTime": 190,
+    "internal_name": "Imperial Age"
+   },
+   "140": {
+    "Cost": {
+     "Food": 100,
+     "Wood": 250
+    },
+    "ID": 140,
+    "LanguageNameId": 7186,
+    "Repeatable": true,
+    "ResearchTime": 30,
+    "internal_name": "Guard Tower"
+   },
+   "182": {
+    "Cost": {
+     "Food": 175,
+     "Wood": 75
+    },
+    "ID": 182,
+    "LanguageNameId": 7180,
+    "Repeatable": true,
+    "ResearchTime": 75,
+    "internal_name": "Gold Shaft Mining"
+   },
+   "194": {
+    "Cost": {
+     "Food": 200,
+     "Wood": 100
+    },
+    "ID": 194,
+    "LanguageNameId": 7163,
+    "Repeatable": true,
+    "ResearchTime": 50,
+    "internal_name": "Fortified Wall"
+   },
+   "199": {
+    "Cost": {
+     "Food": 100,
+     "Gold": 50
+    },
+    "ID": 199,
+    "LanguageNameId": 7172,
+    "Repeatable": true,
+    "ResearchTime": 30,
+    "internal_name": "Fletching"
+   },
+   "200": {
+    "Cost": {
+     "Food": 200,
+     "Gold": 100
+    },
+    "ID": 200,
+    "LanguageNameId": 7150,
+    "Repeatable": true,
+    "ResearchTime": 35,
+    "internal_name": "Bodkin Arrow"
+   },
+   "201": {
+    "Cost": {
+     "Food": 300,
+     "Gold": 200
+    },
+    "ID": 201,
+    "LanguageNameId": 7151,
+    "Repeatable": true,
+    "ResearchTime": 40,
+    "internal_name": "Bracer"
+   },
+   "202": {
+    "Cost": {
+     "Food": 100,
+     "Wood": 50
+    },
+    "ID": 202,
+    "LanguageNameId": 7189,
+    "Repeatable": true,
+    "ResearchTime": 25,
+    "internal_name": "Double Bit Axe"
+   },
+   "203": {
+    "Cost": {
+     "Food": 150,
+     "Wood": 100
+    },
+    "ID": 203,
+    "LanguageNameId": 7190,
+    "Repeatable": true,
+    "ResearchTime": 50,
+    "internal_name": "Bow Saw"
+   },
+   "211": {
+    "Cost": {
+     "Food": 100
+    },
+    "ID": 211,
+    "LanguageNameId": 7208,
+    "Repeatable": true,
+    "ResearchTime": 40,
+    "internal_name": "Padded Archer Armor"
+   },
+   "212": {
+    "Cost": {
+     "Food": 150,
+     "Gold": 150
+    },
+    "ID": 212,
+    "LanguageNameId": 7209,
+    "Repeatable": true,
+    "ResearchTime": 55,
+    "internal_name": "Leather Archer Armor"
+   },
+   "213": {
+    "Cost": {
+     "Food": 175,
+     "Wood": 50
+    },
+    "ID": 213,
+    "LanguageNameId": 7211,
+    "Repeatable": true,
+    "ResearchTime": 75,
+    "internal_name": "Wheel Barrow"
+   },
+   "215": {
+    "Cost": {
+     "Food": 100
+    },
+    "ID": 215,
+    "LanguageNameId": 7210,
+    "Repeatable": true,
+    "ResearchTime": 40,
+    "internal_name": "Squires"
+   },
+   "219": {
+    "Cost": {
+     "Food": 250,
+     "Gold": 250
+    },
+    "ID": 219,
+    "LanguageNameId": 7216,
+    "Repeatable": true,
+    "ResearchTime": 70,
+    "internal_name": "Ring Archer Armor"
+   },
+   "221": {
+    "Cost": {
+     "Food": 300,
+     "Wood": 200
+    },
+    "ID": 221,
+    "LanguageNameId": 7231,
+    "Repeatable": true,
+    "ResearchTime": 100,
+    "internal_name": "Two Man Saw"
+   },
+   "230": {
+    "Cost": {
+     "Food": 0,
+     "Gold": 200
+    },
+    "ID": 230,
+    "LanguageNameId": 7222,
+    "Repeatable": true,
+    "ResearchTime": 55,
+    "internal_name": "Block Printing"
+   },
+   "231": {
+    "Cost": {
+     "Food": 0,
+     "Gold": 175
+    },
+    "ID": 231,
+    "LanguageNameId": 7221,
+    "Repeatable": true,
+    "ResearchTime": 60,
+    "internal_name": "Sanctity"
+   },
+   "233": {
+    "Cost": {
+     "Food": 0,
+     "Gold": 120
+    },
+    "ID": 233,
+    "LanguageNameId": 7220,
+    "Repeatable": true,
+    "ResearchTime": 65,
+    "internal_name": "Illumination"
+   },
+   "249": {
+    "Cost": {
+     "Food": 300,
+     "Wood": 200
+    },
+    "ID": 249,
+    "LanguageNameId": 7246,
+    "Repeatable": true,
+    "ResearchTime": 55,
+    "internal_name": "Hand Cart"
+   },
+   "252": {
+    "Cost": {
+     "Food": 0,
+     "Gold": 140
+    },
+    "ID": 252,
+    "LanguageNameId": 7249,
+    "Repeatable": true,
+    "ResearchTime": 50,
+    "internal_name": "Fervor"
+   },
+   "278": {
+    "Cost": {
+     "Food": 100,
+     "Wood": 75
+    },
+    "ID": 278,
+    "LanguageNameId": 7276,
+    "Repeatable": true,
+    "ResearchTime": 30,
+    "internal_name": "Stone Mining"
+   },
+   "279": {
+    "Cost": {
+     "Food": 175,
+     "Wood": 75
+    },
+    "ID": 279,
+    "LanguageNameId": 7277,
+    "Repeatable": true,
+    "ResearchTime": 75,
+    "internal_name": "Stone Shaft Mining"
+   },
+   "280": {
+    "Cost": {
+     "Food": 300,
+     "Gold": 100
+    },
+    "ID": 280,
+    "LanguageNameId": 7282,
+    "Repeatable": false,
+    "ResearchTime": 40,
+    "internal_name": "Town Patrol"
+   },
+   "315": {
+    "Cost": {
+     "Food": 150,
+     "Gold": 150
+    },
+    "ID": 315,
+    "LanguageNameId": 7319,
+    "Repeatable": true,
+    "ResearchTime": 60,
+    "internal_name": "Conscription"
+   },
+   "316": {
+    "Cost": {
+     "Food": 0,
+     "Gold": 475
+    },
+    "ID": 316,
+    "LanguageNameId": 7315,
+    "Repeatable": false,
+    "ResearchTime": 50,
+    "internal_name": "Redemption"
+   },
+   "319": {
+    "Cost": {
+     "Food": 0,
+     "Gold": 325
+    },
+    "ID": 319,
+    "LanguageNameId": 7316,
+    "Repeatable": false,
+    "ResearchTime": 40,
+    "internal_name": "Atonement"
+   },
+   "321": {
+    "Cost": {
+     "Food": 400,
+     "Wood": 200
+    },
+    "ID": 321,
+    "LanguageNameId": 7322,
+    "Repeatable": true,
+    "ResearchTime": 10,
+    "internal_name": "Sappers"
+   },
+   "322": {
+    "Cost": {
+     "Food": 200,
+     "Stone": 100
+    },
+    "ID": 322,
+    "LanguageNameId": 7321,
+    "Repeatable": false,
+    "ResearchTime": 35,
+    "internal_name": "Murder Holes"
+   },
+   "373": {
+    "Cost": {
+     "Food": 1000,
+     "Gold": 300
+    },
+    "ID": 373,
+    "LanguageNameId": 7377,
+    "Repeatable": true,
+    "ResearchTime": 60,
+    "internal_name": "Shipwright"
+   },
+   "374": {
+    "Cost": {
+     "Food": 100,
+     "Gold": 200
+    },
+    "ID": 374,
+    "LanguageNameId": 7372,
+    "Repeatable": true,
+    "ResearchTime": 50,
+    "internal_name": "Careening"
+   },
+   "375": {
+    "Cost": {
+     "Food": 200,
+     "Gold": 400
+    },
+    "ID": 375,
+    "LanguageNameId": 7373,
+    "Repeatable": true,
+    "ResearchTime": 60,
+    "internal_name": "Dry Dock"
+   },
+   "377": {
+    "Cost": {
+     "Food": 500,
+     "Wood": 600
+    },
+    "ID": 377,
+    "LanguageNameId": 7378,
+    "Repeatable": true,
+    "ResearchTime": 45,
+    "internal_name": "Siege Engineers"
+   },
+   "379": {
+    "Cost": {
+     "Food": 400,
+     "Wood": 400
+    },
+    "ID": 379,
+    "LanguageNameId": 7376,
+    "Repeatable": true,
+    "ResearchTime": 75,
+    "internal_name": "Hoardings"
+   },
+   "380": {
+    "Cost": {
+     "Food": 350,
+     "Gold": 100
+    },
+    "ID": 380,
+    "LanguageNameId": 7374,
+    "Repeatable": true,
+    "ResearchTime": 30,
+    "internal_name": "Heated Shot"
+   },
+   "408": {
+    "Cost": {
+     "Gold": 200
+    },
+    "ID": 408,
+    "LanguageNameId": 7408,
+    "Repeatable": false,
+    "ResearchTime": 1,
+    "internal_name": "Spy Technology"
+   },
+   "435": {
+    "Cost": {
+     "Food": 150,
+     "Gold": 100
+    },
+    "ID": 435,
+    "LanguageNameId": 7409,
+    "Repeatable": true,
+    "ResearchTime": 50,
+    "internal_name": "Bloodlines"
+   },
+   "436": {
+    "Cost": {
+     "Food": 200,
+     "Gold": 250
+    },
+    "ID": 436,
+    "LanguageNameId": 7415,
+    "Repeatable": true,
+    "ResearchTime": 65,
+    "internal_name": "Parthian Tactics"
+   },
+   "437": {
+    "Cost": {
+     "Food": 300,
+     "Wood": 250
+    },
+    "ID": 437,
+    "LanguageNameId": 7411,
+    "Repeatable": true,
+    "ResearchTime": 45,
+    "internal_name": "Thumb Ring"
+   },
+   "438": {
+    "Cost": {
+     "Food": 0,
+     "Gold": 200
+    },
+    "ID": 438,
+    "LanguageNameId": 7416,
+    "Repeatable": false,
+    "ResearchTime": 75,
+    "internal_name": "Theocracy"
+   },
+   "439": {
+    "Cost": {
+     "Food": 0,
+     "Gold": 1000
+    },
+    "ID": 439,
+    "LanguageNameId": 7412,
+    "Repeatable": false,
+    "ResearchTime": 60,
+    "internal_name": "Heresy"
+   },
+   "441": {
+    "Cost": {
+     "Food": 0,
+     "Gold": 200
+    },
+    "ID": 441,
+    "LanguageNameId": 7435,
+    "Repeatable": true,
+    "ResearchTime": 35,
+    "internal_name": "Herbal Medicine"
+   },
+   "460": {
+    "Cost": {
+     "Food": 400,
+     "Gold": 350
+    },
+    "ID": 460,
+    "LanguageNameId": 7326,
+    "Repeatable": true,
+    "ResearchTime": 40,
+    "internal_name": "Aztec Sacrifice"
+   },
+   "493": {
+    "Cost": {
+     "Gold": 500,
+     "Wood": 600
+    },
+    "ID": 493,
+    "LanguageNameId": 7287,
+    "Repeatable": true,
+    "ResearchTime": 40,
+    "internal_name": "Franks UT"
+   },
+   "602": {
+    "Cost": {
+     "Food": 75,
+     "Gold": 25
+    },
+    "ID": 602,
+    "LanguageNameId": 7258,
+    "Repeatable": true,
+    "ResearchTime": 25,
+    "internal_name": "Arson"
+   },
+   "608": {
+    "Cost": {
+     "Food": 250,
+     "Wood": 250
+    },
+    "ID": 608,
+    "LanguageNameId": 7278,
+    "Repeatable": true,
+    "ResearchTime": 25,
+    "internal_name": "Arrowslits"
+   },
+   "875": {
+    "Cost": {
+     "Food": 50,
+     "Gold": 100
+    },
+    "ID": 875,
+    "LanguageNameId": 7450,
+    "Repeatable": false,
+    "ResearchTime": 25,
+    "internal_name": "Gambesons"
+   },
+   "906": {
+    "Cost": {
+     "Food": 50,
+     "Wood": 100
+    },
+    "ID": 906,
+    "LanguageNameId": 507005,
+    "Repeatable": true,
+    "ResearchTime": 20,
+    "internal_name": "Fishing Lines"
+   },
+   "907": {
+    "Cost": {
+     "Food": 350,
+     "Wood": 200
+    },
+    "ID": 907,
+    "LanguageNameId": 507004,
+    "Repeatable": true,
+    "ResearchTime": 60,
+    "internal_name": "Carvel Hull"
+   },
+   "908": {
+    "Cost": {
+     "Food": 150,
+     "Wood": 100
+    },
+    "ID": 908,
+    "LanguageNameId": 507003,
+    "Repeatable": true,
+    "ResearchTime": 50,
+    "internal_name": "Clinker Construction"
+   },
+   "909": {
+    "Cost": {
+     "Food": 100,
+     "Gold": 175
+    },
+    "ID": 909,
+    "LanguageNameId": 507006,
+    "Repeatable": true,
+    "ResearchTime": 45,
+    "internal_name": "Carvel Hull"
+   },
+   "910": {
+    "Cost": {
+     "Food": 200,
+     "Gold": 325
+    },
+    "ID": 910,
+    "LanguageNameId": 507007,
+    "Repeatable": true,
+    "ResearchTime": 50,
+    "internal_name": "Clinker Construction"
+   },
+   "921": {
+    "Cost": {
+     "Food": 550,
+     "Gold": 400
+    },
+    "ID": 921,
+    "LanguageNameId": 7406,
+    "Repeatable": true,
+    "ResearchTime": 45,
+    "internal_name": "Fereters"
+   },
+   "922": {
+    "Cost": {
+     "Gold": 300,
+     "Wood": 350
+    },
+    "ID": 922,
+    "LanguageNameId": 7407,
+    "Repeatable": true,
+    "ResearchTime": 45,
+    "internal_name": "Cilician Fleet"
+   },
+   "1452": {
+    "Cost": {
+     "Food": 300,
+     "Gold": 200
+    },
+    "ID": 1452,
+    "LanguageNameId": 507024,
+    "Repeatable": true,
+    "ResearchTime": 70,
+    "internal_name": "Cranequins"
+   },
+   "1496": {
+    "Cost": {
+     "Food": 400,
+     "Gold": 250
+    },
+    "ID": 1496,
+    "LanguageNameId": 507025,
+    "Repeatable": true,
+    "ResearchTime": 40,
+    "internal_name": "Ordonnance Companies"
+   }
+  },
+  "Building": {
+   "12": {
+    "AccuracyPercent": 0,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 7,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 0,
+    "Attacks": [],
+    "Cost": {
+     "Wood": 175
+    },
+    "GarrisonCapacity": 10,
+    "HP": 1200,
+    "ID": 12,
+    "LanguageNameId": 5135,
+    "LineOfSight": 6,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 7,
+    "Range": 0,
+    "ReloadTime": 0,
+    "TrainTime": 50,
+    "internal_name": "Barracks Age1"
+   },
+   "45": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 7,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 3,
+    "Attacks": [
+     {
+      "Amount": 0,
+      "Class": 16
+     },
+     {
+      "Amount": 1,
+      "Class": 30
+     },
+     {
+      "Amount": 3,
+      "Class": 3
+     }
+    ],
+    "Cost": {
+     "Wood": 150
+    },
+    "GarrisonCapacity": 5,
+    "HP": 1800,
+    "ID": 45,
+    "LanguageNameId": 5144,
+    "LineOfSight": 8,
+    "MeleeArmor": 0,
+    "MinRange": 1,
+    "PierceArmor": 7,
+    "Range": 6,
+    "ReloadTime": 3,
+    "TrainTime": 35,
+    "internal_name": "DOCK"
+   },
+   "49": {
+    "AccuracyPercent": 0,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 1,
+      "Class": 4
+     },
+     {
+      "Amount": 8,
+      "Class": 3
+     },
+     {
+      "Amount": 1,
+      "Class": 31
+     }
+    ],
+    "Attack": 0,
+    "Attacks": [],
+    "Cost": {
+     "Wood": 200
+    },
+    "GarrisonCapacity": 10,
+    "HP": 1500,
+    "ID": 49,
+    "LanguageNameId": 5169,
+    "LineOfSight": 6,
+    "MeleeArmor": 1,
+    "MinRange": 0,
+    "PierceArmor": 8,
+    "Range": 0,
+    "ReloadTime": 0,
+    "TrainTime": 40,
+    "internal_name": "SIWS"
+   },
+   "50": {
+    "AccuracyPercent": 0,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 0,
+    "Attacks": [],
+    "Cost": {
+     "Wood": 60
+    },
+    "GarrisonCapacity": 0,
+    "HP": 480,
+    "ID": 50,
+    "LanguageNameId": 5149,
+    "LineOfSight": 1,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 0,
+    "Range": 0,
+    "ReloadTime": 0,
+    "TrainTime": 15,
+    "internal_name": "FARM"
+   },
+   "68": {
+    "AccuracyPercent": 0,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 7,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 0,
+    "Attacks": [],
+    "Cost": {
+     "Wood": 100
+    },
+    "GarrisonCapacity": 0,
+    "HP": 600,
+    "ID": 68,
+    "LanguageNameId": 5157,
+    "LineOfSight": 6,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 7,
+    "Range": 0,
+    "ReloadTime": 0,
+    "TrainTime": 35,
+    "internal_name": "MILL"
+   },
+   "70": {
+    "AccuracyPercent": 0,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": -2,
+      "Class": 4
+     },
+     {
+      "Amount": 7,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     },
+     {
+      "Amount": 0,
+      "Class": 40
+     }
+    ],
+    "Attack": 0,
+    "Attacks": [],
+    "Cost": {
+     "Wood": 25
+    },
+    "GarrisonCapacity": 0,
+    "HP": 550,
+    "ID": 70,
+    "LanguageNameId": 5344,
+    "LineOfSight": 2,
+    "MeleeArmor": -2,
+    "MinRange": 0,
+    "PierceArmor": 7,
+    "Range": 0,
+    "ReloadTime": 0,
+    "TrainTime": 25,
+    "internal_name": "HOUS"
+   },
+   "72": {
+    "AccuracyPercent": 0,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 2,
+      "Class": 4
+     },
+     {
+      "Amount": 5,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 22
+     },
+     {
+      "Amount": 2,
+      "Class": 31
+     },
+     {
+      "Amount": 0,
+      "Class": 40
+     }
+    ],
+    "Attack": 0,
+    "Attacks": [],
+    "Cost": {
+     "Wood": 3
+    },
+    "GarrisonCapacity": 0,
+    "HP": 150,
+    "ID": 72,
+    "LanguageNameId": 5202,
+    "LineOfSight": 2,
+    "MeleeArmor": 2,
+    "MinRange": 0,
+    "PierceArmor": 5,
+    "Range": 0,
+    "ReloadTime": 0,
+    "TrainTime": 7,
+    "internal_name": "WALL"
+   },
+   "79": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 1,
+      "Class": 4
+     },
+     {
+      "Amount": 7,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 13
+     },
+     {
+      "Amount": 1,
+      "Class": 31
+     }
+    ],
+    "Attack": 5,
+    "Attacks": [
+     {
+      "Amount": 2,
+      "Class": 27
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 5,
+      "Class": 16
+     },
+     {
+      "Amount": 5,
+      "Class": 3
+     },
+     {
+      "Amount": 1,
+      "Class": 30
+     }
+    ],
+    "Cost": {
+     "Stone": 125,
+     "Wood": 35
+    },
+    "GarrisonCapacity": 5,
+    "HP": 850,
+    "ID": 79,
+    "LanguageNameId": 5178,
+    "LineOfSight": 10,
+    "MeleeArmor": 1,
+    "MinRange": 1,
+    "PierceArmor": 7,
+    "Range": 8,
+    "ReloadTime": 2,
+    "TrainTime": 80,
+    "internal_name": "WCTW"
+   },
+   "82": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 26
+     },
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 8,
+      "Class": 11
+     },
+     {
+      "Amount": 8,
+      "Class": 4
+     },
+     {
+      "Amount": 11,
+      "Class": 3
+     },
+     {
+      "Amount": 8,
+      "Class": 31
+     }
+    ],
+    "Attack": 11,
+    "Attacks": [
+     {
+      "Amount": 2,
+      "Class": 27
+     },
+     {
+      "Amount": 0,
+      "Class": 16
+     },
+     {
+      "Amount": 11,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 17
+     },
+     {
+      "Amount": 0,
+      "Class": 30
+     },
+     {
+      "Amount": 0,
+      "Class": 1
+     }
+    ],
+    "Cost": {
+     "Stone": 650,
+     "Wood": 0
+    },
+    "GarrisonCapacity": 20,
+    "HP": 4800,
+    "ID": 82,
+    "LanguageNameId": 5142,
+    "LineOfSight": 11,
+    "MeleeArmor": 8,
+    "MinRange": 1,
+    "PierceArmor": 11,
+    "Range": 8,
+    "ReloadTime": 2,
+    "TrainTime": 200,
+    "internal_name": "CSTL"
+   },
+   "84": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 1,
+      "Class": 4
+     },
+     {
+      "Amount": 8,
+      "Class": 3
+     },
+     {
+      "Amount": 1,
+      "Class": 31
+     }
+    ],
+    "Attack": 0,
+    "Attacks": [],
+    "Cost": {
+     "Wood": 175
+    },
+    "GarrisonCapacity": 10,
+    "HP": 1800,
+    "ID": 84,
+    "LanguageNameId": 5161,
+    "LineOfSight": 6,
+    "MeleeArmor": 1,
+    "MinRange": 0,
+    "PierceArmor": 8,
+    "Range": 0,
+    "ReloadTime": 0,
+    "TrainTime": 60,
+    "internal_name": "MRKT"
+   },
+   "87": {
+    "AccuracyPercent": 0,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 1,
+      "Class": 4
+     },
+     {
+      "Amount": 8,
+      "Class": 3
+     },
+     {
+      "Amount": 1,
+      "Class": 31
+     }
+    ],
+    "Attack": 0,
+    "Attacks": [],
+    "Cost": {
+     "Wood": 175
+    },
+    "GarrisonCapacity": 10,
+    "HP": 1500,
+    "ID": 87,
+    "LanguageNameId": 5128,
+    "LineOfSight": 6,
+    "MeleeArmor": 1,
+    "MinRange": 0,
+    "PierceArmor": 8,
+    "Range": 0,
+    "ReloadTime": 0,
+    "TrainTime": 50,
+    "internal_name": "ARRG"
+   },
+   "101": {
+    "AccuracyPercent": 0,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 1,
+      "Class": 4
+     },
+     {
+      "Amount": 8,
+      "Class": 3
+     },
+     {
+      "Amount": 1,
+      "Class": 31
+     }
+    ],
+    "Attack": 0,
+    "Attacks": [],
+    "Cost": {
+     "Wood": 175
+    },
+    "GarrisonCapacity": 10,
+    "HP": 1500,
+    "ID": 101,
+    "LanguageNameId": 5171,
+    "LineOfSight": 6,
+    "MeleeArmor": 1,
+    "MinRange": 0,
+    "PierceArmor": 8,
+    "Range": 0,
+    "ReloadTime": 0,
+    "TrainTime": 50,
+    "internal_name": "STBL"
+   },
+   "103": {
+    "AccuracyPercent": 0,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 7,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 0,
+    "Attacks": [],
+    "Cost": {
+     "Wood": 150
+    },
+    "GarrisonCapacity": 0,
+    "HP": 1800,
+    "ID": 103,
+    "LanguageNameId": 5131,
+    "LineOfSight": 6,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 7,
+    "Range": 0,
+    "ReloadTime": 0,
+    "TrainTime": 40,
+    "internal_name": "BLAC"
+   },
+   "104": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 7,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 0,
+    "Attacks": [],
+    "Cost": {
+     "Wood": 175
+    },
+    "GarrisonCapacity": 10,
+    "HP": 2100,
+    "ID": 104,
+    "LanguageNameId": 5138,
+    "LineOfSight": 6,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 7,
+    "Range": 0,
+    "ReloadTime": 0,
+    "TrainTime": 40,
+    "internal_name": "CRCH"
+   },
+   "109": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 3,
+      "Class": 4
+     },
+     {
+      "Amount": 5,
+      "Class": 3
+     },
+     {
+      "Amount": 3,
+      "Class": 31
+     }
+    ],
+    "Attack": 5,
+    "Attacks": [
+     {
+      "Amount": 5,
+      "Class": 3
+     }
+    ],
+    "Cost": {
+     "Stone": 100,
+     "Wood": 275
+    },
+    "GarrisonCapacity": 15,
+    "HP": 2400,
+    "ID": 109,
+    "LanguageNameId": 5164,
+    "LineOfSight": 8,
+    "MeleeArmor": 3,
+    "MinRange": 0,
+    "PierceArmor": 5,
+    "Range": 6,
+    "ReloadTime": 2,
+    "TrainTime": 100,
+    "internal_name": "RTWC"
+   },
+   "117": {
+    "AccuracyPercent": 0,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 16,
+      "Class": 11
+     },
+     {
+      "Amount": 8,
+      "Class": 4
+     },
+     {
+      "Amount": 10,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 13
+     },
+     {
+      "Amount": 0,
+      "Class": 22
+     },
+     {
+      "Amount": 8,
+      "Class": 31
+     }
+    ],
+    "Attack": 0,
+    "Attacks": [],
+    "Cost": {
+     "Stone": 5
+    },
+    "GarrisonCapacity": 0,
+    "HP": 1080,
+    "ID": 117,
+    "LanguageNameId": 5203,
+    "LineOfSight": 2,
+    "MeleeArmor": 8,
+    "MinRange": 0,
+    "PierceArmor": 10,
+    "Range": 0,
+    "ReloadTime": 0,
+    "TrainTime": 10,
+    "internal_name": "WALL2"
+   },
+   "155": {
+    "AccuracyPercent": 0,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 24,
+      "Class": 11
+     },
+     {
+      "Amount": 12,
+      "Class": 4
+     },
+     {
+      "Amount": 12,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 13
+     },
+     {
+      "Amount": 0,
+      "Class": 22
+     },
+     {
+      "Amount": 12,
+      "Class": 31
+     }
+    ],
+    "Attack": 0,
+    "Attacks": [],
+    "Cost": {
+     "Stone": 5
+    },
+    "GarrisonCapacity": 0,
+    "HP": 3000,
+    "ID": 155,
+    "LanguageNameId": 5204,
+    "LineOfSight": 2,
+    "MeleeArmor": 12,
+    "MinRange": 0,
+    "PierceArmor": 12,
+    "Range": 0,
+    "ReloadTime": 0,
+    "TrainTime": 10,
+    "internal_name": "WALL3"
+   },
+   "199": {
+    "AccuracyPercent": 0,
+    "Armours": [
+     {
+      "Amount": 1,
+      "Class": 4
+     },
+     {
+      "Amount": 1,
+      "Class": 3
+     },
+     {
+      "Amount": 10,
+      "Class": 11
+     },
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 0,
+    "Attacks": [],
+    "Cost": {
+     "Wood": 100
+    },
+    "GarrisonCapacity": 0,
+    "HP": 250,
+    "ID": 199,
+    "LanguageNameId": 5495,
+    "LineOfSight": 1,
+    "MeleeArmor": 1,
+    "MinRange": 0,
+    "PierceArmor": 1,
+    "Range": 0,
+    "ReloadTime": 0,
+    "TrainTime": 40,
+    "internal_name": "FTRAP"
+   },
+   "209": {
+    "AccuracyPercent": 0,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 2,
+      "Class": 4
+     },
+     {
+      "Amount": 9,
+      "Class": 3
+     },
+     {
+      "Amount": 2,
+      "Class": 31
+     }
+    ],
+    "Attack": 0,
+    "Attacks": [],
+    "Cost": {
+     "Wood": 200
+    },
+    "GarrisonCapacity": 0,
+    "HP": 2100,
+    "ID": 209,
+    "LanguageNameId": 5176,
+    "LineOfSight": 6,
+    "MeleeArmor": 2,
+    "MinRange": 0,
+    "PierceArmor": 9,
+    "Range": 0,
+    "ReloadTime": 0,
+    "TrainTime": 60,
+    "internal_name": "UNIV"
+   },
+   "234": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 2,
+      "Class": 4
+     },
+     {
+      "Amount": 8,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 13
+     },
+     {
+      "Amount": 2,
+      "Class": 31
+     }
+    ],
+    "Attack": 7,
+    "Attacks": [
+     {
+      "Amount": 2,
+      "Class": 27
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 7,
+      "Class": 16
+     },
+     {
+      "Amount": 7,
+      "Class": 3
+     },
+     {
+      "Amount": 1,
+      "Class": 30
+     }
+    ],
+    "Cost": {
+     "Stone": 125,
+     "Wood": 35
+    },
+    "GarrisonCapacity": 5,
+    "HP": 1500,
+    "ID": 234,
+    "LanguageNameId": 5154,
+    "LineOfSight": 10,
+    "MeleeArmor": 2,
+    "MinRange": 1,
+    "PierceArmor": 8,
+    "Range": 8,
+    "ReloadTime": 2,
+    "TrainTime": 80,
+    "internal_name": "WCTW2"
+   },
+   "235": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 3,
+      "Class": 4
+     },
+     {
+      "Amount": 9,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 13
+     },
+     {
+      "Amount": 3,
+      "Class": 31
+     }
+    ],
+    "Attack": 8,
+    "Attacks": [
+     {
+      "Amount": 2,
+      "Class": 27
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 8,
+      "Class": 16
+     },
+     {
+      "Amount": 8,
+      "Class": 3
+     },
+     {
+      "Amount": 1,
+      "Class": 30
+     }
+    ],
+    "Cost": {
+     "Stone": 125,
+     "Wood": 35
+    },
+    "GarrisonCapacity": 5,
+    "HP": 2250,
+    "ID": 235,
+    "LanguageNameId": 5155,
+    "LineOfSight": 10,
+    "MeleeArmor": 3,
+    "MinRange": 1,
+    "PierceArmor": 9,
+    "Range": 8,
+    "ReloadTime": 2,
+    "TrainTime": 80,
+    "internal_name": "WCTW3"
+   },
+   "236": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 3,
+      "Class": 4
+     },
+     {
+      "Amount": 9,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 13
+     },
+     {
+      "Amount": 0,
+      "Class": 23
+     },
+     {
+      "Amount": 3,
+      "Class": 31
+     }
+    ],
+    "Attack": 120,
+    "Attacks": [
+     {
+      "Amount": 40,
+      "Class": 16
+     },
+     {
+      "Amount": 120,
+      "Class": 3
+     },
+     {
+      "Amount": 1,
+      "Class": 30
+     }
+    ],
+    "Cost": {
+     "Gold": 100,
+     "Stone": 125,
+     "Wood": 0
+    },
+    "GarrisonCapacity": 5,
+    "HP": 2220,
+    "ID": 236,
+    "LanguageNameId": 5156,
+    "LineOfSight": 10,
+    "MeleeArmor": 3,
+    "MinRange": 1,
+    "PierceArmor": 9,
+    "Range": 8,
+    "ReloadTime": 6,
+    "TrainTime": 80,
+    "internal_name": "WCTW4"
+   },
+   "276": {
+    "AccuracyPercent": 0,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 0
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 3,
+      "Class": 4
+     },
+     {
+      "Amount": 10,
+      "Class": 3
+     },
+     {
+      "Amount": 3,
+      "Class": 31
+     }
+    ],
+    "Attack": 0,
+    "Attacks": [],
+    "Cost": {
+     "Gold": 1000,
+     "Stone": 1000,
+     "Wood": 1000
+    },
+    "GarrisonCapacity": 0,
+    "HP": 4800,
+    "ID": 276,
+    "LanguageNameId": 5182,
+    "LineOfSight": 8,
+    "MeleeArmor": 3,
+    "MinRange": 0,
+    "PierceArmor": 10,
+    "Range": 0,
+    "ReloadTime": 0,
+    "TrainTime": 3500,
+    "internal_name": "WNDR"
+   },
+   "487": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 20,
+      "Class": 11
+     },
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 13
+     },
+     {
+      "Amount": 0,
+      "Class": 22
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 0,
+    "Attacks": [],
+    "Cost": {
+     "Stone": 30
+    },
+    "GarrisonCapacity": 0,
+    "HP": 1650,
+    "ID": 487,
+    "LanguageNameId": 5185,
+    "LineOfSight": 6,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 0,
+    "Range": 0,
+    "ReloadTime": 0,
+    "TrainTime": 70,
+    "internal_name": "GTAX2"
+   },
+   "562": {
+    "AccuracyPercent": 0,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 7,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 0,
+    "Attacks": [],
+    "Cost": {
+     "Wood": 100
+    },
+    "GarrisonCapacity": 0,
+    "HP": 600,
+    "ID": 562,
+    "LanguageNameId": 5464,
+    "LineOfSight": 6,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 7,
+    "Range": 0,
+    "ReloadTime": 0,
+    "TrainTime": 35,
+    "internal_name": "SMIL"
+   },
+   "584": {
+    "AccuracyPercent": 0,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 7,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 0,
+    "Attacks": [],
+    "Cost": {
+     "Wood": 100
+    },
+    "GarrisonCapacity": 0,
+    "HP": 600,
+    "ID": 584,
+    "LanguageNameId": 5487,
+    "LineOfSight": 6,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 7,
+    "Range": 0,
+    "ReloadTime": 0,
+    "TrainTime": 35,
+    "internal_name": "MINE"
+   },
+   "598": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 0,
+    "Attacks": [],
+    "Cost": {
+     "Stone": 5,
+     "Wood": 25
+    },
+    "GarrisonCapacity": 0,
+    "HP": 500,
+    "ID": 598,
+    "LanguageNameId": 5504,
+    "LineOfSight": 6,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 0,
+    "Range": 0,
+    "ReloadTime": 0,
+    "TrainTime": 15,
+    "internal_name": "WCTWX"
+   },
+   "621": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 7,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 0,
+    "Attacks": [],
+    "Cost": {
+     "Stone": 100,
+     "Wood": 275
+    },
+    "GarrisonCapacity": 0,
+    "HP": 2400,
+    "ID": 621,
+    "LanguageNameId": 5164,
+    "LineOfSight": 8,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 7,
+    "Range": 6,
+    "ReloadTime": 2,
+    "TrainTime": 150,
+    "internal_name": "RTWC1X"
+   },
+   "792": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 0,
+      "Class": 4
+     },
+     {
+      "Amount": 0,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 22
+     },
+     {
+      "Amount": 0,
+      "Class": 31
+     }
+    ],
+    "Attack": 0,
+    "Attacks": [],
+    "Cost": {
+     "Wood": 30
+    },
+    "GarrisonCapacity": 0,
+    "HP": 240,
+    "ID": 792,
+    "LanguageNameId": 5186,
+    "LineOfSight": 6,
+    "MeleeArmor": 0,
+    "MinRange": 0,
+    "PierceArmor": 0,
+    "Range": 0,
+    "ReloadTime": 0,
+    "TrainTime": 30,
+    "internal_name": "PGTAX"
+   },
+   "1806": {
+    "AccuracyPercent": 100,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 4,
+      "Class": 4
+     },
+     {
+      "Amount": 10,
+      "Class": 3
+     },
+     {
+      "Amount": 0,
+      "Class": 13
+     },
+     {
+      "Amount": 4,
+      "Class": 31
+     }
+    ],
+    "Attack": 5,
+    "Attacks": [
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 5,
+      "Class": 16
+     },
+     {
+      "Amount": 5,
+      "Class": 3
+     },
+     {
+      "Amount": 1,
+      "Class": 30
+     }
+    ],
+    "Cost": {
+     "Wood": 200
+    },
+    "GarrisonCapacity": 10,
+    "HP": 2400,
+    "ID": 1806,
+    "LanguageNameId": 5038,
+    "LineOfSight": 10,
+    "MeleeArmor": 4,
+    "MinRange": 1,
+    "PierceArmor": 10,
+    "Range": 4,
+    "ReloadTime": 2,
+    "TrainTime": 50,
+    "internal_name": "FORTCRCH"
+   },
+   "1808": {
+    "AccuracyPercent": 0,
+    "Armours": [
+     {
+      "Amount": 0,
+      "Class": 21
+     },
+     {
+      "Amount": 0,
+      "Class": 11
+     },
+     {
+      "Amount": 1,
+      "Class": 4
+     },
+     {
+      "Amount": 2,
+      "Class": 3
+     },
+     {
+      "Amount": 1,
+      "Class": 31
+     }
+    ],
+    "Attack": 0,
+    "Attacks": [],
+    "Cost": {
+     "Food": 20,
+     "Wood": 80
+    },
+    "GarrisonCapacity": 0,
+    "HP": 300,
+    "ID": 1808,
+    "LanguageNameId": 5045,
+    "LineOfSight": 4,
+    "MeleeArmor": 1,
+    "MinRange": 0,
+    "PierceArmor": 2,
+    "Range": 0,
+    "ReloadTime": 0,
+    "TrainTime": 25,
+    "internal_name": "MULECART"
+   }
+  },
+  "unit_upgrades": {
+   "6": {
+    "Cost": {
+     "Gold": 130,
+     "Wood": 230
+    },
+    "ID": 98,
+    "ResearchTime": 50,
+    "internal_name": "Elite Skirmisher"
+   },
+   "21": {
+    "Cost": {
+     "Gold": 100,
+     "Wood": 150
+    },
+    "ID": 34,
+    "ResearchTime": 50,
+    "internal_name": "War Galley"
+   },
+   "24": {
+    "Cost": {
+     "Food": 175,
+     "Gold": 100
+    },
+    "ID": 100,
+    "ResearchTime": 35,
+    "internal_name": "Crossbow"
+   },
+   "75": {
+    "Cost": {
+     "Food": 100,
+     "Gold": 40
+    },
+    "ID": 222,
+    "ResearchTime": 40,
+    "internal_name": "Man-At-Arms"
+   },
+   "77": {
+    "Cost": {
+     "Food": 150,
+     "Gold": 65
+    },
+    "ID": 207,
+    "ResearchTime": 40,
+    "internal_name": "Long Swordsman"
+   },
+   "283": {
+    "Cost": {
+     "Food": 300,
+     "Gold": 300
+    },
+    "ID": 209,
+    "ResearchTime": 80,
+    "internal_name": "Cavalier"
+   },
+   "358": {
+    "Cost": {
+     "Food": 160,
+     "Gold": 90
+    },
+    "ID": 197,
+    "ResearchTime": 35,
+    "internal_name": "Pikeman"
+   },
+   "359": {
+    "Cost": {
+     "Food": 300,
+     "Gold": 600
+    },
+    "ID": 429,
+    "ResearchTime": 50,
+    "internal_name": "Halberdier"
+   },
+   "422": {
+    "Cost": {
+     "Food": 300
+    },
+    "ID": 96,
+    "ResearchTime": 50,
+    "internal_name": "Capped Ram"
+   },
+   "441": {
+    "Cost": {
+     "Food": 500,
+     "Gold": 600
+    },
+    "ID": 428,
+    "ResearchTime": 50,
+    "internal_name": "Hussar"
+   },
+   "442": {
+    "Cost": {
+     "Gold": 315,
+     "Wood": 400
+    },
+    "ID": 35,
+    "ResearchTime": 65,
+    "internal_name": "Galleon"
+   },
+   "473": {
+    "Cost": {
+     "Food": 200,
+     "Gold": 100
+    },
+    "ID": 217,
+    "ResearchTime": 45,
+    "internal_name": "Two-Handed Swordsman"
+   },
+   "474": {
+    "Cost": {
+     "Food": 900,
+     "Gold": 500
+    },
+    "ID": 218,
+    "ResearchTime": 50,
+    "internal_name": "Heavy Cavalry Archer"
+   },
+   "492": {
+    "Cost": {
+     "Food": 450,
+     "Gold": 350
+    },
+    "ID": 237,
+    "ResearchTime": 50,
+    "internal_name": "Arbalest"
+   },
+   "527": {
+    "Cost": {
+     "Gold": 75,
+     "Wood": 25
+    },
+    "ID": 905,
+    "ResearchTime": 20,
+    "internal_name": "Demolition Ship"
+   },
+   "528": {
+    "Cost": {
+     "Gold": 300,
+     "Wood": 250
+    },
+    "ID": 244,
+    "ResearchTime": 50,
+    "internal_name": "Heavy Demolition"
+   },
+   "529": {
+    "Cost": {
+     "Gold": 100,
+     "Wood": 150
+    },
+    "ID": 34,
+    "ResearchTime": 50,
+    "internal_name": "War Galley"
+   },
+   "531": {
+    "Cost": {
+     "Food": 850,
+     "Gold": 550
+    },
+    "ID": 363,
+    "ResearchTime": 45,
+    "internal_name": "Elite Throwing Axemen"
+   },
+   "532": {
+    "Cost": {
+     "Gold": 315,
+     "Wood": 400
+    },
+    "ID": 35,
+    "ResearchTime": 65,
+    "internal_name": "Galleon"
+   },
+   "542": {
+    "Cost": {
+     "Food": 800,
+     "Wood": 750
+    },
+    "ID": 239,
+    "ResearchTime": 50,
+    "internal_name": "Heavy Scorpion"
+   },
+   "546": {
+    "Cost": {
+     "Food": 150,
+     "Gold": 50
+    },
+    "ID": 254,
+    "ResearchTime": 45,
+    "internal_name": "Light Cavalry"
+   },
+   "548": {
+    "Cost": {
+     "Food": 1000
+    },
+    "ID": 255,
+    "ResearchTime": 75,
+    "internal_name": "Siege Ram"
+   },
+   "550": {
+    "Cost": {
+     "Food": 800,
+     "Gold": 500
+    },
+    "ID": 257,
+    "ResearchTime": 75,
+    "internal_name": "Onager"
+   },
+   "567": {
+    "Cost": {
+     "Food": 650,
+     "Gold": 350
+    },
+    "ID": 264,
+    "ResearchTime": 70,
+    "internal_name": "Champion"
+   },
+   "569": {
+    "Cost": {
+     "Food": 1300,
+     "Gold": 750
+    },
+    "ID": 265,
+    "ResearchTime": 170,
+    "internal_name": "Paladin"
+   },
+   "588": {
+    "Cost": {
+     "Food": 1450,
+     "Gold": 1000
+    },
+    "ID": 320,
+    "ResearchTime": 150,
+    "internal_name": "Siege Onager"
+   },
+   "691": {
+    "Cost": {
+     "Gold": 500,
+     "Wood": 525
+    },
+    "ID": 376,
+    "ResearchTime": 30,
+    "internal_name": "Elite Cannon Galley"
+   },
+   "726": {
+    "Cost": {
+     "Food": 1000,
+     "Gold": 500
+    },
+    "ID": 432,
+    "ResearchTime": 45,
+    "internal_name": "Elite Jaguar Man"
+   },
+   "752": {
+    "Cost": {
+     "Food": 800,
+     "Gold": 500
+    },
+    "ID": 434,
+    "ResearchTime": 50,
+    "internal_name": "Elite Eagle Warrior"
+   },
+   "753": {
+    "Cost": {
+     "Food": 200,
+     "Gold": 200
+    },
+    "ID": 384,
+    "ResearchTime": 50,
+    "internal_name": "Heavy Eagle Warrior"
+   },
+   "875": {
+    "Cost": {
+     "Food": 900,
+     "Gold": 500
+    },
+    "ID": 481,
+    "ResearchTime": 80,
+    "internal_name": "Elite Elephant Archer"
+   },
+   "1802": {
+    "Cost": {
+     "Gold": 500,
+     "Wood": 600
+    },
+    "ID": 918,
+    "ResearchTime": 45,
+    "internal_name": "Elite Composite Bowman"
+   },
+   "2627": {
+    "Cost": {
+     "Gold": 100,
+     "Wood": 150
+    },
+    "ID": 34,
+    "ResearchTime": 50,
+    "internal_name": "War Galley"
+   },
+   "2628": {
+    "Cost": {
+     "Gold": 315,
+     "Wood": 400
+    },
+    "ID": 35,
+    "ResearchTime": 65,
+    "internal_name": "Galleon"
+   },
+   "2701": {
+    "Cost": {
+     "Food": 1000,
+     "Gold": 650
+    },
+    "ID": 1451,
+    "ResearchTime": 50,
+    "internal_name": "Heavy Mounted Crossbowman"
+   }
+  }
+ },
+ "tech_tree_strings": {
+  "Age of Empires II": "1001",
+  "Building": "300084",
+  "Civilization": "9681",
+  "Common": "20132",
+  "Key": "300081",
+  "Regional": "20133",
+  "Technology": "300085",
+  "Technology Tree": "9799",
+  "Unique": "20134",
+  "Unique Unit": "300082",
+  "Unit": "300083",
+  "mode": "1"
+ }
+}

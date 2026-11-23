@@ -1,0 +1,84 @@
+# Britanos · Arabia · 1v1 — T36. Aprobada por el mantenedor.
+# Plan: arqueros en Feudal desde dos galerías de tiro con arco → ballesteros en Castillos.
+#   Cicero (Build Order Reference), "23 pop Archers": pasos, reparto de aldeanos y referencias
+#   ("6 archers + fletching", "Click Castle with 24 archers"). aoebuilds: arqueros sin parar desde dos galerías.
+#   aoevolve (guía de Britanos, actualizada 14/10/2026): paso a ballesteros en Castillos.
+# Mecánicas verificadas contra los datos del parche 188329: pastores +25 %, arqueros a pie +1 de alcance
+# en Castillos (+2 en Imperial); los Britanos no tienen Dactilera.
+# Notas de revisión:
+#  - Población para Castillos (62): aproximada a partir de Cicero (24 arqueros + unos 38 aldeanos).
+#  - Reparto en Feudal (13/9/0): de la tabla de Cicero. Castillos (16/14/8): su última fila, aproximada.
+#  - Orden de mejoras: criterio propio (Cicero solo prioriza Emplumado de flechas).
+civ: Britons
+map: arabia
+role: 1v1
+sources:
+  - title: "Build Order Reference (Cicero) — 23 pop Archers: reparto de aldeanos, pasos y tiempos de referencia"
+    url: "https://johsaoe2debuildorderreference.site44.com/23-pop-archers.html"
+  - title: "aoebuilds — Main Build Orders: Archer Rush (arqueros sin parar desde dos galerías de tiro con arco)"
+    url: "https://www.aoebuilds.com/main-build-orders"
+  - title: "aoevolve — Britons Guide (actualizada 14/10/2026): ballesteros en Castillos, alabasteros y Lobo de guerra"
+    url: "https://aoevolve.com/civilizations/britons-guide/"
+economy:
+  opening:
+    es: "Arqueros en Feudal desde dos galerías de tiro con arco y paso a ballesteros en Castillos"
+    en: "Feudal archers from two archery ranges into Castle Age crossbows"
+  ageUpPop:
+    feudal: 23
+    castle: 62
+  villagers:
+    feudal: { food: 13, wood: 9, gold: 0, stone: 0 }
+    castle: { food: 16, wood: 14, gold: 8, stone: 0 }
+  buildOrder:
+    - pop: 6
+      text:
+        es: "Aldeanos 1-6 a las ovejas (los pastores de los Britanos trabajan un 25 % más rápido)"
+        en: "Villagers 1-6 to sheep (Briton shepherds work 25% faster)"
+    - pop: 10
+      text:
+        es: "Aldeanos 7-10 a la madera con el campamento maderero"
+        en: "Villagers 7-10 to wood with the lumber camp"
+    - pop: 11
+      text:
+        es: "Aldeano 11: atrae el primer jabalí"
+        en: "Villager 11: lure the first boar"
+    - pop: 15
+      text:
+        es: "Aldeanos 12-15 a las bayas con el molino"
+        en: "Villagers 12-15 to berries with the mill"
+    - pop: 17
+      text:
+        es: "Aldeanos 16-17 al segundo jabalí; uno de comida empieza la primera granja"
+        en: "Villagers 16-17 to the second boar; one food villager starts the first farm"
+    - pop: 23
+      text:
+        es: "El resto a la madera con un segundo campamento. Telar y sube a Feudal"
+        en: "The rest to wood with a second lumber camp. Loom and click up to Feudal"
+    - pop: 23
+      text:
+        es: "Mientras sube: cuartel; pasa aldeanos de comida hasta tener 11 en madera y 3 en oro"
+        en: "While advancing: barracks; move food villagers until you have 11 on wood and 3 on gold"
+    - pop: 23
+      text:
+        es: "Al llegar a Feudal: dos galerías de tiro con arco y unidades de [[unit:4]] sin parar; Hacha de doble filo"
+        en: "On reaching Feudal: two archery ranges and non-stop [[unit:4]] units; Double-Bit Axe"
+    - pop: 30
+      text:
+        es: "Hasta 8 aldeanos en oro; herrería y Emplumado de flechas; los nuevos aldeanos, a granjas"
+        en: "Up to 8 villagers on gold; blacksmith and Fletching; new villagers go to farms"
+    - pop: 38
+      text:
+        es: "Carretilla; más aldeanos a madera y granjas. Sube a Castillos con unas 24 unidades de [[unit:4]]"
+        en: "Wheelbarrow; more villagers to wood and farms. Click up to Castle Age with about 24 [[unit:4]] units"
+attack:
+  when:
+    es: "En Feudal, con 6 unidades de [[unit:4]] y Emplumado de flechas: ataca a los aldeanos en madera y oro, lejos de su centro urbano"
+    en: "In Feudal Age, with 6 [[unit:4]] units and Fletching: hit the villagers on wood and gold, away from their town center"
+  core: [unit:4]
+  support: []
+  transition:
+    units: [unit:24]
+    note:
+      es: "En Castillos, investiga [[unit:24]] en cuanto llegues; con +1 de alcance de los Britanos, sigue presionando desde tres galerías"
+      en: "In Castle Age, research [[unit:24]] as soon as you arrive; with the Britons' +1 range, keep up the pressure from three ranges"
+  upgrades: [tech:199, tech:200, tech:93]

@@ -219,14 +219,14 @@
 
 ## H. Contenido táctico (puede avanzar en paralelo a E–G una vez terminada T15)
 
-Para cada tarea: tú das el enfoque de cada mapa, yo redacto con fuentes, tú revisas con `preview` y apruebas con `approve`.
+Para cada tarea *(decisión 33)*: yo investigo el plan de cada mapa en fuentes publicadas, lo verifico contra los datos del juego y redacto la ficha citándolas; tú la revisas con `preview` y, solo con tu aprobación, ejecuto `approve`.
 Hecho cuando (todas): las 3 fichas de la civilización pasan `build-content` y están aprobadas por ti.
 
-- [ ] **T35 — Francos · Arena y Selva Negra** (Arabia ya hecha en T15)
-- [ ] **T36 — Britanos · 3 mapas**
-- [ ] **T37 — Mayas · 3 mapas**
-- [ ] **T38 — Mongoles · 3 mapas**
-- [ ] **T39 — Aztecas · 3 mapas**
+- [x] **T35 — Francos · Arena y Selva Negra** (Arabia ya hecha en T15)
+- [x] **T36 — Britanos · 3 mapas**
+- [x] **T37 — Mayas · 3 mapas**
+- [x] **T38 — Mongoles · 3 mapas**
+- [x] **T39 — Aztecas · 3 mapas**
 - [ ] **T40 — Godos · 3 mapas**
 - [ ] **T41 — Turcos · 3 mapas**
 - [ ] **T42 — Jemeres · 3 mapas**

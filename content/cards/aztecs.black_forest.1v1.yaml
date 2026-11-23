@@ -1,0 +1,75 @@
+# Aztecas · Selva Negra · 1v1 — T39. Aprobada por el mantenedor.
+# Plan: amurallar, Fast Castle con monasterio → monjes, reliquias y mangoneles; en Imperial, onagros de asedio
+#       que abren camino talando el bosque y campeones con Guerras floridas.
+#   Fox AOE: el plan "Monks, Siege, Relics" es para "Arena, Black Forest, Hideout" (no da nada propio de Selva Negra).
+#   Sitaux: amurallar con doble empalizada sin puerta después de los dos jabalíes; cortar el bosque con onagros.
+# Mecánicas verificadas contra los datos del parche 188329: aldeanos cargan +3, monjes +5 PR por tecnología
+# del monasterio, bonificación de equipo +33 % de oro por reliquia; Guerras floridas (Imperial), Campeón y
+# Onagro de asedio disponibles.
+# Notas de revisión:
+#  - Poblaciones (22 y 28) y repartos: como en Aztecas · Arena (sumando los pasos de Fox AOE / aproximados).
+#  - Defender con monjes y mangoneles en Castillos y atacar en Imperial (en vez de empujar en Castillos como
+#    en Arena): adaptación mía al mapa, igual que en Mongoles · Selva Negra.
+civ: Aztecs
+map: black_forest
+role: 1v1
+sources:
+  - title: "Fox AOE — Aztecs Guide (actualizada 06/08/2026; 'Monks, Siege, Relics' · Arena, Black Forest, Hideout)"
+    url: "https://foxaoe.com/aztecs-civ/"
+  - title: "Sitaux — Black Forest (amurallar después de los jabalíes; cortar el bosque con onagros)"
+    url: "https://sitaux.com/black-forest/"
+economy:
+  opening:
+    es: "Amurallar, Fast Castle con unidades de [[unit:125]] y reliquias; unidades de [[unit:588]] en Imperial"
+    en: "Wall in, Fast Castle into [[unit:125]] units and relics; [[unit:588]] units in Imperial Age"
+  ageUpPop:
+    feudal: 22
+    castle: 28
+  villagers:
+    feudal: { food: 14, wood: 6, gold: 2, stone: 0 }
+    castle: { food: 14, wood: 9, gold: 5, stone: 0 }
+  buildOrder:
+    - pop: 6
+      text:
+        es: "Dos casas y aldeanos 1-6 a las ovejas; el [[unit:751]] busca los jabalíes y las reliquias"
+        en: "Two houses, then villagers 1-6 to sheep; the [[unit:751]] finds the boars and the relics"
+    - pop: 10
+      text:
+        es: "Aldeanos 7-10 a la madera con el campamento maderero"
+        en: "Villagers 7-10 to wood with the lumber camp"
+    - pop: 11
+      text:
+        es: "Aldeano 11: atrae el primer jabalí"
+        en: "Villager 11: lure the first boar"
+    - pop: 12
+      text:
+        es: "Aldeano 12: casa y molino en las bayas"
+        en: "Villager 12: house and mill at the berries"
+    - pop: 18
+      text:
+        es: "Aldeanos 13-18 a las bayas y la comida del centro urbano; uno atrae el segundo jabalí. Ya con los dos jabalíes: dos aldeanos de madera cierran la abertura con doble empalizada, sin puerta"
+        en: "Villagers 13-18 to berries and the food under the town center; one lures the second boar. Once both boars are in: two wood villagers close the gap with a double palisade, no gate"
+    - pop: 22
+      text:
+        es: "Aldeanos 19-22 a la madera y el oro. Telar y sube a Feudal"
+        en: "Villagers 19-22 to wood and gold. Loom and click up to Feudal"
+    - pop: 28
+      text:
+        es: "En Feudal: mercado y herrería, y sube a Castillos; los nuevos aldeanos, a granjas y oro (los aldeanos aztecas cargan 3 más)"
+        en: "In Feudal: market and blacksmith, then click up to Castle Age; new villagers go to farms and gold (Aztec villagers carry 3 more)"
+    - pop: 28
+      text:
+        es: "Al llegar a Castillos: monasterio, [[tech:316]] y unidades de [[unit:125]] a por las reliquias (cada una da un 33 % más de oro a los Aztecas); unidades de [[unit:280]] para defender la abertura"
+        en: "On reaching Castle Age: a monastery, [[tech:316]] and [[unit:125]] units to collect the relics (each one gives Aztecs 33% more gold); [[unit:280]] units to hold the gap"
+attack:
+  when:
+    es: "En Imperial, con [[tech:377]]: unidades de [[unit:567]] con [[tech:24]] y 3-4 de [[unit:588]], que talan el bosque para abrir un camino nuevo hacia su base; las unidades de [[unit:125]] curan y convierten detrás"
+    en: "In Imperial Age, with [[tech:377]]: [[unit:567]] units with [[tech:24]] and 3-4 [[unit:588]] units, which cut through the forest to open a new path to their base; [[unit:125]] units heal and convert behind them"
+  core: [unit:567]
+  support: [unit:588, unit:125]
+  transition:
+    units: [unit:6]
+    note:
+      es: "Si responde con arqueros, suma unidades de [[unit:6]] con [[tech:460]]"
+      en: "If they answer with archers, add [[unit:6]] units with [[tech:460]]"
+  upgrades: [tech:24, tech:377, tech:67]

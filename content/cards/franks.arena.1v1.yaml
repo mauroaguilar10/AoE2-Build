@@ -1,0 +1,84 @@
+# Francos · Arena · 1v1 — T35. Aprobada por el mantenedor.
+# Plan: Fast Castle → caballeros desde dos establos, segundo centro urbano; paladines en Imperial.
+#   Fox AOE: "Fast Castle into Knights — best on almost anything" (pasos y población de Feudal, ~23).
+#   Arena es un mapa cerrado (murallas de piedra) donde lo más habitual es el Fast Castle (Liquipedia, aoevolve).
+# Mecánicas verificadas contra los datos del parche 188329 (bonos, disponibilidad en el árbol).
+# Notas de revisión:
+#  - Descartado el "castillo adelantado con lanzadores de hachas" de Fox AOE para Arena: depende de la
+#    tecnología única Bearded Axe, que ya no existe (en el parche 188329 la de Castillos es Compañías de ordenanza).
+#  - Población para Castillos (28): aoevolve ("Click Feudal to Castle at 28 pop"); Fox AOE no la da.
+#  - Reparto en Feudal (15/6/2): derivado sumando los pasos de Fox AOE. Castillos (15/8/5): aproximado.
+#  - Ataque con 5-6 caballeros y arietes para la puerta, y orden de mejoras: criterio propio.
+civ: Franks
+map: arena
+role: 1v1
+sources:
+  - title: "Fox AOE — AoE2 Franks Guide: Build Orders & Strategy (actualizada 30/07/2026; opening 'Fast Castle into Knights')"
+    url: "https://foxaoe.com/franks-civilization/"
+  - title: "aoevolve — Arena Build Order in AOE2: 26+2 Fast Castle (población para subir a Castillos y plan tras Castillos en Arena)"
+    url: "https://aoevolve.com/build-orders/arena/"
+  - title: "Liquipedia — Arena (mapa cerrado con murallas de piedra; el Fast Castle es la estrategia más frecuente)"
+    url: "https://liquipedia.net/ageofempires/Arena"
+economy:
+  opening:
+    es: "Fast Castle a caballeros, con un segundo centro urbano en Castillos"
+    en: "Fast Castle into knights, with a second town center in Castle Age"
+  ageUpPop:
+    feudal: 23
+    castle: 28
+  villagers:
+    feudal: { food: 15, wood: 6, gold: 2, stone: 0 }
+    castle: { food: 15, wood: 8, gold: 5, stone: 0 }
+  buildOrder:
+    - pop: 6
+      text:
+        es: "Dos casas y aldeanos 1-6 a las ovejas"
+        en: "Two houses, then villagers 1-6 to sheep"
+    - pop: 10
+      text:
+        es: "Aldeanos 7-10 a la madera; el primero construye el campamento maderero"
+        en: "Villagers 7-10 to wood; the first one builds the lumber camp"
+    - pop: 11
+      text:
+        es: "Aldeano 11: atrae el primer jabalí"
+        en: "Villager 11: lure the first boar"
+    - pop: 14
+      text:
+        es: "Aldeano 12: casa y molino junto a las bayas; 13-14 a las bayas (los Francos recolectan bayas un 15 % más rápido)"
+        en: "Villager 12: house, then a mill at the berries; 13-14 to berries (Franks forage 15% faster)"
+    - pop: 15
+      text:
+        es: "Aldeano 15: atrae el segundo jabalí"
+        en: "Villager 15: lure the second boar"
+    - pop: 18
+      text:
+        es: "Aldeanos 16-18 a las bayas y la comida. No investigues las mejoras del molino: los Francos las tienen gratis"
+        en: "Villagers 16-18 to berries and food. Do not research mill upgrades: Franks get them for free"
+    - pop: 22
+      text:
+        es: "Aldeanos 19-20 a la madera con un segundo campamento; 21-22 al oro con el campamento minero"
+        en: "Villagers 19-20 to wood with a second lumber camp; 21-22 to gold with the mining camp"
+    - pop: 23
+      text:
+        es: "Aldeano 23 a una granja. Telar y sube a Feudal"
+        en: "Villager 23 to a farm. Loom and click up to Feudal"
+    - pop: 28
+      text:
+        es: "En Feudal: cuartel, mercado y herrería, y sube a Castillos en cuanto puedas; los nuevos aldeanos, a granjas y oro"
+        en: "In Feudal: barracks, market and blacksmith, then click up to Castle Age as soon as you can; new villagers go to farms and gold"
+    - pop: 28
+      text:
+        es: "Al llegar a Castillos: dos establos produciendo unidades de [[unit:38]] sin parar; segundo centro urbano y Carretilla"
+        en: "On reaching Castle Age: two stables producing [[unit:38]] units non-stop; second town center and Wheelbarrow"
+attack:
+  when:
+    es: "En Castillos, con 5-6 unidades de [[unit:38]]: ataca a los aldeanos que trabajan fuera de las murallas y obliga al rival a defenderse; con un [[unit:1258]], rompe la puerta"
+    en: "In Castle Age, with 5-6 [[unit:38]] units: raid the villagers working outside the walls and force your opponent to defend; bring a [[unit:1258]] to break the gate"
+  core: [unit:38]
+  support: [unit:1258]
+  transition:
+    units: [unit:569]
+    note:
+      es: "En Imperial, investiga Código caballeresco cuanto antes (los establos trabajan un 40 % más rápido) y mejora a [[unit:569]]"
+      en: "In Imperial Age, research Chivalry early (stables work 40% faster) and upgrade to [[unit:569]]"
+  upgrades: [tech:67, tech:81, tech:39]

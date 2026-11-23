@@ -1,0 +1,86 @@
+# Francos · Selva Negra · 1v1 — T35. Aprobada por el mantenedor.
+# Plan: amurallar tras los jabalíes, Fast Castle, castillo junto a la abertura (más barato para los Francos)
+#       y boom; ataque en Imperial con paladines y trebuchets.
+#   Sitaux: Selva Negra es un mapa cerrado que suele llegar al final de la partida; amurallar con doble
+#   empalizada sin puerta después de atraer los dos jabalíes; Fast Castle con boom; castillo cerca de la
+#   abertura antes de Imperial; asedio para romper o abrir camino talando.
+#   Fox AOE: pasos y población del Fast Castle (Feudal ~23); Código caballeresco pronto, paladines y cañones
+#   de asedio en Imperial.
+# Mecánicas verificadas contra los datos del parche 188329: castillo de los Francos -15 % en Castillos
+# (553 de piedra), Código caballeresco (establos +40 %), disponibilidad en el árbol.
+# Notas de revisión:
+#  - Población para Castillos (28) y reparto en Castillos (13/7/4/4): aproximados; se adelantan 4 aldeanos
+#    a la piedra para el castillo (Fox AOE lo indica en su plan de castillo).
+#  - Número de centros urbanos del boom (dos más) y orden de mejoras: criterio propio (Sitaux no da cifras;
+#    su contenido detallado es de pago).
+civ: Franks
+map: black_forest
+role: 1v1
+sources:
+  - title: "Sitaux — Black Forest (mapa cerrado; amurallar; Fast Castle con boom; castillo junto a la abertura; asedio)"
+    url: "https://sitaux.com/black-forest/"
+  - title: "Fox AOE — AoE2 Franks Guide: Build Orders & Strategy (actualizada 30/07/2026; 'Fast Castle into Knights' y plan en Imperial)"
+    url: "https://foxaoe.com/franks-civilization/"
+economy:
+  opening:
+    es: "Amurallar, Fast Castle, castillo junto a la abertura y boom hasta Imperial"
+    en: "Wall in, Fast Castle, a castle at the gap and boom into Imperial Age"
+  ageUpPop:
+    feudal: 23
+    castle: 28
+  villagers:
+    feudal: { food: 15, wood: 6, gold: 2, stone: 0 }
+    castle: { food: 13, wood: 7, gold: 4, stone: 4 }
+  buildOrder:
+    - pop: 6
+      text:
+        es: "Dos casas y aldeanos 1-6 a las ovejas"
+        en: "Two houses, then villagers 1-6 to sheep"
+    - pop: 10
+      text:
+        es: "Aldeanos 7-10 a la madera; el primero construye el campamento maderero"
+        en: "Villagers 7-10 to wood; the first one builds the lumber camp"
+    - pop: 11
+      text:
+        es: "Aldeano 11: atrae el primer jabalí"
+        en: "Villager 11: lure the first boar"
+    - pop: 14
+      text:
+        es: "Aldeano 12: casa y molino junto a las bayas; 13-14 a las bayas (los Francos recolectan bayas un 15 % más rápido)"
+        en: "Villager 12: house, then a mill at the berries; 13-14 to berries (Franks forage 15% faster)"
+    - pop: 15
+      text:
+        es: "Aldeano 15: atrae el segundo jabalí"
+        en: "Villager 15: lure the second boar"
+    - pop: 18
+      text:
+        es: "Ya con los dos jabalíes: dos aldeanos de madera cierran la abertura con doble empalizada, sin puerta. Aldeanos 16-18 a las bayas y la comida"
+        en: "Once both boars are in: two wood villagers close the gap with a double palisade, no gate. Villagers 16-18 to berries and food"
+    - pop: 22
+      text:
+        es: "Aldeanos 19-20 a la madera; 21-22 al oro con el campamento minero. No investigues las mejoras del molino: los Francos las tienen gratis"
+        en: "Villagers 19-20 to wood; 21-22 to gold with the mining camp. Do not research mill upgrades: Franks get them for free"
+    - pop: 23
+      text:
+        es: "Aldeano 23 a una granja. Telar y sube a Feudal"
+        en: "Villager 23 to a farm. Loom and click up to Feudal"
+    - pop: 28
+      text:
+        es: "En Feudal: mercado y herrería; cuatro aldeanos a la piedra y sube a Castillos"
+        en: "In Feudal: market and blacksmith; four villagers to stone, then click up to Castle Age"
+    - pop: 28
+      text:
+        es: "Al llegar a Castillos: castillo junto a la abertura (a los Francos les cuesta 553 de piedra), dos centros urbanos más y Carretilla; un establo con unas pocas unidades de [[unit:38]] para defender la abertura"
+        en: "On reaching Castle Age: a castle at the gap (553 stone for Franks), two more town centers and Wheelbarrow; one stable with a few [[unit:38]] units to guard the gap"
+attack:
+  when:
+    es: "En Imperial, con unidades de [[unit:569]] y 2-3 de [[unit:331]]: derriba el castillo o las torres de la abertura, o abre otro camino talando el bosque"
+    en: "In Imperial Age, with [[unit:569]] units and 2-3 [[unit:331]] units: knock down the castle or towers at the gap, or open another path by cutting through the forest"
+  core: [unit:569]
+  support: [unit:331]
+  transition:
+    units: [unit:36]
+    note:
+      es: "Si el rival se encierra detrás de más castillos, suma unidades de [[unit:36]] para derribarlos más rápido"
+      en: "If your opponent hides behind more castles, add [[unit:36]] units to knock them down faster"
+  upgrades: [tech:493, tech:68, tech:82]

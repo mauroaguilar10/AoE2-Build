@@ -1,0 +1,14 @@
+{
+  "reviewedPatch": "188329",
+  "approvedAt": "2026-11-23",
+  "fingerprints": {
+    "civ:Mongols": "c709645089268530",
+    "tech:199": "17f4eefb649c307e",
+    "tech:67": "df0a038b781322c2",
+    "tech:81": "6e66abc31788a96c",
+    "unit:11": "06551bb8dab37976",
+    "unit:448": "4dfa18a380fb9763",
+    "unit:546": "82449fde87b5bdcf"
+  },
+  "cardHash": "6d579ae4fa05f9c6"
+}

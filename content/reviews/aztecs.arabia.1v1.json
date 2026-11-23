@@ -1,0 +1,17 @@
+{
+  "reviewedPatch": "188329",
+  "approvedAt": "2026-11-23",
+  "fingerprints": {
+    "civ:Aztecs": "6d671d3fba9dc4ce",
+    "tech:199": "17f4eefb649c307e",
+    "tech:200": "63944b206601f708",
+    "tech:211": "00ec95085f23fa7c",
+    "unit:24": "d22ad4ba0ed4c051",
+    "unit:4": "58cbc60417b66a4f",
+    "unit:725": "fa65b54548c21709",
+    "unit:74": "920a04c1126bd15e",
+    "unit:751": "f6b2f7fc7ec13901",
+    "unit:753": "132127e3876f7fcd"
+  },
+  "cardHash": "03514a753769fbb3"
+}

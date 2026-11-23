@@ -1,0 +1,15 @@
+{
+  "reviewedPatch": "188329",
+  "approvedAt": "2026-11-23",
+  "fingerprints": {
+    "civ:Mayans": "d45562b45c5a0608",
+    "tech:4": "507a4d185df060da",
+    "tech:437": "434061ef31cc0e90",
+    "tech:93": "a6113797041102c8",
+    "unit:331": "9791971fa2206cf8",
+    "unit:752": "45d15da4b9021ba1",
+    "unit:763": "420839b6bd3facbe",
+    "unit:765": "d8d4076e5e1c6437"
+  },
+  "cardHash": "61eca69d0efdca7b"
+}

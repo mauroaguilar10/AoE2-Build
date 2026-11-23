@@ -1,0 +1,83 @@
+# Mayas · Selva Negra · 1v1 — T37. Aprobada por el mantenedor.
+# Plan: amurallar tras los jabalíes (murallas a mitad de precio), "Plume & Boom" (castillo y centros urbanos
+#       al llegar a Castillos) y ataque en Imperial con arqueros emplumados de élite, guerreros águila y trebuchets.
+#   Sitaux: mapa cerrado que suele llegar al final; doble empalizada sin puerta después de los dos jabalíes;
+#   Fast Castle con boom; castillo cerca de la abertura; asedio para la abertura o para talar el bosque.
+#   aoe2.guide, "Mayan Plume-&-Boom" (21/08/2020): pasos y poblaciones (Feudal 27, Castillos 29).
+# Mecánicas verificadas contra los datos del parche 188329: bonificación de equipo "murallas -50 %"
+# (también para uno mismo), Holcanos (Imperial: guerreros águila +40 de PV), Arquero emplumado de élite.
+# Notas de revisión:
+#  - La guía es de 2020 y no da aldeanos por paso: repartos derivados de sus pasos, aproximados.
+#  - Castillo junto a la abertura (Sitaux) en lugar de en la base (aoe2.guide), ataque y orden de mejoras:
+#    criterio propio.
+civ: Mayans
+map: black_forest
+role: 1v1
+sources:
+  - title: "Sitaux — Black Forest (mapa cerrado; amurallar; Fast Castle con boom; castillo junto a la abertura; asedio)"
+    url: "https://sitaux.com/black-forest/"
+  - title: "aoe2.guide — Mayan Plume-&-Boom (21/08/2020): Fast Castle, castillo y centros urbanos al llegar a Castillos"
+    url: "https://aoe2.guide/mayan-plume-boom/"
+economy:
+  opening:
+    es: "Amurallar, Fast Castle con castillo y boom; ataque en Imperial"
+    en: "Wall in, Fast Castle with a castle and a boom; Imperial Age push"
+  ageUpPop:
+    feudal: 27
+    castle: 29
+  villagers:
+    feudal: { food: 14, wood: 8, gold: 2, stone: 2 }
+    castle: { food: 12, wood: 8, gold: 2, stone: 6 }
+  buildOrder:
+    - pop: 6
+      text:
+        es: "Los Mayas empiezan con un aldeano más y 50 de comida menos: Telar, dos casas y los primeros aldeanos a las ovejas"
+        en: "Mayans start with one extra villager and 50 less food: Loom, two houses and the first villagers to sheep"
+    - pop: 10
+      text:
+        es: "Cuatro aldeanos a la madera con el campamento maderero"
+        en: "Four villagers to wood with the lumber camp"
+    - pop: 11
+      text:
+        es: "Un aldeano atrae el primer jabalí (con una casa por el camino)"
+        en: "One villager lures the first boar (building a house on the way)"
+    - pop: 16
+      text:
+        es: "Cuatro aldeanos a las bayas con el molino; uno atrae el segundo jabalí"
+        en: "Four villagers to berries with the mill; one lures the second boar"
+    - pop: 20
+      text:
+        es: "Ya con los dos jabalíes: cierra la abertura con doble empalizada, sin puerta (a los Mayas las murallas les cuestan la mitad). Cuatro aldeanos a la madera con un segundo campamento"
+        en: "Once both boars are in: close the gap with a double palisade, no gate (walls cost half for Mayans). Four villagers to wood with a second lumber camp"
+    - pop: 27
+      text:
+        es: "Dos aldeanos al oro y dos a la piedra, cada uno con su campamento. Sube a Feudal"
+        en: "Two villagers to gold and two to stone, each with its camp. Click up to Feudal"
+    - pop: 29
+      text:
+        es: "En Feudal: los dos del jabalí, a la piedra; las ovejas, a granjas; herrería y mercado; dos aldeanos nuevos a la piedra. Sube a Castillos"
+        en: "In Feudal: the two boar villagers go to stone; sheep villagers to farms; blacksmith and market; two new villagers to stone. Click up to Castle Age"
+    - pop: 29
+      text:
+        es: "Mientras sube: Emplumado de flechas, Hacha de doble filo y Collera"
+        en: "While advancing: Fletching, Double-Bit Axe and Horse Collar"
+    - pop: 29
+      text:
+        es: "Al llegar a Castillos: castillo junto a la abertura y segundo centro urbano; unas pocas unidades de [[unit:763]] para defender"
+        en: "On reaching Castle Age: a castle at the gap and a second town center; a few [[unit:763]] units to defend"
+    - pop: 35
+      text:
+        es: "Un minuto después, tercer centro urbano; Sierra de arco y Flecha de punzón; granjas y más aldeanos a la madera"
+        en: "A minute later, a third town center; Bow Saw and Bodkin Arrow; farms and more villagers to wood"
+attack:
+  when:
+    es: "En Imperial, con unidades de [[unit:765]] y 2-3 de [[unit:331]]: derriba las defensas de la abertura o abre otro camino talando el bosque"
+    en: "In Imperial Age, with [[unit:765]] units and 2-3 [[unit:331]] units: bring down the defenses at the gap or open another path by cutting through the forest"
+  core: [unit:765]
+  support: [unit:331]
+  transition:
+    units: [unit:752]
+    note:
+      es: "Con [[tech:4]] (+40 de PV), las unidades de [[unit:752]] entran por el hueco abierto y van a por los aldeanos y las armas de asedio"
+      en: "With [[tech:4]] (+40 HP), [[unit:752]] units pour through the opening and go for villagers and siege"
+  upgrades: [tech:4, tech:437, tech:93]

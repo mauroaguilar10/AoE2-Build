@@ -1,0 +1,73 @@
+# Mongoles · Selva Negra · 1v1 — T38. Aprobada por el mantenedor.
+# Plan: amurallar, Fast Castle con castillo y mangudai; en Imperial, Instrucción y onagros de asedio que
+#       abren camino talando el bosque.
+#   Fox AOE, "Arena: Drill siege push · Arena, Black Forest, Hideout" (avisa de que Selva Negra es un mal mapa mongol).
+#   Sitaux: amurallar con doble empalizada sin puerta después de los dos jabalíes; cortar el bosque con onagros.
+# Mecánicas verificadas contra los datos del parche 188329: cazadores +40 %, mangudai atacan +25 % más rápido,
+# Instrucción (Imperial: unidades del taller de asedio +50 % de velocidad), Onagro de asedio disponible.
+# Notas de revisión:
+#  - Fox AOE no da poblaciones para este plan: Feudal 22 y Castillos 28 (y sus repartos) son aproximados.
+#  - Orden de mejoras: criterio propio (Fox AOE recomienda Dactilera y Tácticas de los partos en Imperial).
+civ: Mongols
+map: black_forest
+role: 1v1
+sources:
+  - title: "Fox AOE — Mongols Guide (actualizada 23/10/2026; 'Arena: Drill siege push · Arena, Black Forest, Hideout')"
+    url: "https://foxaoe.com/mongols-civilization/"
+  - title: "Sitaux — Black Forest (amurallar después de los jabalíes; cortar el bosque con onagros)"
+    url: "https://sitaux.com/black-forest/"
+economy:
+  opening:
+    es: "Amurallar, Fast Castle con castillo y mangudai; onagros con [[tech:6]] en Imperial"
+    en: "Wall in, Fast Castle with a castle and Mangudai; onagers with [[tech:6]] in Imperial Age"
+  ageUpPop:
+    feudal: 22
+    castle: 28
+  villagers:
+    feudal: { food: 13, wood: 6, gold: 2, stone: 0 }
+    castle: { food: 14, wood: 9, gold: 4, stone: 0 }
+  buildOrder:
+    - pop: 6
+      text:
+        es: "Dos casas y aldeanos 1-6 a las ovejas; la [[unit:448]] busca ciervos"
+        en: "Two houses, then villagers 1-6 to sheep; the [[unit:448]] looks for deer"
+    - pop: 10
+      text:
+        es: "Aldeanos 7-10 a la madera con el campamento maderero"
+        en: "Villagers 7-10 to wood with the lumber camp"
+    - pop: 11
+      text:
+        es: "Aldeano 11: atrae el primer jabalí"
+        en: "Villager 11: lure the first boar"
+    - pop: 12
+      text:
+        es: "Aldeano 12: casa y molino (junto a los ciervos si hay; los cazadores mongoles trabajan un 40 % más rápido)"
+        en: "Villager 12: house and mill (at the deer if there are any; Mongol hunters work 40% faster)"
+    - pop: 18
+      text:
+        es: "Aldeanos 13-18 a las bayas y la comida del centro urbano; uno atrae el segundo jabalí. Ya con los dos jabalíes: dos aldeanos de madera cierran la abertura con doble empalizada, sin puerta"
+        en: "Villagers 13-18 to berries and the food under the town center; one lures the second boar. Once both boars are in: two wood villagers close the gap with a double palisade, no gate"
+    - pop: 22
+      text:
+        es: "Aldeanos 19-21 a la madera y el oro. Telar y sube a Feudal"
+        en: "Villagers 19-21 to wood and gold. Loom and click up to Feudal"
+    - pop: 28
+      text:
+        es: "En Feudal: mercado y herrería, y sube a Castillos; los nuevos aldeanos, a granjas y oro"
+        en: "In Feudal: market and blacksmith, then click up to Castle Age; new villagers go to farms and gold"
+    - pop: 28
+      text:
+        es: "Al llegar a Castillos: castillo, unidades de [[unit:11]] y un taller de asedio con unidades de [[unit:280]] para defender la abertura"
+        en: "On reaching Castle Age: a castle, [[unit:11]] units and a siege workshop with [[unit:280]] units to hold the gap"
+attack:
+  when:
+    es: "En Imperial, con [[tech:6]] primero: unidades de [[unit:561]] y 3-4 de [[unit:588]], que talan el bosque para abrir un camino nuevo y llegan rápido a su base"
+    en: "In Imperial Age, with [[tech:6]] first: [[unit:561]] units and 3-4 [[unit:588]] units, which cut through the forest to open a new path and reach their base fast"
+  core: [unit:561]
+  support: [unit:588]
+  transition:
+    units: [unit:441]
+    note:
+      es: "Por el camino abierto, unidades de [[unit:441]] entran a por los aldeanos"
+      en: "Through the new path, [[unit:441]] units go in for the villagers"
+  upgrades: [tech:6, tech:437, tech:436]

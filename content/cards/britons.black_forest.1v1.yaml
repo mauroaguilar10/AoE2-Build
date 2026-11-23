@@ -1,0 +1,85 @@
+# Britanos · Selva Negra · 1v1 — T36. Aprobada por el mantenedor.
+# Plan: amurallar tras los jabalíes, Fast Castle con boom (centros urbanos a mitad de madera) y ataque en
+#       Imperial con alabasteros y trebuchets con Lobo de guerra.
+#   Sitaux: mapa cerrado que suele llegar al final de la partida; amurallar con doble empalizada sin puerta
+#   después de los dos jabalíes; Fast Castle con boom; asedio para romper la abertura o talar el bosque.
+#   Cicero, "27+2 FC - Boom": pasos, reparto y poblaciones (Feudal 27, Castillos 27+2; dos centros urbanos y
+#   un cuarto). aoevolve: final con alabasteros, Brazalete de cuero y trebuchets con Lobo de guerra.
+# Mecánicas verificadas contra los datos del parche 188329: centros urbanos -50 % de madera desde Castillos,
+# arqueros a pie +2 de alcance en Imperial, Lobo de guerra (daño en área de los trebuchets).
+# Notas de revisión:
+#  - Repartos (Feudal 14/9/3, Castillos 11/14/3): de la tabla de Cicero; el orden de sus filas es ambiguo.
+#  - Ballesteros para defender la abertura hasta Imperial y orden de mejoras: criterio propio.
+civ: Britons
+map: black_forest
+role: 1v1
+sources:
+  - title: "Sitaux — Black Forest (mapa cerrado; amurallar; Fast Castle con boom; asedio para la abertura o el bosque)"
+    url: "https://sitaux.com/black-forest/"
+  - title: "Build Order Reference (Cicero) — 27+2 FC - Boom: reparto de aldeanos, pasos y tiempos de referencia"
+    url: "https://johsaoe2debuildorderreference.site44.com/27+2-fc-boom.html"
+  - title: "aoevolve — Britons Guide (actualizada 14/10/2026): alabasteros con Hidalgo y Brazalete, trebuchets con Lobo de guerra"
+    url: "https://aoevolve.com/civilizations/britons-guide/"
+economy:
+  opening:
+    es: "Amurallar, Fast Castle con boom y ataque en Imperial con alabasteros y trebuchets"
+    en: "Wall in, Fast Castle with a boom and an Imperial Age push with arbalesters and trebuchets"
+  ageUpPop:
+    feudal: 27
+    castle: 29
+  villagers:
+    feudal: { food: 14, wood: 9, gold: 3, stone: 0 }
+    castle: { food: 11, wood: 14, gold: 3, stone: 0 }
+  buildOrder:
+    - pop: 6
+      text:
+        es: "Aldeanos 1-6 a las ovejas (los pastores de los Britanos trabajan un 25 % más rápido)"
+        en: "Villagers 1-6 to sheep (Briton shepherds work 25% faster)"
+    - pop: 10
+      text:
+        es: "Aldeanos 7-10 a la madera con el campamento maderero"
+        en: "Villagers 7-10 to wood with the lumber camp"
+    - pop: 11
+      text:
+        es: "Aldeano 11: atrae el primer jabalí"
+        en: "Villager 11: lure the first boar"
+    - pop: 16
+      text:
+        es: "Aldeanos 12-16 a las bayas con el molino"
+        en: "Villagers 12-16 to berries with the mill"
+    - pop: 18
+      text:
+        es: "Aldeanos 17-18 al segundo jabalí. Ya con los dos jabalíes: dos aldeanos de madera cierran la abertura con doble empalizada, sin puerta"
+        en: "Villagers 17-18 to the second boar. Once both boars are in: two wood villagers close the gap with a double palisade, no gate"
+    - pop: 23
+      text:
+        es: "Aldeanos 19-23 a la madera con un segundo campamento; la comida, a granjas"
+        en: "Villagers 19-23 to wood with a second lumber camp; food villagers move to farms"
+    - pop: 27
+      text:
+        es: "Aldeanos 24-26 al oro. Telar y sube a Feudal"
+        en: "Villagers 24-26 to gold. Loom and click up to Feudal"
+    - pop: 29
+      text:
+        es: "En Feudal: mercado y herrería; dos aldeanos más a la madera y sube a Castillos. Mientras sube: Hacha de doble filo y Collera"
+        en: "In Feudal: market and blacksmith; two more villagers to wood, then click up to Castle Age. While advancing: Double-Bit Axe and Horse Collar"
+    - pop: 29
+      text:
+        es: "Al llegar a Castillos: dos centros urbanos más (a los Britanos les cuestan la mitad de madera) y Sierra de arco"
+        en: "On reaching Castle Age: two more town centers (half the wood for Britons) and Bow Saw"
+    - pop: 45
+      text:
+        es: "Carretilla, un cuarto centro urbano y granjas; una galería con unas pocas unidades de [[unit:24]] para vigilar la abertura"
+        en: "Wheelbarrow, a fourth town center and farms; one archery range with a few [[unit:24]] units to watch the gap"
+attack:
+  when:
+    es: "En Imperial, con unidades de [[unit:492]] (alcance +2) y 2-3 de [[unit:331]] con Lobo de guerra: derriba las defensas de la abertura o abre otro camino talando el bosque"
+    en: "In Imperial Age, with [[unit:492]] units (+2 range) and 2-3 [[unit:331]] units with Warwolf: bring down the defenses at the gap or open another path by cutting through the forest"
+  core: [unit:492]
+  support: [unit:331]
+  transition:
+    units: [unit:359]
+    note:
+      es: "Si el rival entra con caballería, pon unidades de [[unit:359]] delante de los alabasteros"
+      en: "If your opponent comes with cavalry, put [[unit:359]] units in front of the arbalesters"
+  upgrades: [tech:461, tech:3, tech:201]

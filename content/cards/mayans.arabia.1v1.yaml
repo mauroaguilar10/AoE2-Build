@@ -1,0 +1,86 @@
+# Mayas · Arabia · 1v1 — T37. Aprobada por el mantenedor.
+# Plan: arqueros en Feudal desde dos galerías (más baratos para los Mayas) → ballesteros y guerreros águila.
+#   Cicero, "23 pop Archers": pasos, reparto y referencias ("6 archers + fletching", "Click Castle with 24 archers").
+#   aoevolve (guía de Mayas y "Mayans archer rush", actualizadas 14-15/10/2026): Arabia es de sus mejores mapas;
+#   con el aldeano extra, uno menos en ovejas o bayas; segunda galería cuanto antes; en Castillos, segundo
+#   centro urbano y paso a guerreros águila.
+# Mecánicas verificadas contra los datos del parche 188329: +1 aldeano y -50 de comida al empezar; arqueros
+# a pie -10 % en Feudal y -20 % en Castillos; exploran con Explorador Águila (sin caballería de exploración).
+# Descartado de aoevolve: dice que Holcanos es de Castillos y Lanzadores de jabalina Hul'che de Imperial
+# (los datos dicen lo contrario) y se contradice sobre el descuento de los arqueros.
+# Notas de revisión:
+#  - Población para Castillos (62) y repartos: aproximados a partir de Cicero, como en Britanos · Arabia.
+#  - Orden de mejoras: criterio propio.
+civ: Mayans
+map: arabia
+role: 1v1
+sources:
+  - title: "Build Order Reference (Cicero) — 23 pop Archers: reparto de aldeanos, pasos y tiempos de referencia"
+    url: "https://johsaoe2debuildorderreference.site44.com/23-pop-archers.html"
+  - title: "aoevolve — Mayans Guide (actualizada 14/10/2026): Arabia, aldeano extra, segundo centro urbano en Castillos"
+    url: "https://aoevolve.com/civilizations/mayans-guide/"
+  - title: "aoevolve — Mayans Archer Rush (actualizada 15/10/2026): dos galerías y paso a guerreros águila en Castillos"
+    url: "https://aoevolve.com/build-orders/mayans-archer-rush/"
+economy:
+  opening:
+    es: "Arqueros en Feudal desde dos galerías y paso a ballesteros y guerreros águila en Castillos"
+    en: "Feudal archers from two ranges into Castle Age crossbows and eagle warriors"
+  ageUpPop:
+    feudal: 23
+    castle: 62
+  villagers:
+    feudal: { food: 13, wood: 9, gold: 0, stone: 0 }
+    castle: { food: 16, wood: 14, gold: 8, stone: 0 }
+  buildOrder:
+    - pop: 6
+      text:
+        es: "Los Mayas empiezan con un aldeano más y 50 de comida menos: aldeanos 1-5 a las ovejas, uno menos que de costumbre"
+        en: "Mayans start with one extra villager and 50 less food: villagers 1-5 to sheep, one fewer than usual"
+    - pop: 10
+      text:
+        es: "Aldeanos 6-9 a la madera con el campamento maderero. El [[unit:751]] explora y busca los jabalíes"
+        en: "Villagers 6-9 to wood with the lumber camp. The [[unit:751]] scouts and finds the boars"
+    - pop: 11
+      text:
+        es: "Aldeano 10: atrae el primer jabalí"
+        en: "Villager 10: lure the first boar"
+    - pop: 15
+      text:
+        es: "Aldeanos 11-14 a las bayas con el molino"
+        en: "Villagers 11-14 to berries with the mill"
+    - pop: 17
+      text:
+        es: "Aldeanos 15-16 al segundo jabalí; uno de comida empieza la primera granja"
+        en: "Villagers 15-16 to the second boar; one food villager starts the first farm"
+    - pop: 23
+      text:
+        es: "El resto a la madera con un segundo campamento. Telar y sube a Feudal"
+        en: "The rest to wood with a second lumber camp. Loom and click up to Feudal"
+    - pop: 23
+      text:
+        es: "Mientras sube: cuartel; pasa aldeanos de comida hasta tener 11 en madera y 3 en oro"
+        en: "While advancing: barracks; move food villagers until you have 11 on wood and 3 on gold"
+    - pop: 23
+      text:
+        es: "Al llegar a Feudal: dos galerías de tiro con arco y unidades de [[unit:4]] sin parar (a los Mayas les cuestan un 10 % menos); Hacha de doble filo"
+        en: "On reaching Feudal: two archery ranges and non-stop [[unit:4]] units (10% cheaper for Mayans); Double-Bit Axe"
+    - pop: 30
+      text:
+        es: "Hasta 8 aldeanos en oro; herrería y Emplumado de flechas; los nuevos aldeanos, a granjas"
+        en: "Up to 8 villagers on gold; blacksmith and Fletching; new villagers go to farms"
+    - pop: 38
+      text:
+        es: "Carretilla; más aldeanos a madera y granjas. Sube a Castillos con unas 24 unidades de [[unit:4]]"
+        en: "Wheelbarrow; more villagers to wood and farms. Click up to Castle Age with about 24 [[unit:4]] units"
+attack:
+  when:
+    es: "En Feudal, con 6 unidades de [[unit:4]] y Emplumado de flechas: ataca a los aldeanos en madera y oro, lejos de su centro urbano"
+    en: "In Feudal Age, with 6 [[unit:4]] units and Fletching: hit the villagers on wood and gold, away from their town center"
+  core: [unit:4]
+  support: [unit:751]
+  transition:
+    units: [unit:24, unit:753]
+    note:
+      es: "En Castillos: segundo centro urbano, unidades de [[unit:24]] (un 20 % más baratas) y de [[unit:753]] contra arqueros y armas de asedio"
+      en: "In Castle Age: a second town center, [[unit:24]] units (20% cheaper) and [[unit:753]] units against archers and siege"
+  upgrades: [tech:199, tech:437, tech:211]

@@ -1,0 +1,82 @@
+# Aztecas · Arabia · 1v1 — T39. Aprobada por el mantenedor.
+# Plan: drush de milicias → arqueros en Feudal desde dos galerías → ballesteros, guerreros águila y monasterio
+#       en Castillos (Fox AOE, "Drush into Archers").
+# Mecánicas verificadas contra los datos del parche 188329: +50 de oro al empezar, aldeanos cargan +3,
+# unidades militares se entrenan un 15 % más rápido, monjes +5 PR por tecnología del monasterio; exploran con
+# Explorador Águila; sin Dactilera.
+# Descartado de Fox AOE: dice que los aldeanos cargan +5 (los datos dicen +3) y que faltan Arbalestero, Alto
+# horno, Armadura de placas, Brazal, Torre de guardia y Escorpión (los datos dicen que están).
+# Notas de revisión:
+#  - Población de Feudal (25 = 22 aldeanos + 3 milicias) y reparto (15/5/2): sumando los pasos de Fox AOE;
+#    que el aldeano 12 vuelva a la madera después del cuartel es supuesto mío.
+#  - Población (44) y reparto en Castillos (14/10/6): aproximados; Fox AOE no los da.
+#  - Momento del ataque con arqueros (5-6 y Emplumado) y orden de mejoras: criterio propio.
+civ: Aztecs
+map: arabia
+role: 1v1
+sources:
+  - title: "Fox AOE — Aztecs Guide (actualizada 06/08/2026; opening 'Drush into Archers')"
+    url: "https://foxaoe.com/aztecs-civ/"
+economy:
+  opening:
+    es: "Drush de [[unit:74]] y unidades de [[unit:4]] en Feudal; en Castillos, unidades de [[unit:24]] y de [[unit:753]]"
+    en: "[[unit:74]] drush into Feudal [[unit:4]] units; Castle Age [[unit:24]] and [[unit:753]] units"
+  ageUpPop:
+    feudal: 25
+    castle: 44
+  villagers:
+    feudal: { food: 15, wood: 5, gold: 2, stone: 0 }
+    castle: { food: 14, wood: 10, gold: 6, stone: 0 }
+  buildOrder:
+    - pop: 6
+      text:
+        es: "Dos casas y aldeanos 1-6 a las ovejas; el [[unit:751]] explora y busca los jabalíes"
+        en: "Two houses, then villagers 1-6 to sheep; the [[unit:751]] scouts and finds the boars"
+    - pop: 10
+      text:
+        es: "Aldeanos 7-10 a la madera con el campamento maderero"
+        en: "Villagers 7-10 to wood with the lumber camp"
+    - pop: 11
+      text:
+        es: "Aldeano 11: atrae el primer jabalí"
+        en: "Villager 11: lure the first boar"
+    - pop: 12
+      text:
+        es: "Aldeano 12: casa y cuartel"
+        en: "Villager 12: house, then barracks"
+    - pop: 15
+      text:
+        es: "Aldeanos 13-15: molino en las bayas. Entrena 3 unidades de [[unit:74]] (los Aztecas entrenan las unidades militares un 15 % más rápido)"
+        en: "Villagers 13-15: mill at the berries. Train 3 [[unit:74]] units (Aztecs train military units 15% faster)"
+    - pop: 19
+      text:
+        es: "Aldeano 16: atrae el segundo jabalí. Las 3 unidades de [[unit:74]] van a su base a frenar su economía y quitarle el control del mapa"
+        en: "Villager 16: lure the second boar. The 3 [[unit:74]] units go to their base to slow their economy and deny map control"
+    - pop: 23
+      text:
+        es: "Aldeanos 17-20 a la comida del centro urbano y después a granjas"
+        en: "Villagers 17-20 to the food under the town center, then farms"
+    - pop: 25
+      text:
+        es: "Aldeanos 21-22 al oro con el campamento minero. Telar y sube a Feudal (22 aldeanos y 3 unidades de [[unit:74]])"
+        en: "Villagers 21-22 to gold with the mining camp. Loom and click up to Feudal (22 villagers and 3 [[unit:74]] units)"
+    - pop: 25
+      text:
+        es: "Al llegar a Feudal: dos galerías de tiro con arco, unidades de [[unit:4]] sin parar y [[tech:199]]"
+        en: "On reaching Feudal: two archery ranges, non-stop [[unit:4]] units and [[tech:199]]"
+    - pop: 44
+      text:
+        es: "Herrería; los nuevos aldeanos, a granjas, madera y oro (los aldeanos aztecas cargan 3 más). Sube a Castillos"
+        en: "Blacksmith; new villagers go to farms, wood and gold (Aztec villagers carry 3 more). Click up to Castle Age"
+attack:
+  when:
+    es: "Las unidades de [[unit:74]] molestan desde el final de la Edad Oscura; en Feudal, con 5-6 unidades de [[unit:4]] y [[tech:199]], ataca a sus aldeanos de madera y oro"
+    en: "The [[unit:74]] units harass from the end of the Dark Age; in Feudal Age, with 5-6 [[unit:4]] units and [[tech:199]], hit their wood and gold villagers"
+  core: [unit:4]
+  support: [unit:74]
+  transition:
+    units: [unit:24, unit:753]
+    note:
+      es: "En Castillos: segundo centro urbano, monasterio y unidades de [[unit:24]] y de [[unit:753]]; contra civilizaciones de infantería, unidades de [[unit:725]] desde el castillo"
+      en: "In Castle Age: a second town center, a monastery and [[unit:24]] and [[unit:753]] units; against infantry civs, [[unit:725]] units from the castle"
+  upgrades: [tech:199, tech:211, tech:200]

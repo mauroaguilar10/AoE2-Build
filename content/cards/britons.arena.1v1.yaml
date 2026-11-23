@@ -1,0 +1,85 @@
+# Britanos · Arena · 1v1 — T36. Aprobada por el mantenedor.
+# Plan: Fast Castle con boom (centros urbanos a mitad de madera) → masa de ballesteros con arietes.
+#   Arena: mapa cerrado con murallas de piedra; lo más habitual es el Fast Castle (Liquipedia, aoevolve).
+#   Cicero, "27+2 FC - Boom": pasos, reparto y poblaciones (Feudal 27, Castillos 27+2).
+#   aoevolve (guía de Britanos): en Castillos, dos galerías y Ballestero en cuanto se llega; una tercera
+#   galería cuando el oro lo permita; atacar con la masa de ballesteros apoyada por asedio.
+# Mecánicas verificadas contra los datos del parche 188329: centros urbanos -50 % de madera desde Castillos,
+# arqueros a pie +1 de alcance en Castillos, Hidalgo (Yeomen) +1 de alcance.
+# Notas de revisión:
+#  - Repartos (Feudal 14/9/3, Castillos 11/14/3): de la tabla de Cicero; el orden de sus filas es ambiguo.
+#  - Un solo centro urbano extra (Cicero hace dos más y un cuarto) para dejar recursos a los ballesteros,
+#    los arietes para la puerta y el orden de mejoras: criterio propio.
+civ: Britons
+map: arena
+role: 1v1
+sources:
+  - title: "Build Order Reference (Cicero) — 27+2 FC - Boom: reparto de aldeanos, pasos y tiempos de referencia"
+    url: "https://johsaoe2debuildorderreference.site44.com/27+2-fc-boom.html"
+  - title: "aoevolve — Britons Guide (actualizada 14/10/2026): Fast Castle into Crossbowman mass"
+    url: "https://aoevolve.com/civilizations/britons-guide/"
+  - title: "Liquipedia — Arena (mapa cerrado con murallas de piedra; el Fast Castle es la estrategia más frecuente)"
+    url: "https://liquipedia.net/ageofempires/Arena"
+economy:
+  opening:
+    es: "Fast Castle con boom y masa de ballesteros en Castillos"
+    en: "Fast Castle with a boom into a Castle Age crossbow mass"
+  ageUpPop:
+    feudal: 27
+    castle: 29
+  villagers:
+    feudal: { food: 14, wood: 9, gold: 3, stone: 0 }
+    castle: { food: 11, wood: 14, gold: 3, stone: 0 }
+  buildOrder:
+    - pop: 6
+      text:
+        es: "Aldeanos 1-6 a las ovejas (los pastores de los Britanos trabajan un 25 % más rápido)"
+        en: "Villagers 1-6 to sheep (Briton shepherds work 25% faster)"
+    - pop: 10
+      text:
+        es: "Aldeanos 7-10 a la madera con el campamento maderero"
+        en: "Villagers 7-10 to wood with the lumber camp"
+    - pop: 11
+      text:
+        es: "Aldeano 11: atrae el primer jabalí"
+        en: "Villager 11: lure the first boar"
+    - pop: 16
+      text:
+        es: "Aldeanos 12-16 a las bayas con el molino"
+        en: "Villagers 12-16 to berries with the mill"
+    - pop: 18
+      text:
+        es: "Aldeanos 17-18 al segundo jabalí; después, granjas"
+        en: "Villagers 17-18 to the second boar; then farms"
+    - pop: 23
+      text:
+        es: "Aldeanos 19-23 a la madera con un segundo campamento"
+        en: "Villagers 19-23 to wood with a second lumber camp"
+    - pop: 27
+      text:
+        es: "Aldeanos 24-26 al oro. Telar y sube a Feudal"
+        en: "Villagers 24-26 to gold. Loom and click up to Feudal"
+    - pop: 29
+      text:
+        es: "En Feudal: mercado y herrería; dos aldeanos más a la madera y sube a Castillos. Mientras sube: Hacha de doble filo y Collera"
+        en: "In Feudal: market and blacksmith; two more villagers to wood, then click up to Castle Age. While advancing: Double-Bit Axe and Horse Collar"
+    - pop: 29
+      text:
+        es: "Al llegar a Castillos: un segundo centro urbano (a los Britanos les cuesta la mitad de madera) y dos galerías de tiro con arco; investiga [[unit:24]] y pasa aldeanos al oro"
+        en: "On reaching Castle Age: a second town center (half the wood for Britons) and two archery ranges; research [[unit:24]] and move villagers to gold"
+    - pop: 40
+      text:
+        es: "Sierra de arco, Carretilla y granjas; una tercera galería cuando el oro lo permita"
+        en: "Bow Saw, Wheelbarrow and farms; a third archery range once your gold allows it"
+attack:
+  when:
+    es: "En Castillos, con unas 15 unidades de [[unit:24]] y 2 de [[unit:1258]]: los arietes rompen la puerta y los ballesteros, con su alcance extra, cubren desde atrás"
+    en: "In Castle Age, with about 15 [[unit:24]] units and 2 [[unit:1258]] units: the rams break the gate while the crossbows, with their extra range, cover from behind"
+  core: [unit:24]
+  support: [unit:1258]
+  transition:
+    units: [unit:492, unit:331]
+    note:
+      es: "En Imperial, mejora a [[unit:492]] y suma trebuchets con Lobo de guerra para derribar murallas y castillos"
+      en: "In Imperial Age, upgrade to [[unit:492]] and add trebuchets with Warwolf to bring down walls and castles"
+  upgrades: [tech:200, tech:93, tech:3]

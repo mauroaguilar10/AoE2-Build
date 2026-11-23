@@ -1,0 +1,71 @@
+# Aztecas · Arena · 1v1 — T39. Aprobada por el mantenedor.
+# Plan: Fast Castle con monasterio → monjes con arietes y mangoneles, y todas las reliquias; en Imperial,
+#       campeones con Guerras floridas y guerrilleros de élite con Átlatl (Fox AOE, "Monks, Siege, Relics").
+# Mecánicas verificadas contra los datos del parche 188329: aldeanos cargan +3, monjes +5 PR por tecnología
+# del monasterio, bonificación de equipo +33 % de oro por reliquia; Átlatl (Castillos), Guerras floridas
+# (Imperial), Campeón, Guerrillero de élite y Onagro disponibles.
+# Notas de revisión:
+#  - Población de Feudal (22) y reparto (14/6/2): sumando los pasos de Fox AOE.
+#  - Población (28) y reparto en Castillos (14/9/5): aproximados, como en Mongoles · Arena; Fox AOE no los da.
+#  - Tamaño del empuje (6-8 monjes, 2-3 arietes): criterio propio.
+civ: Aztecs
+map: arena
+role: 1v1
+sources:
+  - title: "Fox AOE — Aztecs Guide (actualizada 06/08/2026; opening 'Monks, Siege, Relics' para Arena)"
+    url: "https://foxaoe.com/aztecs-civ/"
+economy:
+  opening:
+    es: "Fast Castle: unidades de [[unit:125]] y asedio, con todas las reliquias"
+    en: "Fast Castle into [[unit:125]] units and siege, taking every relic"
+  ageUpPop:
+    feudal: 22
+    castle: 28
+  villagers:
+    feudal: { food: 14, wood: 6, gold: 2, stone: 0 }
+    castle: { food: 14, wood: 9, gold: 5, stone: 0 }
+  buildOrder:
+    - pop: 6
+      text:
+        es: "Dos casas y aldeanos 1-6 a las ovejas; el [[unit:751]] busca los jabalíes"
+        en: "Two houses, then villagers 1-6 to sheep; the [[unit:751]] finds the boars"
+    - pop: 10
+      text:
+        es: "Aldeanos 7-10 a la madera con el campamento maderero"
+        en: "Villagers 7-10 to wood with the lumber camp"
+    - pop: 11
+      text:
+        es: "Aldeano 11: atrae el primer jabalí"
+        en: "Villager 11: lure the first boar"
+    - pop: 12
+      text:
+        es: "Aldeano 12: casa y molino en las bayas. Cierra pronto las puertas de la muralla"
+        en: "Villager 12: house and mill at the berries. Close the wall gates early"
+    - pop: 18
+      text:
+        es: "Aldeanos 13-18 a las bayas y la comida del centro urbano; uno atrae el segundo jabalí. Después, granjas"
+        en: "Villagers 13-18 to berries and the food under the town center; one lures the second boar. Then farms"
+    - pop: 22
+      text:
+        es: "Aldeanos 19-22 a la madera y el oro. Telar y sube a Feudal"
+        en: "Villagers 19-22 to wood and gold. Loom and click up to Feudal"
+    - pop: 28
+      text:
+        es: "En Feudal: mercado y herrería, y sube a Castillos; los nuevos aldeanos, a granjas y oro (los aldeanos aztecas cargan 3 más)"
+        en: "In Feudal: market and blacksmith, then click up to Castle Age; new villagers go to farms and gold (Aztec villagers carry 3 more)"
+    - pop: 28
+      text:
+        es: "Al llegar a Castillos: monasterio primero y [[tech:316]]; unidades de [[unit:125]] a por todas las reliquias (cada una da un 33 % más de oro a los Aztecas). Taller de asedio, [[tech:231]] y [[tech:230]]"
+        en: "On reaching Castle Age: monastery first and [[tech:316]]; [[unit:125]] units go for every relic (each one gives Aztecs 33% more gold). Siege workshop, [[tech:231]] and [[tech:230]]"
+attack:
+  when:
+    es: "En Castillos, con 6-8 unidades de [[unit:125]] (+5 PR por cada tecnología del monasterio) y 2-3 de [[unit:1258]]: rompe la muralla mientras los convierten y curan; unidades de [[unit:280]] contra los grupos de arqueros"
+    en: "In Castle Age, with 6-8 [[unit:125]] units (+5 HP for each monastery tech) and 2-3 [[unit:1258]] units: break the wall while they convert and heal; [[unit:280]] units against archer groups"
+  core: [unit:125]
+  support: [unit:1258, unit:280]
+  transition:
+    units: [unit:567, unit:6, unit:550]
+    note:
+      es: "En Imperial: unidades de [[unit:567]] con [[tech:24]], de [[unit:6]] con [[tech:460]] y de [[unit:550]]"
+      en: "In Imperial Age: [[unit:567]] units with [[tech:24]], [[unit:6]] units with [[tech:460]], and [[unit:550]] units"
+  upgrades: [tech:316, tech:231, tech:230]

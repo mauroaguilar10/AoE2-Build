@@ -1,0 +1,15 @@
+{
+  "reviewedPatch": "188329",
+  "approvedAt": "2026-11-23",
+  "fingerprints": {
+    "civ:Britons": "9f1daf3b273fc267",
+    "tech:201": "8f3cb9bb47847a16",
+    "tech:3": "e0860913582a4a90",
+    "tech:461": "69526db1b57a9b12",
+    "unit:24": "d22ad4ba0ed4c051",
+    "unit:331": "9791971fa2206cf8",
+    "unit:359": "a647b5e1b5a793c9",
+    "unit:492": "bce5f5af916a15b9"
+  },
+  "cardHash": "bc43d135307d1d12"
+}

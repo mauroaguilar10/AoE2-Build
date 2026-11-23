@@ -1,0 +1,77 @@
+# Mongoles · Arabia · 1v1 — T38. Aprobada por el mantenedor.
+# Plan: scouts en Feudal → castillo y mangudai en Castillos (Fox AOE, "Scouts into Mangudai · Arabia and open maps").
+# Mecánicas verificadas contra los datos del parche 188329: cazadores +40 %, arqueros a caballo (y mangudai)
+# atacan +25 % más rápido, línea de caballería de exploración +20 % de PV en Castillos; bonificación de equipo
+# +2 de visión para la caballería de exploración.
+# Notas de revisión:
+#  - Población de Feudal (21) y reparto (15/4/2): sumando los pasos de Fox AOE (cuenta aldeanos).
+#  - Población (32) y reparto en Castillos (16/8/4): aproximados; Fox AOE no los da para este plan.
+#  - Fox AOE y aoevolve dicen que los Mongoles no tienen Pureza de sangre, pero los datos del juego dicen que
+#    sí: la ficha no la menciona. Orden de mejoras: criterio propio.
+civ: Mongols
+map: arabia
+role: 1v1
+sources:
+  - title: "Fox AOE — Mongols Guide (actualizada 23/10/2026; opening 'Scouts into Mangudai · Arabia and open maps')"
+    url: "https://foxaoe.com/mongols-civilization/"
+  - title: "aoevolve — Mongols Guide (actualizada 14/10/2026): bonificaciones y paso a mangudai en Castillos"
+    url: "https://aoevolve.com/civilizations/mongols-guide/"
+economy:
+  opening:
+    es: "Scouts en Feudal y castillo con mangudai en Castillos"
+    en: "Feudal scouts into a Castle Age castle and Mangudai"
+  ageUpPop:
+    feudal: 21
+    castle: 32
+  villagers:
+    feudal: { food: 15, wood: 4, gold: 2, stone: 0 }
+    castle: { food: 16, wood: 8, gold: 4, stone: 0 }
+  buildOrder:
+    - pop: 6
+      text:
+        es: "Explora con la [[unit:448]] (+2 de visión) y busca los ciervos. Dos casas y aldeanos 1-6 a las ovejas"
+        en: "Scout with the [[unit:448]] (+2 line of sight) and find the deer. Two houses, then villagers 1-6 to sheep"
+    - pop: 10
+      text:
+        es: "Aldeanos 7-10 a la madera con el campamento maderero"
+        en: "Villagers 7-10 to wood with the lumber camp"
+    - pop: 11
+      text:
+        es: "Aldeano 11: atrae el primer jabalí"
+        en: "Villager 11: lure the first boar"
+    - pop: 12
+      text:
+        es: "Aldeano 12: casa y molino junto a los ciervos si hay un grupo cerca (los cazadores mongoles trabajan un 40 % más rápido); si no, en las bayas"
+        en: "Villager 12: house, then a mill at the deer if there is a cluster nearby (Mongol hunters work 40% faster); otherwise at the berries"
+    - pop: 16
+      text:
+        es: "Aldeanos 13-16 a los ciervos o las bayas; uno atrae el segundo jabalí"
+        en: "Villagers 13-16 to deer or berries; one lures the second boar"
+    - pop: 19
+      text:
+        es: "Aldeanos 17-19 a la comida del centro urbano y después a granjas; un aldeano de madera construye el establo"
+        en: "Villagers 17-19 to the food under the town center, then farms; a wood villager builds the stable"
+    - pop: 21
+      text:
+        es: "Aldeanos 20-21 al oro con el campamento minero. Telar y sube a Feudal"
+        en: "Villagers 20-21 to gold with the mining camp. Loom and click up to Feudal"
+    - pop: 21
+      text:
+        es: "Al llegar a Feudal: unidades de [[unit:448]] en cuanto aterrizas; herrería y empieza a amurallar"
+        en: "On reaching Feudal: [[unit:448]] units the moment you land; blacksmith, and start walling"
+    - pop: 32
+      text:
+        es: "Al llegar a Castillos: castillo, unidades de [[unit:11]] sin parar y segundo centro urbano; mejora a [[unit:546]]"
+        en: "On reaching Castle Age: a castle, non-stop [[unit:11]] units and a second town center; upgrade to [[unit:546]]"
+attack:
+  when:
+    es: "En Feudal, con 3-4 unidades de [[unit:448]]: ataca a los aldeanos sin parar, aunque no mates nada, para frenar su economía"
+    en: "In Feudal Age, with 3-4 [[unit:448]] units: raid villagers non-stop, even if you kill nothing, to slow down their economy"
+  core: [unit:448]
+  support: []
+  transition:
+    units: [unit:11, unit:546]
+    note:
+      es: "En Castillos pasa a unidades de [[unit:11]] desde el castillo (atacan un 25 % más rápido), con unidades de [[unit:546]] para seguir hostigando"
+      en: "In Castle Age switch to [[unit:11]] from the castle (they fire 25% faster), with [[unit:546]] units to keep raiding"
+  upgrades: [tech:67, tech:81, tech:199]

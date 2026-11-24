@@ -236,7 +236,7 @@ Hecho cuando (todas): las 3 fichas de la civilización pasan `build-content` y e
 
 ## I. Publicación
 
-- [ ] **T45 — Despliegue en Cloudflare Pages**
+- [x] **T45 — Despliegue en Cloudflare Pages**
   Requiere que crees una cuenta (gratuita) y conectes el repositorio. Necesita las 30 fichas aprobadas.
   RF: RF-10 (URLs en producción), RF-41
   Depende de: T34, T35–T44

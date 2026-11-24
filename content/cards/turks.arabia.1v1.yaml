@@ -1,0 +1,78 @@
+# Turcos · Arabia · 1v1 — T41. Aprobada por el mantenedor.
+# Plan: scouts en Feudal → caballería ligera (mejora gratis) y arqueros a caballo con Cipayos en Castillos.
+#   Arabia es de los peores mapas turcos (Hera los pone en el nivel D; 44,6 % de victorias según aoe2-guide).
+#   No hay plan publicado de Turcos para Arabia. Se combinan: aoe2guide.com (apertura con scouts que luego
+#   cambian a caballería ligera, caballeros, camellos o arqueros a caballo) y Cicero "21 pop Scouts" (genérico).
+# Mecánicas verificadas contra los datos del parche 188329: mineros de oro +25 %, línea de caballería de
+# exploración +1 de armadura contra proyectiles y mejoras gratis, Cipayos (Castillos: arqueros montados +20 PV).
+# Notas de revisión:
+#  - Feudal 21 (20 aldeanos y la caballería de exploración inicial) y reparto 13/7/0: sumando los pasos de
+#    Cicero. El subagente leyó en la página "10/10" al subir; no cuadra con los pasos y usé los pasos.
+#  - Castillos 39 (33 aldeanos + unas 6 unidades) y reparto 18/10/5: de la última fila de Cicero; la
+#    población es aproximada (Cicero no la da).
+#  - Momento del ataque (3-4 scouts), paso a arqueros a caballo y orden de mejoras: criterio propio.
+civ: Turks
+map: arabia
+role: 1v1
+sources:
+  - title: "Build Order Reference (Cicero) — 21 pop Scouts: pasos y reparto hasta Castillos"
+    url: "https://johsaoe2debuildorderreference.site44.com/21-pop-scouts.html"
+  - title: "aoe2guide.com — Turks: apertura con scouts y paso a caballería ligera, caballeros, camellos o arqueros a caballo"
+    url: "https://aoe2guide.com/en/civs/turks/"
+  - title: "aoe2-guide — Arabia (estadísticas por civilización; amurallar en parte el oro y la piedra)"
+    url: "https://aoe2-guide.pages.dev/en/maps/arabia"
+economy:
+  opening:
+    es: "Unidades de [[unit:448]] en Feudal; en Castillos, mejora gratis a [[unit:546]] y unidades de [[unit:39]]"
+    en: "Feudal [[unit:448]] units; in Castle Age, a free [[unit:546]] upgrade and [[unit:39]] units"
+  ageUpPop:
+    feudal: 21
+    castle: 39
+  villagers:
+    feudal: { food: 13, wood: 7, gold: 0, stone: 0 }
+    castle: { food: 18, wood: 10, gold: 5, stone: 0 }
+  buildOrder:
+    - pop: 6
+      text:
+        es: "Aldeanos 1-6 a las ovejas; la [[unit:448]] busca los jabalíes y los ciervos"
+        en: "Villagers 1-6 to sheep; the [[unit:448]] finds the boars and the deer"
+    - pop: 9
+      text:
+        es: "Aldeanos 7-9 a la madera con el campamento maderero"
+        en: "Villagers 7-9 to wood with the lumber camp"
+    - pop: 10
+      text:
+        es: "Aldeano 10: atrae el primer jabalí"
+        en: "Villager 10: lure the first boar"
+    - pop: 14
+      text:
+        es: "Aldeanos 11-14 a las bayas con el molino"
+        en: "Villagers 11-14 to berries with the mill"
+    - pop: 16
+      text:
+        es: "Aldeanos 15-16 al segundo jabalí; cuando se acabe la caza, granjas"
+        en: "Villagers 15-16 to the second boar; farms once the hunt runs out"
+    - pop: 21
+      text:
+        es: "Aldeanos 17-20 a la madera con un segundo campamento maderero. Telar y sube a Feudal; mientras sube, cuartel y pasa aldeanos de ovejas hasta tener 10 en madera"
+        en: "Villagers 17-20 to wood with a second lumber camp. Loom and click up to Feudal; while advancing, barracks, and move sheep villagers until you have 10 on wood"
+    - pop: 21
+      text:
+        es: "Al llegar a Feudal: establo y unidades de [[unit:448]] (los Turcos le dan +1 de armadura contra proyectiles); [[tech:202]] y [[tech:14]]; los nuevos aldeanos, a granjas"
+        en: "On reaching Feudal: stable and [[unit:448]] units (+1 pierce armor for Turks); [[tech:202]] and [[tech:14]]; new villagers go to farms"
+    - pop: 39
+      text:
+        es: "5 aldeanos al oro (los mineros turcos trabajan un 25 % más rápido), [[tech:213]] y herrería. Sube a Castillos"
+        en: "5 villagers to gold (Turkish miners work 25% faster), [[tech:213]] and blacksmith. Click up to Castle Age"
+attack:
+  when:
+    es: "En Feudal, con 3-4 unidades de [[unit:448]]: ataca a los aldeanos de madera y oro sin parar y vuelve a casa si te persiguen unidades de [[unit:93]]"
+    en: "In Feudal Age, with 3-4 [[unit:448]] units: raid the wood and gold villagers non-stop and head home if [[unit:93]] units chase you"
+  core: [unit:448]
+  support: []
+  transition:
+    units: [unit:546, unit:39]
+    note:
+      es: "En Castillos la mejora a [[unit:546]] es gratis para los Turcos: sigue presionando con ellas y suma unidades de [[unit:39]] con [[tech:491]] (+20 PV)"
+      en: "In Castle Age the [[unit:546]] upgrade is free for Turks: keep raiding with them and add [[unit:39]] units with [[tech:491]] (+20 HP)"
+  upgrades: [tech:67, tech:81, tech:435]

@@ -1,0 +1,79 @@
+# Españoles · Arabia · 1v1 — T43. Aprobada por el mantenedor.
+# Plan: scouts en Feudal, defensa con lanceros y guerrilleros mientras se amuralla → castillo con
+#       conquistadores y caballeros en Castillos (Fox AOE, "Scouts into Conquistadors · Arabia and open maps").
+#   Fox avisa de que Arabia es el mapa más débil de los Españoles (no tienen un pico de fuerza en Feudal).
+# Mecánicas verificadas contra los datos del parche 188329: constructores +30 %, +20 de oro por cada tecnología,
+# mejoras de la herrería sin oro, unidades de pólvora atacan un 18 % más rápido; Conquistador (castillo); sin
+# Ballestero ni Arbalestero (Fox: no hacer arqueros en masa).
+# Notas de revisión:
+#  - Feudal 22 (como Fox) y reparto (16/4/2): sumando los pasos de Fox AOE.
+#  - Castillos 44 y reparto (18/10/5/3): aproximados a partir de Cicero "21 pop Scouts" (después de Feudal) más
+#    la piedra del castillo; Fox solo da el tiempo (~19:00).
+#  - Orden de mejoras: criterio propio.
+civ: Spanish
+map: arabia
+role: 1v1
+sources:
+  - title: "Fox AOE — Spanish Guide (actualizada 06/08/2026; opening 'Scouts into Conquistadors · Arabia and open maps')"
+    url: "https://foxaoe.com/conquistador-spanish-build-order-monk-guide/"
+  - title: "Build Order Reference (Cicero) — 21 pop Scouts: reparto después de Feudal y tiempo de Castillos"
+    url: "https://johsaoe2debuildorderreference.site44.com/21-pop-scouts.html"
+economy:
+  opening:
+    es: "Unidades de [[unit:448]] en Feudal y, en Castillos, castillo con unidades de [[unit:771]] y de [[unit:38]]"
+    en: "Feudal [[unit:448]] units into a Castle Age castle with [[unit:771]] and [[unit:38]] units"
+  ageUpPop:
+    feudal: 22
+    castle: 44
+  villagers:
+    feudal: { food: 16, wood: 4, gold: 2, stone: 0 }
+    castle: { food: 18, wood: 10, gold: 5, stone: 3 }
+  buildOrder:
+    - pop: 6
+      text:
+        es: "Dos casas y aldeanos 1-6 a las ovejas; la [[unit:448]] explora bien el mapa"
+        en: "Two houses, then villagers 1-6 to sheep; the [[unit:448]] scouts the map properly"
+    - pop: 10
+      text:
+        es: "Aldeanos 7-10 a la madera con el campamento maderero"
+        en: "Villagers 7-10 to wood with the lumber camp"
+    - pop: 11
+      text:
+        es: "Aldeano 11: atrae el primer jabalí"
+        en: "Villager 11: lure the first boar"
+    - pop: 12
+      text:
+        es: "Aldeano 12: casa y molino en las bayas"
+        en: "Villager 12: house, then a mill at the berries"
+    - pop: 16
+      text:
+        es: "Aldeanos 13-16 a las bayas y al segundo jabalí; con el tiempo libre, empieza a amurallar (los constructores españoles trabajan un 30 % más rápido)"
+        en: "Villagers 13-16 to berries and the second boar; start walling in spare time (Spanish builders work 30% faster)"
+    - pop: 20
+      text:
+        es: "Aldeanos 17-20 a la comida del centro urbano y a granjas; un aldeano de madera construye el establo"
+        en: "Villagers 17-20 to the food under the town center and farms; a wood villager builds the stable"
+    - pop: 22
+      text:
+        es: "Aldeanos 21-22 al oro con el campamento minero. Telar y sube a Feudal"
+        en: "Villagers 21-22 to gold with the mining camp. Loom and click up to Feudal"
+    - pop: 22
+      text:
+        es: "Al llegar a Feudal: 3-4 unidades de [[unit:448]]; después, unidades de [[unit:93]] y de [[unit:7]] para defender mientras terminas las murallas (no hagas arqueros en masa)"
+        en: "On reaching Feudal: 3-4 [[unit:448]] units; then [[unit:93]] and [[unit:7]] units to defend while you finish the walls (don't mass archers)"
+    - pop: 44
+      text:
+        es: "Más aldeanos a granjas, madera y oro, y unos pocos a la piedra para el castillo. Sube a Castillos detrás de las murallas (cada tecnología te devuelve 20 de oro)"
+        en: "More villagers to farms, wood and gold, and a few to stone for the castle. Click up to Castle Age behind your walls (each technology gives you 20 gold back)"
+attack:
+  when:
+    es: "En Feudal, apenas llegas, con 3-4 unidades de [[unit:448]]: ataca a sus aldeanos. Si te presionan, defiende con unidades de [[unit:93]] y de [[unit:7]] hasta Castillos"
+    en: "In Feudal Age, as soon as you land, with 3-4 [[unit:448]] units: raid their villagers. If they pressure you, defend with [[unit:93]] and [[unit:7]] units until Castle Age"
+  core: [unit:448]
+  support: [unit:93, unit:7]
+  transition:
+    units: [unit:771, unit:38]
+    note:
+      es: "En Castillos: castillo y unidades de [[unit:771]] (las unidades de pólvora españolas atacan un 18 % más rápido), con unidades de [[unit:38]] delante"
+      en: "In Castle Age: a castle and [[unit:771]] units (Spanish gunpowder units attack 18% faster), with [[unit:38]] units in front"
+  upgrades: [tech:67, tech:81, tech:435]

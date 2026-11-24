@@ -227,11 +227,11 @@ Hecho cuando (todas): las 3 fichas de la civilización pasan `build-content` y e
 - [x] **T37 — Mayas · 3 mapas**
 - [x] **T38 — Mongoles · 3 mapas**
 - [x] **T39 — Aztecas · 3 mapas**
-- [ ] **T40 — Godos · 3 mapas**
-- [ ] **T41 — Turcos · 3 mapas**
-- [ ] **T42 — Jemeres · 3 mapas**
-- [ ] **T43 — Españoles · 3 mapas**
-- [ ] **T44 — Persas · 3 mapas**
+- [x] **T40 — Godos · 3 mapas**
+- [x] **T41 — Turcos · 3 mapas**
+- [x] **T42 — Jemeres · 3 mapas**
+- [x] **T43 — Españoles · 3 mapas**
+- [x] **T44 — Persas · 3 mapas**
   RF (todas): RF-12, RF-13, RF-14, RF-34, RF-36
 
 ## I. Publicación

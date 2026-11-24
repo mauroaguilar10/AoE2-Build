@@ -1,0 +1,20 @@
+{
+  "reviewedPatch": "188329",
+  "approvedAt": "2026-11-24",
+  "fingerprints": {
+    "civ:Turks": "1f31c6363e0eddba",
+    "tech:10": "98b60d71f06d8aa4",
+    "tech:202": "6b5e241e5640974d",
+    "tech:211": "00ec95085f23fa7c",
+    "tech:212": "56a3a0987a2dbe48",
+    "tech:47": "8452b2e0996da212",
+    "tech:491": "79408adf92078f77",
+    "tech:55": "b3c4a0e7562bc8fe",
+    "unit:36": "2f0f730e0c2050f8",
+    "unit:441": "f0b724f0865977c9",
+    "unit:448": "4dfa18a380fb9763",
+    "unit:474": "0ca1765565ad2e47",
+    "unit:5": "a441297032414311"
+  },
+  "cardHash": "03ec4e7290532b2c"
+}

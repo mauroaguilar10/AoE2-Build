@@ -1,0 +1,80 @@
+# Persas · Arabia · 1v1 — T44. Aprobada por el mantenedor.
+# Plan: scouts en Feudal → caballeros desde dos establos en Castillos.
+#   No hay build publicado de Persas para Arabia. Se combinan: aoe2guide.com (apertura con scouts y paso a
+#   caballeros, camellos o caballería ligera; no hacer arqueros a caballo), aoebuddy (el rush de scouts es la
+#   apertura persa más jugada en Arabia) y el "18 pop Scouts" genérico de aoe2-guide (pasos y reparto al subir).
+# Mecánicas verificadas contra los datos del parche 188329: +50 de madera y +50 de comida al empezar; centros
+# urbanos con el doble de PV y +5/10/15/20 % de velocidad por edad; bonificación de equipo: línea de caballeros
+# +2 de ataque contra soldados a distancia.
+# Descartado de aoe2guide.com: recomienda paladines al final, pero los Persas no tienen Paladín (tienen Savar).
+# Notas de revisión:
+#  - Feudal 18 y reparto (14/4/0): los que da la página "18 pop Scouts" (genérica).
+#  - Castillos 40 y reparto (18/10/5): aproximados a partir de Cicero "21 pop Scouts" (después de Feudal).
+#  - Momento del ataque y orden de mejoras: criterio propio (Pureza de sangre tras 7-8 scouts: aoe2-guide).
+civ: Persians
+map: arabia
+role: 1v1
+sources:
+  - title: "aoe2guide.com — Persians: apertura con scouts y paso a caballeros, camellos o caballería ligera"
+    url: "https://aoe2guide.com/en/civs/persians/"
+  - title: "aoebuddy — Persians: aperturas más jugadas en Arabia (rush de scouts)"
+    url: "https://aoebuddy.com/civs/persians"
+  - title: "aoe2-guide — 18 pop Scouts (genérico): pasos, reparto al subir a Feudal y caballeros en Castillos"
+    url: "https://aoe2-guide.pages.dev/en/builds/18pop-scouts"
+  - title: "Build Order Reference (Cicero) — 21 pop Scouts: reparto después de Feudal"
+    url: "https://johsaoe2debuildorderreference.site44.com/21-pop-scouts.html"
+economy:
+  opening:
+    es: "Unidades de [[unit:448]] en Feudal y unidades de [[unit:38]] desde dos establos en Castillos"
+    en: "Feudal [[unit:448]] units into [[unit:38]] units from two stables in Castle Age"
+  ageUpPop:
+    feudal: 18
+    castle: 40
+  villagers:
+    feudal: { food: 14, wood: 4, gold: 0, stone: 0 }
+    castle: { food: 18, wood: 10, gold: 5, stone: 0 }
+  buildOrder:
+    - pop: 6
+      text:
+        es: "Aldeanos 1-6 a las ovejas (los Persas empiezan con 50 de madera y 50 de comida más); la [[unit:448]] busca los jabalíes y acerca los ciervos"
+        en: "Villagers 1-6 to sheep (Persians start with 50 extra wood and food); the [[unit:448]] finds the boars and pushes the deer"
+    - pop: 8
+      text:
+        es: "Aldeanos 7-8 a la madera con el campamento maderero"
+        en: "Villagers 7-8 to wood with the lumber camp"
+    - pop: 9
+      text:
+        es: "Aldeano 9: atrae el primer jabalí"
+        en: "Villager 9: lure the first boar"
+    - pop: 10
+      text:
+        es: "Aldeano 10: casa y molino en las bayas o los ciervos"
+        en: "Villager 10: house, then a mill at the berries or the deer"
+    - pop: 16
+      text:
+        es: "Aldeanos 11-16 a la comida: bayas, ciervos y el segundo jabalí"
+        en: "Villagers 11-16 to food: berries, deer and the second boar"
+    - pop: 18
+      text:
+        es: "Aldeanos 17-18 a la madera. Telar y sube a Feudal"
+        en: "Villagers 17-18 to wood. Loom and click up to Feudal"
+    - pop: 18
+      text:
+        es: "Al llegar a Feudal: 4 aldeanos a las bayas; un aldeano construye el cuartel y después el establo; unidades de [[unit:448]] sin parar, [[tech:202]] y [[tech:14]]"
+        en: "On reaching Feudal: 4 villagers to berries; one villager builds the barracks, then the stable; non-stop [[unit:448]] units, [[tech:202]] and [[tech:14]]"
+    - pop: 40
+      text:
+        es: "Granjas, 10 aldeanos en madera y 5 en oro; [[tech:435]] después de 7-8 unidades de [[unit:448]]; [[tech:213]] y herrería. Sube a Castillos (los centros urbanos persas trabajan más rápido en cada edad)"
+        en: "Farms, 10 villagers on wood and 5 on gold; [[tech:435]] after 7-8 [[unit:448]] units; [[tech:213]] and blacksmith. Click up to Castle Age (Persian town centers work faster each age)"
+attack:
+  when:
+    es: "En Feudal, con 3-4 unidades de [[unit:448]]: ataca a sus aldeanos de madera y oro sin parar"
+    en: "In Feudal Age, with 3-4 [[unit:448]] units: raid their wood and gold villagers non-stop"
+  core: [unit:448]
+  support: []
+  transition:
+    units: [unit:38]
+    note:
+      es: "En Castillos: segundo establo y unidades de [[unit:38]] sin parar (+2 de ataque contra arqueros por la bonificación de equipo persa)"
+      en: "In Castle Age: a second stable and non-stop [[unit:38]] units (+2 attack against archers from the Persian team bonus)"
+  upgrades: [tech:435, tech:67, tech:81]

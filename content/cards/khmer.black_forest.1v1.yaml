@@ -1,0 +1,86 @@
+# Jemeres · Selva Negra · 1v1 — T42. Aprobada por el mantenedor.
+# Plan: amurallar, Fast Castle sin edificios previos y boom de centros urbanos → en Imperial, bola de elefantes
+#       con balista, escorpiones pesados y fundíbulos.
+#   No hay plan publicado de Jemeres para Selva Negra. Se combinan: Cicero "27+2 FC Boom" (genérico, "pensado
+#   para mapas cerrados"), aoe2guide.com (Jemeres en mapas cerrados: escorpiones pesados, elefantes con balista y
+#   fundíbulos), Sitaux (doble empalizada sin puerta después de los dos jabalíes) y aoe2-guide (Selva Negra:
+#   murallas de piedra a mitad de partida, boom e Imperial hacia el minuto 30-32; los fundíbulos encabezan el ataque).
+# Mecánicas verificadas contra los datos del parche 188329: no necesitan edificios para avanzar de edad;
+# granjeros sin molino ni centro urbano; aldeanos refugiados en las casas; Ballestas dobles (Imperial);
+# escorpiones +1 de alcance (equipo); sin Onagro de asedio ni Cañón de asedio.
+# Notas de revisión:
+#  - Feudal 27 y Castillos 29 (con la caballería de exploración inicial) y repartos (14/9/3 y 11/14/3): los que
+#    da Cicero para "27+2 FC Boom".
+#  - Subir a Castillos sin mercado ni herrería (el build genérico los construye): adaptación por la bonificación jemer.
+#  - Momento y tamaño del ataque y orden de mejoras: criterio propio.
+civ: Khmer
+map: black_forest
+role: 1v1
+sources:
+  - title: "Build Order Reference (Cicero) — 27+2 FC Boom: Fast Castle para mapas cerrados"
+    url: "https://johsaoe2debuildorderreference.site44.com/27+2-fc-boom.html"
+  - title: "aoe2guide.com — Khmer: en mapas cerrados, escorpiones pesados, elefantes con balista y fundíbulos"
+    url: "https://aoe2guide.com/en/civs/khmer/"
+  - title: "Sitaux — Black Forest (amurallar después de los jabalíes con doble empalizada, sin puerta)"
+    url: "https://sitaux.com/black-forest/"
+  - title: "aoe2-guide — Black Forest (murallas de piedra, boom, Imperial hacia el minuto 30-32, fundíbulos)"
+    url: "https://aoe2-guide.pages.dev/en/maps/black-forest"
+economy:
+  opening:
+    es: "Amurallar, Fast Castle y boom; en Imperial, unidades de [[unit:1122]] y de [[unit:542]] con fundíbulos"
+    en: "Wall in, Fast Castle and boom; Imperial Age [[unit:1122]] and [[unit:542]] units with trebuchets"
+  ageUpPop:
+    feudal: 27
+    castle: 29
+  villagers:
+    feudal: { food: 14, wood: 9, gold: 3, stone: 0 }
+    castle: { food: 11, wood: 14, gold: 3, stone: 0 }
+  buildOrder:
+    - pop: 6
+      text:
+        es: "Aldeanos 1-6 a las ovejas; la [[unit:448]] busca los jabalíes"
+        en: "Villagers 1-6 to sheep; the [[unit:448]] finds the boars"
+    - pop: 10
+      text:
+        es: "Aldeanos 7-10 a la madera con el campamento maderero"
+        en: "Villagers 7-10 to wood with the lumber camp"
+    - pop: 11
+      text:
+        es: "Aldeano 11: atrae el primer jabalí"
+        en: "Villager 11: lure the first boar"
+    - pop: 16
+      text:
+        es: "Aldeanos 12-16 a las bayas con el molino"
+        en: "Villagers 12-16 to berries with the mill"
+    - pop: 18
+      text:
+        es: "Aldeanos 17-18 al segundo jabalí y después a granjas. Ya con los dos jabalíes: dos aldeanos de madera cierran la abertura con doble empalizada, sin puerta"
+        en: "Villagers 17-18 to the second boar, then farms. Once both boars are in: two wood villagers close the gap with a double palisade, no gate"
+    - pop: 23
+      text:
+        es: "Aldeanos 19-23 a la madera con un segundo campamento maderero"
+        en: "Villagers 19-23 to wood with a second lumber camp"
+    - pop: 27
+      text:
+        es: "Aldeanos 24-26 al oro. Telar y sube a Feudal sin construir nada antes (los Jemeres no necesitan edificios para avanzar)"
+        en: "Villagers 24-26 to gold. Loom and click up to Feudal without building anything first (Khmer need no buildings to advance)"
+    - pop: 29
+      text:
+        es: "En Feudal: granjas donde quieras (los granjeros jemeres no necesitan molino), [[tech:202]] y [[tech:14]]; sube a Castillos sin mercado ni herrería"
+        en: "In Feudal: farms wherever you like (Khmer farmers need no mill), [[tech:202]] and [[tech:14]]; click up to Castle Age with no market or blacksmith"
+    - pop: 29
+      text:
+        es: "Al llegar a Castillos: dos centros urbanos más, [[tech:203]] y unas 18 granjas; después [[tech:213]] y un cuarto centro urbano. Cambia la empalizada por muralla de piedra; si te atacan, refugia a los aldeanos en las casas"
+        en: "On reaching Castle Age: two more town centers, [[tech:203]] and about 18 farms; then [[tech:213]] and a fourth town center. Replace the palisade with a stone wall; if attacked, garrison villagers in houses"
+attack:
+  when:
+    es: "En Imperial, hacia el minuto 30, con [[tech:623]]: unidades de [[unit:1122]] y de [[unit:542]] (disparan un proyectil más) detrás de 2-3 de [[unit:331]], que abren la muralla o el castillo"
+    en: "In Imperial Age, around minute 30, with [[tech:623]]: [[unit:1122]] and [[unit:542]] units (they fire an extra projectile) behind 2-3 [[unit:331]] units that open the wall or castle"
+  core: [unit:1122, unit:542]
+  support: [unit:331]
+  transition:
+    units: [unit:441]
+    note:
+      es: "Suma unidades de [[unit:441]] en masa para proteger el asedio y cazar el suyo"
+      en: "Add masses of [[unit:441]] units to protect your siege and hunt theirs"
+  upgrades: [tech:623, tech:377]

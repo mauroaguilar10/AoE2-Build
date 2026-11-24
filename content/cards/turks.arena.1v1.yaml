@@ -1,0 +1,89 @@
+# Turcos · Arena · 1v1 — T41. Aprobada por el mantenedor.
+# Plan: Fast Imperial → artilleros manuales y cañones de asedio, con monasterio para curar y las reliquias.
+#   Arena es de los mejores mapas turcos (el primero según aoe2-guide, 58,8 % de victorias).
+#   Cicero, "Turks 29+2+2 FI": pasos, poblaciones (29 / 31 / 33) y repartos al subir.
+#   aoebuddy (Morley) y aoe2-guide (Hera), Fast Imperial de Turcos: artilleros manuales en masa con 1-2 cañones,
+#   monasterio para curar y 1-2 reliquias, caballería ligera para cazar el asedio enemigo.
+# Mecánicas verificadas contra los datos del parche 188329: mineros de oro +25 %, Química gratis y tecnologías de
+# pólvora -50 %, unidades de pólvora +25 % de PV, mejoras de la línea de caballería de exploración gratis,
+# Artillería (Imperial: cañones +2 de alcance), Cipayos (Castillos); sin Onagro ni Ingenieros de asedio.
+# Notas de revisión:
+#  - Repartos de Feudal (15/8/5) y Castillos (15/8/7): los que da Cicero; la población incluye la caballería de
+#    exploración inicial.
+#  - Paso a arqueros de caballería pesada con húsares: aoe2guide.com (estilo de los Turcos en mapas cerrados).
+#  - Orden de mejoras: criterio propio.
+civ: Turks
+map: arena
+role: 1v1
+sources:
+  - title: "Build Order Reference (Cicero) — Turks 29+2+2 FI: pasos, poblaciones y repartos"
+    url: "https://johsaoe2debuildorderreference.site44.com/29+2+2-fi-TURKS.html"
+  - title: "aoebuddy (Morley Games) — Turk Fast Imperial: pasos y plan en Imperial"
+    url: "https://aoebuddy.com/build-orders/35-turk-fast-imperial"
+  - title: "aoe2-guide — Arena (los Turcos, primera civilización del mapa; control de reliquias)"
+    url: "https://aoe2-guide.pages.dev/en/maps/arena"
+  - title: "aoe2guide.com — Turks: en mapas cerrados, arqueros de caballería pesada, húsares y cañones"
+    url: "https://aoe2guide.com/en/civs/turks/"
+economy:
+  opening:
+    es: "Fast Imperial con unidades de [[unit:5]] y de [[unit:36]]"
+    en: "Fast Imperial into [[unit:5]] and [[unit:36]] units"
+  ageUpPop:
+    feudal: 29
+    castle: 31
+  villagers:
+    feudal: { food: 15, wood: 8, gold: 5, stone: 0 }
+    castle: { food: 15, wood: 8, gold: 7, stone: 0 }
+  buildOrder:
+    - pop: 6
+      text:
+        es: "Aldeanos 1-6 a las ovejas; la [[unit:448]] busca los jabalíes, los ciervos y las reliquias"
+        en: "Villagers 1-6 to sheep; the [[unit:448]] finds the boars, the deer and the relics"
+    - pop: 10
+      text:
+        es: "Aldeanos 7-10 a la madera con el campamento maderero. Cierra pronto las puertas de la muralla"
+        en: "Villagers 7-10 to wood with the lumber camp. Close the wall gates early"
+    - pop: 11
+      text:
+        es: "Aldeano 11: atrae el primer jabalí"
+        en: "Villager 11: lure the first boar"
+    - pop: 15
+      text:
+        es: "Aldeanos 12-15 a las bayas con el molino"
+        en: "Villagers 12-15 to berries with the mill"
+    - pop: 19
+      text:
+        es: "Aldeanos 16-19 a la madera con un segundo campamento maderero"
+        en: "Villagers 16-19 to wood with a second lumber camp"
+    - pop: 23
+      text:
+        es: "Aldeanos 20-23 al segundo jabalí, las ovejas y los ciervos; después, granjas"
+        en: "Villagers 20-23 to the second boar, sheep and deer; then farms"
+    - pop: 29
+      text:
+        es: "Aldeanos 24-28 al oro (los mineros turcos trabajan un 25 % más rápido). Telar y sube a Feudal"
+        en: "Villagers 24-28 to gold (Turkish miners work 25% faster). Loom and click up to Feudal"
+    - pop: 31
+      text:
+        es: "En Feudal: granjas, mercado y herrería; 2 aldeanos más al oro. Sube a Castillos"
+        en: "In Feudal: farms, market and blacksmith; 2 more villagers to gold. Click up to Castle Age"
+    - pop: 33
+      text:
+        es: "En Castillos: [[tech:202]] y [[tech:55]]; vende 200 de piedra; 3 aldeanos de ovejas a un segundo campamento minero y 4 de bayas a la madera. Taller de asedio y monasterio; 2 aldeanos más al oro y sube a Imperial"
+        en: "In Castle Age: [[tech:202]] and [[tech:55]]; sell 200 stone; 3 sheep villagers to a second mining camp and 4 berry villagers to wood. Siege workshop and monastery; 2 more villagers to gold, then click up to Imperial Age"
+    - pop: 33
+      text:
+        es: "Al llegar a Imperial: dos galerías de tiro con arco con unidades de [[unit:5]] ([[tech:47]] es gratis para los Turcos) y unidades de [[unit:36]] desde el taller de asedio. Compra comida si falta"
+        en: "On reaching Imperial Age: two archery ranges with [[unit:5]] units ([[tech:47]] is free for Turks) and [[unit:36]] units from the siege workshop. Buy food if you run short"
+attack:
+  when:
+    es: "En Imperial, con unas 10 unidades de [[unit:5]] y 2-3 de [[unit:36]]: los cañones rompen torres y castillos mientras las unidades de [[unit:5]] los protegen (las unidades de pólvora turcas tienen +25 % de PV); unidades de [[unit:441]] para cazar su asedio"
+    en: "In Imperial Age, with about 10 [[unit:5]] units and 2-3 [[unit:36]] units: the cannons break towers and castles while the [[unit:5]] units protect them (Turkish gunpowder units have +25% HP); [[unit:441]] units to hunt their siege"
+  core: [unit:5]
+  support: [unit:36, unit:441]
+  transition:
+    units: [unit:474]
+    note:
+      es: "Con [[tech:10]] los cañones ganan 2 de alcance; después suma unidades de [[unit:474]] con [[tech:491]]. Toma 1-2 reliquias con el monasterio"
+      en: "With [[tech:10]] the cannons gain 2 range; then add [[unit:474]] units with [[tech:491]]. Take 1-2 relics with the monastery"
+  upgrades: [tech:10, tech:211, tech:212]

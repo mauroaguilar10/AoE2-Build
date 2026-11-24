@@ -71,7 +71,7 @@ export const cardSchema = z.strictObject({
     opening: curated,
     ageUpPop: z
       .strictObject({ feudal: population, castle: population })
-      .refine((pop) => pop.castle > pop.feudal, { error: "la población para Castillos debe ser mayor que la de Feudal" }),
+      .refine((pop) => pop.castle >= pop.feudal, { error: "la población para Castillos no puede ser menor que la de Feudal" }),
     villagers: z.strictObject({ feudal: villagerSplit, castle: villagerSplit }),
     buildOrder: z
       .array(z.strictObject({ pop: population, text: curated }))

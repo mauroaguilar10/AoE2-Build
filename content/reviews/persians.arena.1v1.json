@@ -1,0 +1,20 @@
+{
+  "reviewedPatch": "188329",
+  "approvedAt": "2026-11-24",
+  "fingerprints": {
+    "civ:Persians": "33a1bb56a17cc0fb",
+    "tech:203": "5ffccfd1220ca778",
+    "tech:213": "0c4bdf60b8cd86ab",
+    "tech:435": "3f35b267418e1d96",
+    "tech:488": "f49e8714be8abe0d",
+    "tech:81": "6e66abc31788a96c",
+    "unit:125": "478ca56f239b25ac",
+    "unit:239": "5845a445f792c350",
+    "unit:24": "d22ad4ba0ed4c051",
+    "unit:331": "9791971fa2206cf8",
+    "unit:441": "f0b724f0865977c9",
+    "unit:448": "4dfa18a380fb9763",
+    "unit:558": "1c3ea7a3b8e3c37b"
+  },
+  "cardHash": "3bcfaa3a1ad37158"
+}

@@ -1,0 +1,88 @@
+# Godos · Arabia · 1v1 — T40. Aprobada por el mantenedor.
+# Plan: hombres de armas en Feudal → arqueros desde una galería → en Castillos, castillo y Anarquía para
+#       entrenar huscarles en los cuarteles, con ballesteros detrás.
+#   No hay guía publicada con planes de Godos por mapa (Fox AOE no tiene guía de Godos). Se combinan:
+#   Cicero, "22 pop Man-at-Arms into Archers" (build genérico: pasos, población y reparto) y los consejos de
+#   la civilización de aoe2guide.com y aoedb.net (abrir con hombres de armas; huscarles contra arqueros).
+# Mecánicas verificadas contra los datos del parche 188329: Telar instantáneo, cazadores +15 de carga,
+# infantería -15/20/25/30 % por edad, +1/+2/+3 de ataque de la infantería contra edificios, Anarquía (Castillos),
+# Huscarle; sin Arbalestero ni Dactilera. Las estadísticas del Huscarle no están en los datos: la ficha no da números.
+# Notas de revisión:
+#  - Feudal 22 (los hombres de armas se entrenan mientras sube, no cuentan) y reparto (13/7/2): sumando los
+#    pasos de Cicero; los 2 aldeanos que no asigna (constructor del cuartel y uno más), a la madera: supuesto mío.
+#  - Castillos 49 (36 aldeanos + 3 hombres de armas + 10 arqueros) y reparto (16/12/8): de la última fila y la
+#    referencia "Castle click with 10 archers" de Cicero.
+#  - Paso a huscarles en Castillos y orden de mejoras: criterio propio a partir de los consejos de la civilización.
+civ: Goths
+map: arabia
+role: 1v1
+sources:
+  - title: "Build Order Reference (Cicero) — 22 pop Man-at-Arms into Archers: pasos, población y referencias"
+    url: "https://johsaoe2debuildorderreference.site44.com/22-pop-men-at-arms-archers.html"
+  - title: "aoe2guide.com — Goths: aperturas de la civilización (drush, hombres de armas) y composición tardía"
+    url: "https://aoe2guide.com/en/civs/goths/"
+  - title: "aoedb.net — Goths: Men-at-Arms Rush y Huskarl Flood"
+    url: "https://aoedb.net/aoe2/civilizations/goths/"
+economy:
+  opening:
+    es: "Unidades de [[unit:75]] en Feudal y paso a unidades de [[unit:4]]; en Castillos, unidades de [[unit:759]] desde los cuarteles"
+    en: "Feudal [[unit:75]] units into [[unit:4]] units; Castle Age [[unit:759]] units from the barracks"
+  ageUpPop:
+    feudal: 22
+    castle: 49
+  villagers:
+    feudal: { food: 13, wood: 7, gold: 2, stone: 0 }
+    castle: { food: 16, wood: 12, gold: 8, stone: 0 }
+  buildOrder:
+    - pop: 6
+      text:
+        es: "Aldeanos 1-6 a las ovejas; la [[unit:448]] busca los jabalíes"
+        en: "Villagers 1-6 to sheep; the [[unit:448]] finds the boars"
+    - pop: 10
+      text:
+        es: "Aldeanos 7-10 a la madera con el campamento maderero"
+        en: "Villagers 7-10 to wood with the lumber camp"
+    - pop: 11
+      text:
+        es: "Aldeano 11: atrae el primer jabalí (los cazadores godos cargan 15 más y los animales cazados duran un 20 % más)"
+        en: "Villager 11: lure the first boar (Goth hunters carry 15 more and hunted animals last 20% longer)"
+    - pop: 15
+      text:
+        es: "Aldeanos 12-15 a las bayas con el molino"
+        en: "Villagers 12-15 to berries with the mill"
+    - pop: 17
+      text:
+        es: "Aldeanos 16-17 al segundo jabalí"
+        en: "Villagers 16-17 to the second boar"
+    - pop: 20
+      text:
+        es: "Aldeanos 18-20: uno a la madera y construye el cuartel; dos al oro"
+        en: "Villagers 18-20: one to wood and builds the barracks; two to gold"
+    - pop: 22
+      text:
+        es: "Aldeanos 21-22 a la madera. [[tech:22]] (los Godos lo investigan al instante) y sube a Feudal; mientras sube, 3 unidades de [[unit:74]], un segundo campamento maderero y granjas"
+        en: "Villagers 21-22 to wood. [[tech:22]] (instant for Goths) and click up to Feudal; while advancing, 3 [[unit:74]] units, a second lumber camp and farms"
+    - pop: 22
+      text:
+        es: "Al llegar a Feudal: mejora a [[unit:75]] (la infantería goda cuesta un 20 % menos en Feudal) y [[tech:202]]; galería de tiro con arco y unidades de [[unit:4]]"
+        en: "On reaching Feudal: upgrade to [[unit:75]] (Goth infantry costs 20% less in Feudal) and [[tech:202]]; archery range and [[unit:4]] units"
+    - pop: 36
+      text:
+        es: "Hasta 5 aldeanos en oro; herrería y [[tech:199]]; las ovejas se acaban, a granjas"
+        en: "Up to 5 villagers on gold; blacksmith and [[tech:199]]; sheep run out, move to farms"
+    - pop: 49
+      text:
+        es: "[[tech:213]] y 8 aldeanos en oro. Sube a Castillos con unas 10 unidades de [[unit:4]]"
+        en: "[[tech:213]] and 8 villagers on gold. Click up to Castle Age with about 10 [[unit:4]] units"
+attack:
+  when:
+    es: "Apenas llegas a Feudal: las 3 unidades de [[unit:75]] atacan a sus aldeanos de madera y oro; las unidades de [[unit:4]] llegan detrás para seguir la presión"
+    en: "As soon as you reach Feudal: the 3 [[unit:75]] units hit their wood and gold villagers; the [[unit:4]] units follow to keep up the pressure"
+  core: [unit:75]
+  support: [unit:4]
+  transition:
+    units: [unit:759, unit:24]
+    note:
+      es: "En Castillos: castillo y [[tech:16]] para entrenar unidades de [[unit:759]] en los cuarteles (fuertes contra arqueros; la infantería goda cuesta un 25 % menos), con unidades de [[unit:24]] detrás"
+      en: "In Castle Age: a castle and [[tech:16]] to train [[unit:759]] units at the barracks (strong against archers; Goth infantry costs 25% less), with [[unit:24]] units behind them"
+  upgrades: [tech:199, tech:67, tech:74]

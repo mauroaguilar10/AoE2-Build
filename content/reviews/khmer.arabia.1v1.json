@@ -1,0 +1,16 @@
+{
+  "reviewedPatch": "188329",
+  "approvedAt": "2026-11-24",
+  "fingerprints": {
+    "civ:Khmer": "f18d9ff05059df9d",
+    "tech:14": "03d00e308e02c589",
+    "tech:202": "6b5e241e5640974d",
+    "tech:213": "0c4bdf60b8cd86ab",
+    "tech:435": "3f35b267418e1d96",
+    "tech:67": "df0a038b781322c2",
+    "tech:81": "6e66abc31788a96c",
+    "unit:38": "bdafe7b84afef926",
+    "unit:448": "4dfa18a380fb9763"
+  },
+  "cardHash": "8d9ca46f0155164d"
+}

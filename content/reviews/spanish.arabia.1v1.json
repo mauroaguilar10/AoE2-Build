@@ -1,0 +1,16 @@
+{
+  "reviewedPatch": "188329",
+  "approvedAt": "2026-11-24",
+  "fingerprints": {
+    "civ:Spanish": "4c75b778bd8888a5",
+    "tech:435": "3f35b267418e1d96",
+    "tech:67": "df0a038b781322c2",
+    "tech:81": "6e66abc31788a96c",
+    "unit:38": "bdafe7b84afef926",
+    "unit:448": "4dfa18a380fb9763",
+    "unit:7": "4869efbbad3820eb",
+    "unit:771": "9c26e6a527409101",
+    "unit:93": "a9baf111f2bd8867"
+  },
+  "cardHash": "e839745280248cc2"
+}

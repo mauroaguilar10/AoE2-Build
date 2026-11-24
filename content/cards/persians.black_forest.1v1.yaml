@@ -1,0 +1,84 @@
+# Persas · Selva Negra · 1v1 — T44. Aprobada por el mantenedor.
+# Plan: amurallar, Fast Castle con boom de centros urbanos → castillo y elefantes de guerra con ballesteros sin
+#       oro (Kamandaran) y fundíbulos; en Imperial, elefantes de guerra de élite y húsares.
+#   No hay plan publicado de Persas para Selva Negra. Se combinan: aoe2guide.com (en mapas cerrados, elefantes de
+#   guerra detrás de arqueros baratos y húsares, con asedio), Cicero "27+2 FC Boom" (genérico, mapas cerrados),
+#   Sitaux (doble empalizada sin puerta después de los dos jabalíes) y aoe2-guide (Selva Negra: piedra después
+#   de la empalizada, boom e Imperial hacia el minuto 30-32; los fundíbulos encabezan el ataque).
+# Mecánicas verificadas contra los datos del parche 188329: +50 de madera y comida al empezar; centros urbanos
+# con el doble de PV y +15/20 % de velocidad en Castillos/Imperial; Kamandaran (Castillos); Elefante de guerra
+# de élite, Ballestero y Húsar disponibles; sin Onagro de asedio (no pueden talar el bosque).
+# Notas de revisión:
+#  - Poblaciones (27 y 29) y repartos: como en Persas · Arena (Cicero).
+#  - Castillo, momento del ataque y orden de mejoras: criterio propio.
+civ: Persians
+map: black_forest
+role: 1v1
+sources:
+  - title: "aoe2guide.com — Persians: en mapas cerrados, elefantes de guerra detrás de arqueros baratos y húsares"
+    url: "https://aoe2guide.com/en/civs/persians/"
+  - title: "Build Order Reference (Cicero) — 27+2 FC Boom: Fast Castle para mapas cerrados"
+    url: "https://johsaoe2debuildorderreference.site44.com/27+2-fc-boom.html"
+  - title: "Sitaux — Black Forest (amurallar después de los jabalíes con doble empalizada, sin puerta)"
+    url: "https://sitaux.com/black-forest/"
+  - title: "aoe2-guide — Black Forest (piedra después de la empalizada, boom, Imperial hacia el minuto 30-32, fundíbulos)"
+    url: "https://aoe2-guide.pages.dev/en/maps/black-forest"
+economy:
+  opening:
+    es: "Amurallar, Fast Castle y boom; castillo con unidades de [[unit:239]] y unidades de [[unit:24]] con [[tech:488]]"
+    en: "Wall in, Fast Castle and boom; a castle with [[unit:239]] units and [[unit:24]] units with [[tech:488]]"
+  ageUpPop:
+    feudal: 27
+    castle: 29
+  villagers:
+    feudal: { food: 14, wood: 9, gold: 3, stone: 0 }
+    castle: { food: 11, wood: 14, gold: 3, stone: 0 }
+  buildOrder:
+    - pop: 6
+      text:
+        es: "Aldeanos 1-6 a las ovejas (los Persas empiezan con 50 de madera y 50 de comida más); la [[unit:448]] busca los jabalíes"
+        en: "Villagers 1-6 to sheep (Persians start with 50 extra wood and food); the [[unit:448]] finds the boars"
+    - pop: 10
+      text:
+        es: "Aldeanos 7-10 a la madera con el campamento maderero"
+        en: "Villagers 7-10 to wood with the lumber camp"
+    - pop: 11
+      text:
+        es: "Aldeano 11: atrae el primer jabalí"
+        en: "Villager 11: lure the first boar"
+    - pop: 16
+      text:
+        es: "Aldeanos 12-16 a las bayas con el molino"
+        en: "Villagers 12-16 to berries with the mill"
+    - pop: 18
+      text:
+        es: "Aldeanos 17-18 al segundo jabalí y después a granjas. Ya con los dos jabalíes: dos aldeanos de madera cierran la abertura con doble empalizada, sin puerta"
+        en: "Villagers 17-18 to the second boar, then farms. Once both boars are in: two wood villagers close the gap with a double palisade, no gate"
+    - pop: 23
+      text:
+        es: "Aldeanos 19-23 a la madera con un segundo campamento maderero"
+        en: "Villagers 19-23 to wood with a second lumber camp"
+    - pop: 27
+      text:
+        es: "Aldeanos 24-26 al oro. Telar y sube a Feudal"
+        en: "Villagers 24-26 to gold. Loom and click up to Feudal"
+    - pop: 29
+      text:
+        es: "En Feudal: mercado y herrería; los 2 aldeanos nuevos y 3 de comida, a la madera. Sube a Castillos"
+        en: "In Feudal: market and blacksmith; the 2 new villagers and 3 from food go to wood. Click up to Castle Age"
+    - pop: 29
+      text:
+        es: "Al llegar a Castillos: dos centros urbanos más (los persas tienen el doble de PV y trabajan un 15 % más rápido), [[tech:203]], unas 18 granjas, [[tech:213]] y un cuarto centro urbano. Cambia la empalizada por muralla de piedra y manda aldeanos a la piedra para un castillo"
+        en: "On reaching Castle Age: two more town centers (Persian ones have double HP and work 15% faster), [[tech:203]], about 18 farms, [[tech:213]] and a fourth town center. Replace the palisade with a stone wall and send villagers to stone for a castle"
+attack:
+  when:
+    es: "En Imperial, hacia el minuto 30: unidades de [[unit:558]] delante, unidades de [[unit:24]] detrás (con [[tech:488]] no cuestan oro) y 2-3 de [[unit:331]] para abrir la muralla o el castillo"
+    en: "In Imperial Age, around minute 30: [[unit:558]] units in front, [[unit:24]] units behind (no gold cost with [[tech:488]]) and 2-3 [[unit:331]] units to open the wall or castle"
+  core: [unit:558]
+  support: [unit:24, unit:331]
+  transition:
+    units: [unit:441]
+    note:
+      es: "Suma unidades de [[unit:441]] contra unidades de [[unit:125]] y el asedio"
+      en: "Add [[unit:441]] units against [[unit:125]] units and siege"
+  upgrades: [tech:488, tech:435, tech:81]

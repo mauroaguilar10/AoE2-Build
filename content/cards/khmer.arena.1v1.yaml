@@ -1,0 +1,88 @@
+# Jemeres · Arena · 1v1 — T42. Aprobada por el mantenedor.
+# Plan: boom de 4 centros urbanos (Castillos a 28 de población, sin edificios previos) → en Imperial, bola de
+#       elefantes con balista, escorpiones pesados y fundíbulos.
+#   Cicero, "Khmer 28+0 Arena 4TC Boom" (adaptado de AoE Arena): pasos y repartos.
+#   aoe2guide.com (Jemeres): en mapas cerrados, escorpiones pesados y elefantes con balista con fundíbulos;
+#   húsares en masa al final.
+#   aoe2-guide (Arena): boom con 3-4 centros urbanos, monasterio y universidad; carrera por las reliquias.
+# Mecánicas verificadas contra los datos del parche 188329: no necesitan edificios para avanzar de edad;
+# granjeros sin molino ni centro urbano; Ballestas dobles (Imperial: elefantes con balista y escorpiones
+# disparan un proyectil más); bonificación de equipo: escorpiones +1 de alcance; Escorpión pesado, Elefante con
+# balista de élite, Fundíbulo e Ingenieros de asedio disponibles.
+# Notas de revisión:
+#  - Feudal y Castillos a 28 (27 aldeanos y la caballería de exploración inicial; el "+0" es porque se sube a
+#    Castillos apenas se llega a Feudal) y repartos (14/10/2/1 y 11/15/0/1): de la tabla de Cicero.
+#  - Momento y tamaño del ataque y orden de mejoras: criterio propio.
+civ: Khmer
+map: arena
+role: 1v1
+sources:
+  - title: "Build Order Reference (Cicero) — Khmer 28+0 Arena 4TC Boom: pasos y repartos"
+    url: "https://johsaoe2debuildorderreference.site44.com/28+0-arena-4tc-boom-KHMER.html"
+  - title: "aoe2guide.com — Khmer: en mapas cerrados, escorpiones pesados, elefantes con balista y fundíbulos"
+    url: "https://aoe2guide.com/en/civs/khmer/"
+  - title: "aoe2-guide — Arena (boom con 3-4 centros urbanos; carrera por las reliquias)"
+    url: "https://aoe2-guide.pages.dev/en/maps/arena"
+economy:
+  opening:
+    es: "Boom de 4 centros urbanos y, en Imperial, unidades de [[unit:1122]] y de [[unit:542]] con fundíbulos"
+    en: "4 town center boom into Imperial Age [[unit:1122]] and [[unit:542]] units with trebuchets"
+  ageUpPop:
+    feudal: 28
+    castle: 28
+  villagers:
+    feudal: { food: 14, wood: 10, gold: 2, stone: 1 }
+    castle: { food: 11, wood: 15, gold: 0, stone: 1 }
+  buildOrder:
+    - pop: 6
+      text:
+        es: "Aldeanos 1-6 a las ovejas; la [[unit:448]] busca los jabalíes y las reliquias"
+        en: "Villagers 1-6 to sheep; the [[unit:448]] finds the boars and the relics"
+    - pop: 10
+      text:
+        es: "Aldeanos 7-10 a la madera con el campamento maderero. Cierra pronto las puertas de la muralla"
+        en: "Villagers 7-10 to wood with the lumber camp. Close the wall gates early"
+    - pop: 11
+      text:
+        es: "Aldeano 11: atrae el primer jabalí"
+        en: "Villager 11: lure the first boar"
+    - pop: 15
+      text:
+        es: "Aldeanos 12-15 a las bayas con el molino"
+        en: "Villagers 12-15 to berries with the mill"
+    - pop: 18
+      text:
+        es: "Aldeanos 16-18 a los jabalíes y después a granjas (los granjeros jemeres no necesitan molino ni centro urbano)"
+        en: "Villagers 16-18 to the boars, then farms (Khmer farmers need no mill or town center)"
+    - pop: 22
+      text:
+        es: "Aldeanos 19-22 a la madera con un segundo campamento maderero"
+        en: "Villagers 19-22 to wood with a second lumber camp"
+    - pop: 25
+      text:
+        es: "Aldeano 23 a la piedra; aldeanos 24-25 al oro"
+        en: "Villager 23 to stone; villagers 24-25 to gold"
+    - pop: 28
+      text:
+        es: "Aldeanos 26-27 a la madera. Telar y sube a Feudal sin construir nada antes; esconde la [[unit:448]] dentro de la base"
+        en: "Villagers 26-27 to wood. Loom and click up to Feudal without building anything first; hide the [[unit:448]] inside your base"
+    - pop: 28
+      text:
+        es: "Al llegar a Feudal: sube a Castillos enseguida (sin mercado ni herrería). Hasta 7 granjas, [[tech:202]] y [[tech:14]]; pasa los 2 de oro a la madera"
+        en: "On reaching Feudal: click up to Castle Age right away (no market or blacksmith). Up to 7 farms, [[tech:202]] and [[tech:14]]; move the 2 gold villagers to wood"
+    - pop: 28
+      text:
+        es: "Al llegar a Castillos: 3 centros urbanos más con 2 aldeanos cada uno; [[tech:213]], [[tech:203]] y [[tech:13]]. Después, monasterio para las reliquias y universidad"
+        en: "On reaching Castle Age: 3 more town centers with 2 villagers each; [[tech:213]], [[tech:203]] and [[tech:13]]. Then a monastery for the relics and a university"
+attack:
+  when:
+    es: "En Imperial, con [[tech:623]]: unidades de [[unit:1122]] y de [[unit:542]] (disparan un proyectil más) con 2-3 de [[unit:331]] que rompen la muralla desde lejos"
+    en: "In Imperial Age, with [[tech:623]]: [[unit:1122]] and [[unit:542]] units (they fire an extra projectile) with 2-3 [[unit:331]] units to break the wall from range"
+  core: [unit:1122, unit:542]
+  support: [unit:331]
+  transition:
+    units: [unit:441]
+    note:
+      es: "Suma unidades de [[unit:441]] en masa para proteger el asedio y cazar el suyo"
+      en: "Add masses of [[unit:441]] units to protect your siege and hunt theirs"
+  upgrades: [tech:623, tech:377]

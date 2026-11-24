@@ -18,9 +18,8 @@ export default defineConfig({
     { name: "webkit", use: { ...devices["Desktop Safari"] } },
   ],
   webServer: {
-    // TODO(T44): pasar a `npm run build` cuando estén las 30 fichas. Hasta entonces el build de borrador,
-    // que solo se diferencia en que tolera las fichas que faltan.
-    command: `npm run build:draft && npx vite preview --port ${PORT} --strictPort`,
+    // El mismo build estricto que se publica (exige las 30 fichas aprobadas).
+    command: `npm run build && npx vite preview --port ${PORT} --strictPort`,
     url: `http://localhost:${PORT}`,
     reuseExistingServer: !process.env.CI,
     timeout: 180_000,

@@ -6,7 +6,8 @@ import { VitePWA } from "vite-plugin-pwa";
 export default defineConfig({
   define: {
     // Ver src/build-id.d.ts. Fijo por defecto para que dos builds del mismo código sean idénticos.
-    __BUILD_ID__: JSON.stringify(process.env.GUIA_BUILD_ID ?? "local"),
+    // En Cloudflare Pages, el commit desplegado (CF_PAGES_COMMIT_SHA lo pone el propio Cloudflare).
+    __BUILD_ID__: JSON.stringify(process.env.GUIA_BUILD_ID ?? process.env.CF_PAGES_COMMIT_SHA ?? "local"),
   },
   build: {
     rollupOptions: {

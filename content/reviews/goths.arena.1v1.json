@@ -1,0 +1,18 @@
+{
+  "reviewedPatch": "188329",
+  "approvedAt": "2026-11-24",
+  "fingerprints": {
+    "civ:Goths": "70baf4f570370de3",
+    "tech:16": "56414ca433022b64",
+    "tech:22": "8a0733a17f18d46a",
+    "tech:457": "456ab4631a1acf03",
+    "tech:67": "df0a038b781322c2",
+    "tech:74": "7b00c6553bf5b14a",
+    "unit:1258": "6090dc035cc2181e",
+    "unit:359": "a647b5e1b5a793c9",
+    "unit:448": "4dfa18a380fb9763",
+    "unit:759": "2f87ee2bb53bfcd0",
+    "unit:761": "64135438835acd46"
+  },
+  "cardHash": "c2dcba1c649c0a8f"
+}

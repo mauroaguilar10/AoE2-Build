@@ -1,0 +1,84 @@
+# Godos · Arena · 1v1 — T40. Aprobada por el mantenedor.
+# Plan: Fast Castle con castillo y Anarquía → oleada de huscarles desde 4-5 cuarteles con arietes; en Imperial,
+#       Movilización y huscarles de élite.
+#   No hay guía publicada con planes de Godos por mapa. Se combinan: Cicero, "27+2 FC Boom" (Fast Castle
+#   genérico, recomendado para mapas cerrados), aoedb.net "Huskarl Flood" (Fast Castle con poco ejército,
+#   Anarquía enseguida, 4-5 cuarteles, Movilización en Imperial) y aoe2-guide (Arena: el control de reliquias
+#   es central; las murallas de piedra impiden atacar temprano).
+# Mecánicas verificadas contra los datos del parche 188329: Telar instantáneo, cazadores +15 de carga,
+# infantería -25/30 % en Castillos/Imperial, +2/+3 de ataque de la infantería contra edificios, Anarquía
+# (Castillos), Movilización (Imperial: cuarteles +100 %), Ariete cubierto y Huscarle de élite disponibles;
+# sin Ariete de asedio.
+# Notas de revisión:
+#  - Feudal 27 y Castillos 29: del título del build de Cicero. Repartos (14/10/3 y 14/8/3/4): sumas de la
+#    tabla de "28+2 FC Knights" del mismo sitio; la piedra para el castillo (4 aldeanos) es supuesto mío.
+#  - Arietes en el ataque, tamaño del ataque y orden de mejoras: criterio propio.
+civ: Goths
+map: arena
+role: 1v1
+sources:
+  - title: "Build Order Reference (Cicero) — 27+2 FC Boom: Fast Castle para mapas cerrados"
+    url: "https://johsaoe2debuildorderreference.site44.com/27+2-fc-boom.html"
+  - title: "aoedb.net — Goths: Huskarl Flood (Fast Castle, Anarquía, 4-5 cuarteles, Movilización)"
+    url: "https://aoedb.net/aoe2/civilizations/goths/"
+  - title: "aoe2-guide — Arena (control de reliquias; las murallas de piedra impiden atacar temprano)"
+    url: "https://aoe2-guide.pages.dev/en/maps/arena"
+economy:
+  opening:
+    es: "Fast Castle con [[tech:16]] y oleada de unidades de [[unit:759]] desde 4-5 cuarteles"
+    en: "Fast Castle with [[tech:16]] into a flood of [[unit:759]] units from 4-5 barracks"
+  ageUpPop:
+    feudal: 27
+    castle: 29
+  villagers:
+    feudal: { food: 14, wood: 10, gold: 3, stone: 0 }
+    castle: { food: 14, wood: 8, gold: 3, stone: 4 }
+  buildOrder:
+    - pop: 6
+      text:
+        es: "Aldeanos 1-6 a las ovejas; la [[unit:448]] busca los jabalíes y las reliquias"
+        en: "Villagers 1-6 to sheep; the [[unit:448]] finds the boars and the relics"
+    - pop: 10
+      text:
+        es: "Aldeanos 7-10 a la madera con el campamento maderero. Cierra pronto las puertas de la muralla"
+        en: "Villagers 7-10 to wood with the lumber camp. Close the wall gates early"
+    - pop: 11
+      text:
+        es: "Aldeano 11: atrae el primer jabalí (los cazadores godos cargan 15 más)"
+        en: "Villager 11: lure the first boar (Goth hunters carry 15 more)"
+    - pop: 16
+      text:
+        es: "Aldeanos 12-16 a las bayas con el molino"
+        en: "Villagers 12-16 to berries with the mill"
+    - pop: 18
+      text:
+        es: "Aldeanos 17-18 al segundo jabalí; cuando se acabe la caza, granjas"
+        en: "Villagers 17-18 to the second boar; farms once the hunt runs out"
+    - pop: 24
+      text:
+        es: "Aldeanos 19-24 a la madera con un segundo campamento maderero"
+        en: "Villagers 19-24 to wood with a second lumber camp"
+    - pop: 27
+      text:
+        es: "Aldeanos 25-27 al oro. [[tech:22]] (al instante para los Godos) y sube a Feudal"
+        en: "Villagers 25-27 to gold. [[tech:22]] (instant for Goths) and click up to Feudal"
+    - pop: 29
+      text:
+        es: "En Feudal: mercado y herrería, y sube a Castillos; los aldeanos nuevos y dos de madera, a la piedra para el castillo"
+        en: "In Feudal: market and blacksmith, then click up to Castle Age; new villagers and two from wood go to stone for the castle"
+    - pop: 29
+      text:
+        es: "Al llegar a Castillos: castillo, [[tech:16]] y 4-5 cuarteles con unidades de [[unit:759]] sin parar; más aldeanos al oro. Si puedes, monasterio para las reliquias"
+        en: "On reaching Castle Age: a castle, [[tech:16]] and 4-5 barracks with non-stop [[unit:759]] units; more villagers to gold. If you can, a monastery for the relics"
+attack:
+  when:
+    es: "En Castillos, con unas 20 unidades de [[unit:759]] y 2-3 de [[unit:1258]]: rompe la muralla (la infantería goda hace +2 contra edificios en Castillos) y entra a por los aldeanos"
+    en: "In Castle Age, with about 20 [[unit:759]] units and 2-3 [[unit:1258]] units: break the wall (Goth infantry deals +2 against buildings in Castle Age) and go in for the villagers"
+  core: [unit:759]
+  support: [unit:1258]
+  transition:
+    units: [unit:761, unit:359]
+    note:
+      es: "En Imperial: [[tech:457]] (los cuarteles trabajan el doble de rápido), mejora a [[unit:761]] y unidades de [[unit:359]] contra la caballería; +10 de población máxima"
+      en: "In Imperial Age: [[tech:457]] (barracks work twice as fast), upgrade to [[unit:761]] and [[unit:359]] units against cavalry; +10 population cap"
+  upgrades: [tech:16, tech:67, tech:74]

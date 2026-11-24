@@ -1,0 +1,84 @@
+# Españoles · Selva Negra · 1v1 — T43. Aprobada por el mantenedor.
+# Plan: amurallar, Fast Castle → castillo y conquistadores con caballeros; en Imperial, conquistadores de élite
+#       y cañones de asedio.
+#   Fox AOE, "Fast Castle Conquistador · Arena, Black Forest, Hideout, Fortress" (no dice nada propio de Selva Negra).
+#   Sitaux: amurallar con doble empalizada sin puerta después de los dos jabalíes. aoe2-guide (Selva Negra):
+#   empalizada primero y piedra después; los arietes aprovechan cualquier hueco.
+# Mecánicas verificadas contra los datos del parche 188329: constructores +30 %, +20 de oro por cada tecnología,
+# mejoras de la herrería sin oro, unidades de pólvora atacan un 18 % más rápido; Conquistador, Conquistador de
+# élite y Cañón de asedio disponibles; sin Onagro de asedio.
+# Notas de revisión:
+#  - Poblaciones (27 y 29) y repartos: como en Españoles · Arena.
+#  - Arietes en el empuje de Castillos y cañones de asedio en Imperial (Fox los nombra para Imperial): criterio
+#    propio para el mapa.
+civ: Spanish
+map: black_forest
+role: 1v1
+sources:
+  - title: "Fox AOE — Spanish Guide (actualizada 06/08/2026; opening 'Fast Castle Conquistador · Arena, Black Forest, Hideout, Fortress')"
+    url: "https://foxaoe.com/conquistador-spanish-build-order-monk-guide/"
+  - title: "Sitaux — Black Forest (amurallar después de los jabalíes con doble empalizada, sin puerta)"
+    url: "https://sitaux.com/black-forest/"
+  - title: "aoe2-guide — Black Forest (empalizada primero y piedra después; cuidado con los arietes)"
+    url: "https://aoe2-guide.pages.dev/en/maps/black-forest"
+  - title: "aoebuddy (Morley Games) — Fast Castle into Unique Unit: piedra para el castillo"
+    url: "https://aoebuddy.com/build-orders/14-fast-castle-into-unique-unit"
+economy:
+  opening:
+    es: "Amurallar, Fast Castle y castillo con unidades de [[unit:771]]; en Imperial, unidades de [[unit:36]]"
+    en: "Wall in, Fast Castle and a castle with [[unit:771]] units; [[unit:36]] units in Imperial Age"
+  ageUpPop:
+    feudal: 27
+    castle: 29
+  villagers:
+    feudal: { food: 14, wood: 8, gold: 4, stone: 0 }
+    castle: { food: 14, wood: 5, gold: 4, stone: 5 }
+  buildOrder:
+    - pop: 6
+      text:
+        es: "Dos casas y aldeanos 1-6 a las ovejas; la [[unit:448]] explora tu zona"
+        en: "Two houses, then villagers 1-6 to sheep; the [[unit:448]] scouts your area"
+    - pop: 10
+      text:
+        es: "Aldeanos 7-10 a la madera con el campamento maderero"
+        en: "Villagers 7-10 to wood with the lumber camp"
+    - pop: 11
+      text:
+        es: "Aldeano 11: atrae el primer jabalí"
+        en: "Villager 11: lure the first boar"
+    - pop: 14
+      text:
+        es: "Aldeano 12: casa y molino en las bayas; aldeanos 13-14 a las bayas"
+        en: "Villager 12: house, then a mill at the berries; villagers 13-14 to berries"
+    - pop: 18
+      text:
+        es: "Aldeano 15: atrae el segundo jabalí; aldeanos 16-18 a las bayas y la comida del centro urbano. Ya con los dos jabalíes: dos aldeanos de madera cierran la abertura con doble empalizada, sin puerta (los constructores españoles trabajan un 30 % más rápido)"
+        en: "Villager 15: lure the second boar; villagers 16-18 to berries and the food under the town center. Once both boars are in: two wood villagers close the gap with a double palisade, no gate (Spanish builders work 30% faster)"
+    - pop: 22
+      text:
+        es: "Aldeanos 19-22 a la madera con un segundo campamento maderero"
+        en: "Villagers 19-22 to wood with a second lumber camp"
+    - pop: 27
+      text:
+        es: "Aldeanos 23-26 al oro con el campamento minero (cuatro, no dos). Telar y sube a Feudal"
+        en: "Villagers 23-26 to gold with the mining camp (four, not two). Loom and click up to Feudal"
+    - pop: 29
+      text:
+        es: "Mientras sube: dos aldeanos de madera construyen el mercado y la herrería. Los aldeanos nuevos y tres de madera, a la piedra. Al llegar a Feudal, sube a Castillos enseguida"
+        en: "While advancing: two wood villagers build the market and blacksmith. New villagers and three from wood go to stone. On reaching Feudal, click up to Castle Age right away"
+    - pop: 29
+      text:
+        es: "Al llegar a Castillos: castillo enseguida con 4-5 aldeanos; unidades de [[unit:771]] sin parar, segundo centro urbano y [[tech:213]]. Cambia la empalizada por muralla de piedra"
+        en: "On reaching Castle Age: a castle right away with 4-5 villagers; non-stop [[unit:771]] units, a second town center and [[tech:213]]. Replace the palisade with a stone wall"
+attack:
+  when:
+    es: "En Castillos, con 6-8 unidades de [[unit:771]], unidades de [[unit:38]] delante y 2 de [[unit:1258]]: rompe su empalizada y entra a por los aldeanos"
+    en: "In Castle Age, with 6-8 [[unit:771]] units, [[unit:38]] units in front and 2 [[unit:1258]] units: break their palisade and go in for the villagers"
+  core: [unit:771]
+  support: [unit:38, unit:1258]
+  transition:
+    units: [unit:773, unit:36]
+    note:
+      es: "En Imperial: mejora a [[unit:773]] y suma unidades de [[unit:36]] para romper sus murallas y castillos"
+      en: "In Imperial Age: upgrade to [[unit:773]] and add [[unit:36]] units to break their walls and castles"
+  upgrades: [tech:435, tech:81, tech:39]

@@ -1,0 +1,84 @@
+# Godos · Selva Negra · 1v1 — T40. Aprobada por el mantenedor.
+# Plan: amurallar con doble empalizada, Fast Castle con boom de centros urbanos → castillo, Anarquía y
+#       cuarteles; en Imperial, Movilización y oleada de huscarles de élite con cañones de asedio.
+#   No hay guía publicada con planes de Godos por mapa. Se combinan: Sitaux (amurallar después de los dos
+#   jabalíes, doble empalizada sin puerta), aoe2-guide (Selva Negra: amurallar las aberturas, boom y apuntar a
+#   Imperial hacia el minuto 30-32; asedio pesado para atacar), Cicero "27+2 FC Boom" y aoedb.net "Huskarl Flood".
+# Mecánicas verificadas contra los datos del parche 188329: sin murallas de piedra, muralla fortificada ni torre
+# de guardia (solo empalizada); sin Onagro de asedio (no pueden talar el bosque como otras civilizaciones);
+# Anarquía (Castillos), Movilización (Imperial), +10 de población en Imperial, +3 de ataque de la infantería
+# contra edificios en Imperial; Cañón de asedio y Huscarle de élite disponibles.
+# Notas de revisión:
+#  - Poblaciones (27 y 29) y repartos: como en Godos · Arena.
+#  - Atacar en Imperial y la composición del ataque: criterio propio a partir de aoe2-guide y aoedb.
+civ: Goths
+map: black_forest
+role: 1v1
+sources:
+  - title: "Sitaux — Black Forest (amurallar después de los jabalíes con doble empalizada, sin puerta)"
+    url: "https://sitaux.com/black-forest/"
+  - title: "aoe2-guide — Black Forest (amurallar las aberturas, boom, Imperial hacia el minuto 30-32, asedio pesado)"
+    url: "https://aoe2-guide.pages.dev/en/maps/black-forest"
+  - title: "Build Order Reference (Cicero) — 27+2 FC Boom: Fast Castle para mapas cerrados"
+    url: "https://johsaoe2debuildorderreference.site44.com/27+2-fc-boom.html"
+  - title: "aoedb.net — Goths: Huskarl Flood (Anarquía, varios cuarteles, Movilización en Imperial)"
+    url: "https://aoedb.net/aoe2/civilizations/goths/"
+economy:
+  opening:
+    es: "Doble empalizada, Fast Castle y boom; en Imperial, oleada de unidades de [[unit:761]] con [[tech:457]]"
+    en: "Double palisade, Fast Castle and boom; in Imperial Age, a flood of [[unit:761]] units with [[tech:457]]"
+  ageUpPop:
+    feudal: 27
+    castle: 29
+  villagers:
+    feudal: { food: 14, wood: 10, gold: 3, stone: 0 }
+    castle: { food: 14, wood: 8, gold: 3, stone: 4 }
+  buildOrder:
+    - pop: 6
+      text:
+        es: "Aldeanos 1-6 a las ovejas; la [[unit:448]] busca los jabalíes"
+        en: "Villagers 1-6 to sheep; the [[unit:448]] finds the boars"
+    - pop: 10
+      text:
+        es: "Aldeanos 7-10 a la madera con el campamento maderero"
+        en: "Villagers 7-10 to wood with the lumber camp"
+    - pop: 11
+      text:
+        es: "Aldeano 11: atrae el primer jabalí (los cazadores godos cargan 15 más)"
+        en: "Villager 11: lure the first boar (Goth hunters carry 15 more)"
+    - pop: 16
+      text:
+        es: "Aldeanos 12-16 a las bayas con el molino"
+        en: "Villagers 12-16 to berries with the mill"
+    - pop: 18
+      text:
+        es: "Aldeanos 17-18 al segundo jabalí. Ya con los dos jabalíes: dos aldeanos de madera cierran la abertura con doble empalizada, sin puerta (los Godos no tienen murallas de piedra)"
+        en: "Villagers 17-18 to the second boar. Once both boars are in: two wood villagers close the gap with a double palisade, no gate (Goths have no stone walls)"
+    - pop: 24
+      text:
+        es: "Aldeanos 19-24 a la madera con un segundo campamento maderero"
+        en: "Villagers 19-24 to wood with a second lumber camp"
+    - pop: 27
+      text:
+        es: "Aldeanos 25-27 al oro. [[tech:22]] (al instante para los Godos) y sube a Feudal"
+        en: "Villagers 25-27 to gold. [[tech:22]] (instant for Goths) and click up to Feudal"
+    - pop: 29
+      text:
+        es: "En Feudal: mercado y herrería, y sube a Castillos; los aldeanos nuevos y dos de madera, a la piedra para el castillo"
+        en: "In Feudal: market and blacksmith, then click up to Castle Age; new villagers and two from wood go to stone for the castle"
+    - pop: 29
+      text:
+        es: "Al llegar a Castillos: dos centros urbanos más y [[tech:14]]; después, castillo, [[tech:16]] y 2-3 cuarteles con unidades de [[unit:759]] para defender la abertura"
+        en: "On reaching Castle Age: two more town centers and [[tech:14]]; then a castle, [[tech:16]] and 2-3 barracks with [[unit:759]] units to hold the gap"
+attack:
+  when:
+    es: "En Imperial, con [[tech:457]] y 5-6 cuarteles: oleada de unidades de [[unit:761]] (los Godos tienen +10 de población máxima) con 2-3 de [[unit:36]] que abren la muralla o las torres"
+    en: "In Imperial Age, with [[tech:457]] and 5-6 barracks: a flood of [[unit:761]] units (Goths get +10 population cap) with 2-3 [[unit:36]] units to break the wall or towers"
+  core: [unit:761]
+  support: [unit:36]
+  transition:
+    units: [unit:359]
+    note:
+      es: "Si responde con caballería, suma unidades de [[unit:359]]; la infantería goda cuesta un 30 % menos en Imperial"
+      en: "If they answer with cavalry, add [[unit:359]] units; Goth infantry costs 30% less in Imperial Age"
+  upgrades: [tech:457, tech:67, tech:74]

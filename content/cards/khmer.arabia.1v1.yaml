@@ -1,0 +1,79 @@
+# Jemeres · Arabia · 1v1 — T42. Aprobada por el mantenedor.
+# Plan: scouts muy rápidos en Feudal (18 de población, sin edificios previos) → caballeros desde dos establos
+#       en Castillos, subiendo sin herrería ni mercado.
+#   Cicero, "Khmer 18 pop Scouts" (casi tan bueno como los scouts de Mongoles y Lituanos), y aoebuddy (St4rk),
+#   "Khmer 18-pop Fast Scouts → Knights": pasos, primeros 4 scouts antes del minuto 11, hasta 8 solo si siguen
+#   haciendo daño, oro y granjas para Castillos, subir sin herrería ni mercado y caballeros desde dos establos.
+#   aoebuddy (estadísticas): el rush de scouts es la apertura jemer más jugada en Arabia.
+# Mecánicas verificadas contra los datos del parche 188329: no necesitan edificios para avanzar de edad ni para
+# desbloquear otros; los granjeros no necesitan molino ni centro urbano para dejar la comida; los aldeanos
+# pueden refugiarse en las casas.
+# Notas de revisión:
+#  - Feudal 18 (17 aldeanos y la caballería de exploración inicial) y reparto 16/1/0: de la tabla de Cicero.
+#  - Castillos 40 y reparto 18/10/4: aproximados a partir de St4rk (unos 10 en madera, 4 en oro, 16-20 granjas).
+#  - Orden de mejoras: criterio propio.
+civ: Khmer
+map: arabia
+role: 1v1
+sources:
+  - title: "Build Order Reference (Cicero) — Khmer 18 pop Scouts: pasos y reparto"
+    url: "https://johsaoe2debuildorderreference.site44.com/18-pop-scouts-KHMER.html"
+  - title: "aoebuddy (St4rk) — Khmer 18-pop Fast Scouts → Knights: plan en Feudal y Castillos"
+    url: "https://www.aoebuddy.com/build-orders/24-khmer-super-fast-scout-rush"
+  - title: "aoebuddy — Khmer: aperturas más jugadas en Arabia y parches recientes"
+    url: "https://www.aoebuddy.com/civs/khmer"
+economy:
+  opening:
+    es: "Unidades de [[unit:448]] muy rápidas en Feudal y unidades de [[unit:38]] desde dos establos en Castillos"
+    en: "Very fast Feudal [[unit:448]] units into [[unit:38]] units from two stables in Castle Age"
+  ageUpPop:
+    feudal: 18
+    castle: 40
+  villagers:
+    feudal: { food: 16, wood: 1, gold: 0, stone: 0 }
+    castle: { food: 18, wood: 10, gold: 4, stone: 0 }
+  buildOrder:
+    - pop: 6
+      text:
+        es: "Aldeanos 1-6 a las ovejas; la [[unit:448]] busca los jabalíes"
+        en: "Villagers 1-6 to sheep; the [[unit:448]] finds the boars"
+    - pop: 7
+      text:
+        es: "Aldeano 7 a los árboles sueltos cerca del centro urbano (todavía sin campamento maderero)"
+        en: "Villager 7 to the straggler trees near the town center (no lumber camp yet)"
+    - pop: 8
+      text:
+        es: "Aldeano 8: atrae el primer jabalí"
+        en: "Villager 8: lure the first boar"
+    - pop: 12
+      text:
+        es: "Aldeanos 9-12 a las bayas con el molino"
+        en: "Villagers 9-12 to berries with the mill"
+    - pop: 18
+      text:
+        es: "Aldeanos 13-17 a las ovejas y los jabalíes; uno atrae el segundo jabalí. Telar y sube a Feudal sin construir nada antes (los Jemeres no necesitan edificios para avanzar)"
+        en: "Villagers 13-17 to sheep and boars; one lures the second boar. Loom and click up to Feudal without building anything first (Khmer need no buildings to advance)"
+    - pop: 18
+      text:
+        es: "Mientras sube: 8 aldeanos de comida a la madera con el campamento maderero"
+        en: "While advancing: 8 food villagers to wood with the lumber camp"
+    - pop: 18
+      text:
+        es: "Al llegar a Feudal: establo y unidades de [[unit:448]] sin parar; [[tech:202]] y [[tech:14]]. Granjas donde quieras: los granjeros jemeres no necesitan molino ni centro urbano para dejar la comida"
+        en: "On reaching Feudal: stable and non-stop [[unit:448]] units; [[tech:202]] and [[tech:14]]. Farms wherever you like: Khmer farmers need no mill or town center to drop off food"
+    - pop: 40
+      text:
+        es: "Cuando se acaben las bayas, 4 aldeanos al oro; 16-17 granjas y [[tech:213]]. Sube a Castillos directamente, sin herrería ni mercado"
+        en: "When the berries run out, 4 villagers to gold; 16-17 farms and [[tech:213]]. Click up to Castle Age directly, with no blacksmith or market"
+attack:
+  when:
+    es: "En Feudal, con las primeras 4 unidades de [[unit:448]] (antes del minuto 11): ataca a sus aldeanos. Llega hasta 8 solo si siguen haciendo daño; si no, guarda la comida para Castillos"
+    en: "In Feudal Age, with the first 4 [[unit:448]] units (before minute 11): raid their villagers. Go up to 8 only while they still do damage; otherwise save the food for Castle Age"
+  core: [unit:448]
+  support: []
+  transition:
+    units: [unit:38]
+    note:
+      es: "En Castillos: segundo establo y unidades de [[unit:38]] desde los dos, sin parar"
+      en: "In Castle Age: a second stable and non-stop [[unit:38]] units from both"
+  upgrades: [tech:67, tech:81, tech:435]

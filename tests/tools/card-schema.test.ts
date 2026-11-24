@@ -113,8 +113,12 @@ describe("T9 esquema de la ficha táctica y carga de YAML (RF-12, RF-13, RF-14, 
       expect(errorOf(variant((c) => (c.map = "nomad"))).message).toMatch(/map/);
     });
 
-    it("RF-12 la población para Castillos debe ser mayor que la de Feudal", () => {
+    it("RF-12 la población para Castillos no puede ser menor que la de Feudal", () => {
       expect(errorOf(variant((c) => (c.economy.ageUpPop.castle = 20))).message).toMatch(/economy\.ageUpPop/);
+    });
+
+    it("RF-12 acepta subir a Castillos con la misma población que a Feudal (p. ej. Jemeres, sin aldeanos en Feudal)", () => {
+      expect(() => parseCard(variant((c) => (c.economy.ageUpPop.castle = c.economy.ageUpPop.feudal)), FILE)).not.toThrow();
     });
 
     it("rechaza repartos de aldeanos negativos o no enteros", () => {

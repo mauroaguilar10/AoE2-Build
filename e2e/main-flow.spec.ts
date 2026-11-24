@@ -1,6 +1,7 @@
 /**
  * T32 — Recorrido principal en navegadores reales (Chromium y WebKit), sobre el build.
- * Usa el contenido real: Francos · Arabia tiene ficha; Francos · Arena todavía no.
+ * Usa el contenido real del build de producción: las 10 civilizaciones del MVP tienen ficha en los 3 mapas;
+ * las demás (p. ej. Bengalíes) no.
  */
 import { expect, test, type Page } from "@playwright/test";
 
@@ -33,7 +34,7 @@ test("RF-7 RF-8 RF-21 inicio → mapa → civilización → ES/EN → cambio de 
   await expect(page).toHaveURL("/civ/franks?map=arena");
   await expect(title(page)).toHaveText("Francos");
   await expect(checkedMap(page)).toHaveValue("arena");
-  await expect(page.getByText("Ficha táctica aún no disponible para esta civilización")).toBeVisible();
+  await expect(page.getByRole("region", { name: "Economía" })).toContainText("Subir a Feudal con");
 
   // RF-8 Cambio de mapa dentro de la tarjeta
   await mapLabel(page, "Arabia").click();
@@ -71,8 +72,15 @@ test("RF-10 una URL directa abre la tarjeta", async ({ page }) => {
 });
 
 test("RF-10 una URL directa a una tarjeta con ficha muestra su plan", async ({ page }) => {
-  await page.goto("/civ/franks?map=arabia");
+  await page.goto("/civ/franks?map=arena");
   await expect(page.getByRole("region", { name: "Economía" })).toContainText("Subir a Feudal con");
+});
+
+test("RF-10 una URL directa a una civilización sin ficha avisa que aún no está disponible", async ({ page }) => {
+  await page.goto("/civ/bengalis?map=arena");
+  await expect(title(page)).toHaveText("Bengalíes");
+  await expect(page.getByText("Ficha táctica aún no disponible para esta civilización")).toBeVisible();
+  await expect(page.getByRole("region", { name: "Datos del juego" })).toBeVisible();
 });
 
 for (const address of ["/civ/atlanteans?map=arena", "/civ/franks?map=nomad", "/otra-cosa"]) {

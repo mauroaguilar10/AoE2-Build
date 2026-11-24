@@ -1,0 +1,82 @@
+# Españoles · Arena · 1v1 — T43. Aprobada por el mantenedor.
+# Plan: Fast Castle → castillo y conquistadores sin parar, con caballeros delante y monasterio para las reliquias
+#       (Fox AOE, "Fast Castle Conquistador · Arena, Black Forest, Hideout, Fortress": "en Arena estás a salvo
+#       detrás de la muralla").
+# Mecánicas verificadas contra los datos del parche 188329: constructores +30 %, +20 de oro por cada tecnología,
+# mejoras de la herrería sin oro, unidades de pólvora atacan un 18 % más rápido; Conquistador (castillo),
+# Conquistador de élite y Paladín disponibles.
+# Notas de revisión:
+#  - Feudal 27 (26 aldeanos y la caballería de exploración inicial, como aoebuddy) y reparto (14/8/4): sumando
+#    los pasos de Fox AOE.
+#  - Castillos 29 (Cicero "27+2") y reparto (14/5/4/5): Fox no pone piedra aunque el castillo la necesita;
+#    la piedra sale del Fast Castle con unidad única de aoebuddy (Morley: hasta 6 en piedra). Aproximado.
+#  - Orden de mejoras: criterio propio.
+civ: Spanish
+map: arena
+role: 1v1
+sources:
+  - title: "Fox AOE — Spanish Guide (actualizada 06/08/2026; opening 'Fast Castle Conquistador · Arena, Black Forest, Hideout, Fortress')"
+    url: "https://foxaoe.com/conquistador-spanish-build-order-monk-guide/"
+  - title: "aoebuddy (Morley Games) — Fast Castle into Unique Unit: piedra para el castillo y primer empuje con 3-4 unidades"
+    url: "https://aoebuddy.com/build-orders/14-fast-castle-into-unique-unit"
+  - title: "Build Order Reference (Cicero) — 27+2 FC Boom: población al subir a Castillos"
+    url: "https://johsaoe2debuildorderreference.site44.com/27+2-fc-boom.html"
+economy:
+  opening:
+    es: "Fast Castle con castillo y unidades de [[unit:771]] sin parar"
+    en: "Fast Castle into a castle and non-stop [[unit:771]] units"
+  ageUpPop:
+    feudal: 27
+    castle: 29
+  villagers:
+    feudal: { food: 14, wood: 8, gold: 4, stone: 0 }
+    castle: { food: 14, wood: 5, gold: 4, stone: 5 }
+  buildOrder:
+    - pop: 6
+      text:
+        es: "Dos casas y aldeanos 1-6 a las ovejas; la [[unit:448]] explora tu zona y busca las reliquias"
+        en: "Two houses, then villagers 1-6 to sheep; the [[unit:448]] scouts your area and finds the relics"
+    - pop: 10
+      text:
+        es: "Aldeanos 7-10 a la madera con el campamento maderero. Cierra pronto las puertas de la muralla"
+        en: "Villagers 7-10 to wood with the lumber camp. Close the wall gates early"
+    - pop: 11
+      text:
+        es: "Aldeano 11: atrae el primer jabalí"
+        en: "Villager 11: lure the first boar"
+    - pop: 14
+      text:
+        es: "Aldeano 12: casa y molino en las bayas; aldeanos 13-14 a las bayas"
+        en: "Villager 12: house, then a mill at the berries; villagers 13-14 to berries"
+    - pop: 18
+      text:
+        es: "Aldeano 15: atrae el segundo jabalí; aldeanos 16-18 a las bayas y la comida del centro urbano"
+        en: "Villager 15: lure the second boar; villagers 16-18 to berries and the food under the town center"
+    - pop: 22
+      text:
+        es: "Aldeanos 19-22 a la madera con un segundo campamento maderero"
+        en: "Villagers 19-22 to wood with a second lumber camp"
+    - pop: 27
+      text:
+        es: "Aldeanos 23-26 al oro con el campamento minero (cuatro, no dos). Telar y sube a Feudal"
+        en: "Villagers 23-26 to gold with the mining camp (four, not two). Loom and click up to Feudal"
+    - pop: 29
+      text:
+        es: "Mientras sube: dos aldeanos de madera construyen el mercado y la herrería. Los aldeanos nuevos y tres de madera, a la piedra. Al llegar a Feudal, sube a Castillos enseguida"
+        en: "While advancing: two wood villagers build the market and blacksmith. New villagers and three from wood go to stone. On reaching Feudal, click up to Castle Age right away"
+    - pop: 29
+      text:
+        es: "Al llegar a Castillos: castillo enseguida con 4-5 aldeanos (los constructores españoles trabajan un 30 % más rápido); unidades de [[unit:771]] sin parar, segundo centro urbano y [[tech:213]]; monasterio con unidades de [[unit:125]] para las reliquias"
+        en: "On reaching Castle Age: a castle right away with 4-5 villagers (Spanish builders work 30% faster); non-stop [[unit:771]] units, a second town center and [[tech:213]]; a monastery with [[unit:125]] units for the relics"
+attack:
+  when:
+    es: "En Castillos, con las primeras 3-4 unidades de [[unit:771]] y unidades de [[unit:38]] delante: sal a presionar y no dejes de producir (mantén aldeanos en el oro para que el castillo no pare)"
+    en: "In Castle Age, with the first 3-4 [[unit:771]] units and [[unit:38]] units in front: go out and pressure, and keep producing (keep villagers on gold so the castle never idles)"
+  core: [unit:771]
+  support: [unit:38]
+  transition:
+    units: [unit:773, unit:569]
+    note:
+      es: "Las unidades de [[unit:771]] rinden más en Castillos; en Imperial, mejora a [[unit:773]] y a [[unit:569]] (las mejoras de la herrería no cuestan oro)"
+      en: "[[unit:771]] units peak in Castle Age; in Imperial Age, upgrade to [[unit:773]] and [[unit:569]] (blacksmith upgrades cost no gold)"
+  upgrades: [tech:435, tech:81, tech:39]

@@ -93,7 +93,9 @@ export function App({ game, cards, route: initialRoute, store, browserLanguages,
     <NavigationContext.Provider value={navigate}>
       <header class="app-header">
         <Link href="/" class="app-name">
-          {t(lang, "appName")}
+          {/* Decorativo: el nombre ya está escrito al lado. */}
+          <img class="app-logo" src="/icon.svg" alt="" width={32} height={32} />
+          <span>{t(lang, "appName")}</span>
         </Link>
         <LangToggle lang={lang} onChange={(next: Lang) => update({ lang: next })} />
         {/* RF-24: solo en español. */}
@@ -148,7 +150,10 @@ function CardScreen({ civ, map, game, cards, prefs, isOnline, onMapChange }: Car
   return (
     <>
       <nav class="breadcrumb">
-        <Link href="/">{t(lang, "backToHome")}</Link>
+        <Link href="/" class="back-link">
+          <span class="back-arrow" aria-hidden="true">‹</span>
+          {t(lang, "backToHome")}
+        </Link>
       </nav>
       {view && <Card view={view} lang={lang} isOnline={isOnline} onMapChange={onMapChange} />}
     </>

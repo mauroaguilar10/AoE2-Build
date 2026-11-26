@@ -70,7 +70,10 @@ describe("T27 navegación", () => {
 
     it('el enlace "Inicio" de la tarjeta vuelve a la pantalla principal', () => {
       renderAt("/civ/franks?map=arabia");
-      fireEvent.click(screen.getByRole("link", { name: "Inicio" }));
+      const home = screen.getByRole("link", { name: "Inicio" });
+      // Se ve como un botón de volver; la flecha es decorativa y no cambia su nombre accesible.
+      expect(home.classList.contains("back-link")).toBe(true);
+      fireEvent.click(home);
       expect(onHome()).toBe(true);
       expect(url()).toBe("/");
     });

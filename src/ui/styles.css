@@ -135,12 +135,27 @@ h1[tabindex="-1"]:focus:not(:focus-visible) {
   border-bottom: 1px solid var(--border);
 }
 
+/* Logo y nombre: serif clásica (del sistema, sin descargar fuentes) con el mismo ícono de la app instalada. */
 .app-name {
   margin-right: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  min-height: var(--touch);
+  font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif;
   font-weight: 700;
-  font-size: 1.1rem;
+  font-size: 1.35rem;
+  letter-spacing: 0.02em;
   color: var(--text);
   text-decoration: none;
+}
+
+.app-logo {
+  flex: none;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.45rem;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.2);
 }
 
 button,
@@ -320,10 +335,30 @@ select {
   margin-bottom: 0.5rem;
 }
 
-.breadcrumb a {
+/* "‹ Inicio": botón de volver en forma de píldora, del mismo estilo que los demás controles. */
+.back-link {
   display: inline-flex;
   align-items: center;
+  gap: 0.35rem;
   min-height: var(--touch);
+  padding: 0 1rem 0 0.75rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--text);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  border-color: var(--accent);
+}
+
+.back-arrow {
+  font-size: 1.5rem;
+  line-height: 1;
+  margin-top: -0.1em;
+  color: var(--accent);
 }
 
 .card {

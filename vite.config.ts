@@ -27,8 +27,8 @@ export default defineConfig({
       injectRegister: false, // se registra desde src/platform/sw.ts
       includeManifestIcons: false, // ya entran por globPatterns; así no se repiten en el precache
       manifest: {
-        name: "Guia-Age",
-        short_name: "Guia-Age",
+        name: "Guía Age",
+        short_name: "Guía Age",
         description: "Guía táctica bilingüe (ES/EN) de Age of Empires II: DE para la pantalla de carga",
         lang: "es",
         start_url: "/",

@@ -12,7 +12,7 @@ import type { GameDataset } from "../../src/core/types";
 const game = JSON.parse(readFileSync(join(import.meta.dirname, "..", "..", "data", "game.json"), "utf8")) as GameDataset;
 const RULES_URL = "https://www.xbox.com/en-us/developers/rules";
 const LEGAL =
-  "Age of Empires II © Microsoft Corporation. Guia-Age was created under Microsoft's \"Game Content Usage Rules\" " +
+  "Age of Empires II © Microsoft Corporation. Guía Age was created under Microsoft's \"Game Content Usage Rules\" " +
   "using assets from Age of Empires II, and it is not endorsed by or affiliated with Microsoft.";
 
 function memoryStore(): KeyValueStore & { data: Record<string, string> } {
@@ -39,6 +39,17 @@ describe("T22 estructura de la app: cabecera y pie en todas las pantallas", () =
       renderApp(route);
       const header = screen.getByRole("banner");
       expect(header.contains(screen.getByRole("button", { name: "Cambiar idioma" }))).toBe(true);
+    });
+
+    it('la cabecera muestra el logo y el nombre "Guía Age", que llevan al inicio', () => {
+      renderApp(route);
+      const brand = screen.getByRole("link", { name: "Guía Age" });
+      expect(screen.getByRole("banner").contains(brand)).toBe(true);
+      expect(brand.getAttribute("href")).toBe("/");
+      // El logo es decorativo: el nombre ya está escrito al lado.
+      const logo = brand.querySelector("img");
+      expect(logo?.getAttribute("src")).toBe("/icon.svg");
+      expect(logo?.getAttribute("alt")).toBe("");
     });
 
     it('RF-26 pie con "Datos del juego: parche X"', () => {

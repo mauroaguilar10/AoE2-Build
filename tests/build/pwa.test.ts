@@ -59,8 +59,8 @@ describe("T30 PWA: service worker, precache y manifiesto", () => {
 
     it("nombre, inicio, ámbito y modo de pantalla de una app", () => {
       const m = manifest();
-      expect(m.name).toBe("Guia-Age");
-      expect(m.short_name).toBe("Guia-Age");
+      expect(m.name).toBe("Guía Age");
+      expect(m.short_name).toBe("Guía Age");
       expect(m.start_url).toBe("/");
       expect(m.scope).toBe("/");
       expect(m.display).toBe("standalone");
